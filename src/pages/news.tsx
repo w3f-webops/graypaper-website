@@ -5,45 +5,34 @@ import Background from "../images/background.png";
 import Wordmark from "../images/wordmark.png";
 import { StaticImage } from "gatsby-plugin-image";
 import Header from "../components/Header";
-const IndexPage: React.FC<PageProps> = () => {
+
+const Page: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
 
-      <div className="abstract">
-        <p style={{ textAlign: "justify" }}>
-          ABSTRACT. We present a comprehensive and formal definition of JAM, a
-          protocol combining elements of both Polkadot and Ethereum. In a single
-          coherent model, JAM provides a global singleton permissionless object
-          environment-like the smart-contract environment pioneered by Ethereum-
-          -much -paired with secure sideband computation parallelized over a
-          scalable node network, a proposition pioneered by Polkadot. JAM
-          introduces a decentralized hybrid system offering smart-contract
-          functionality structured around a secure and scalable in-core/on-chain
-          dualism. While the smart-contract functionality implies some
-          similarities with Ethereum's paradigm, the overall model of the
-          service offered is driven largely by underlying architecture of
-          Polkadot. JAM is permissionless in nature, allowing anyone to deploy
-          code as a service on it for a fee commensurate with the resources this
-          code utilizes and to induce execution of this code through the
-          procurement and allocation of core-time, a metric of resilient and
-          ubiquitous computation, somewhat similar to the purchasing of gas in
-          Ethereum. We already envision a Polkadot-compatible Core Chains
-          service.
-        </p>
-        <a href={Graypaper}>
-          <p>Download full Graypaper here.</p>
-        </a>
-      </div>
+      <main>
+        <article>
+          <h2 id="News">News</h2>
+          <table className="borders-custom">
+            <tr>
+              <td>18/04/2024</td>
+              <a href="https://github.com/paritytech/polkajam" target="_blank">
+                <td>Graypaper JAM specification published</td>
+              </a>
+            </tr>
+          </table>
+        </article>
+      </main>
     </>
   );
 };
 
-export default IndexPage;
+export default Page;
 
 export const Head: HeadFC = () => (
   <>
-    <title>JAM</title>
+    <title>JAM News</title>
 
     <link rel="stylesheet" href="https://latex.now.sh/style.css"></link>
     <meta
