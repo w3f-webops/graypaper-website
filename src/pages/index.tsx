@@ -4,21 +4,35 @@ import JamLogo from "../images/jam-pen.png";
 import Graypaper from "../images/graypaper.png";
 import Background from "../images/background.png";
 import Wordmark from "../images/wordmark.png";
-
+import { StaticImage } from "gatsby-plugin-image";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <div className="pr-[25px] md:pr-[80px]">
-        <img src={JamLogo} alt="JAM Logo" />
+      <div className="flex flex-row justify-end gap-2 w-full">
+        <a href="#News">
+          <button>News</button>
+        </a>
+        <a href="#Download">
+          <button>Download</button>
+        </a>
+
+        <a href="#Resources">
+          <button>Resources</button>
+        </a>
+      </div>
+      <div className="flex flex-col items-center pr-[25px] md:pr-[80px]">
+        <StaticImage
+          src="../images/jam-pen.png"
+          alt="JAM Logo"
+          placeholder="blurred"
+          layout="fixed"
+          width={400}
+        />
       </div>
       <h2>JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM</h2>
 
       <main>
         <article>
-          <h2 id="Download">Download</h2>
-          <p>
-            Get your copy of the <a href={Graypaper}>JAM Graypaper here.</a>
-          </p>
           <h2 id="News">News</h2>
           <table className="borders-custom">
             <tr>
@@ -28,11 +42,25 @@ const IndexPage: React.FC<PageProps> = () => {
               </a>
             </tr>
           </table>
+          <h2 id="Download">Download</h2>
+          <p>
+            Get your copy of the <a href={Graypaper}>JAM Graypaper here.</a>
+          </p>
 
-          <h2 id="Implement">Implement</h2>
+          <h2 id="Resources">Resources</h2>
           <p>
             Get involved with the development of JAM VM in our{" "}
             <a href="#matrix">Matrix Channel</a>.
+          </p>
+
+          <h2 id="Implement">Implementations</h2>
+          <p>
+            <i>Coming soon...</i>
+          </p>
+
+          <h2 id="Prize">Prize</h2>
+          <p>
+            <i>Coming soon...</i>
           </p>
 
           <div className="flex flex-col items-end py-10">
