@@ -8,15 +8,15 @@ import { StaticImage } from "gatsby-plugin-image";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <div className="flex flex-row justify-end gap-2 w-full">
+      <div className="flex flex-row justify-end gap-4 w-full">
         <a href="#News">
           <button>News</button>
         </a>
-        <a href="#Download">
+        <a href={Graypaper}>
           <button>Download</button>
         </a>
 
-        <a href="#Resources">
+        <a href="https://matrix.org/">
           <button>Resources</button>
         </a>
       </div>
@@ -42,16 +42,6 @@ const IndexPage: React.FC<PageProps> = () => {
               </a>
             </tr>
           </table>
-          <h2 id="Download">Download</h2>
-          <p>
-            Get your copy of the <a href={Graypaper}>JAM Graypaper here.</a>
-          </p>
-
-          <h2 id="Resources">Resources</h2>
-          <p>
-            Get involved with the development of JAM VM in our{" "}
-            <a href="#matrix">Matrix Channel</a>.
-          </p>
 
           <h2 id="Implement">Implementations</h2>
           <p>
