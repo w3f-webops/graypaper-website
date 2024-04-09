@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       </div>
 
       <div className="flex flex-col items-center pr-[25px] md:pr-[80px]">
-        <a href="/">
+        <Link to="/">
           <StaticImage
             src="../images/jam-pen.png"
             alt="JAM Logo"
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
             layout="fixed"
             width={400}
           />
-        </a>
+        </Link>
       </div>
     </>
   );
