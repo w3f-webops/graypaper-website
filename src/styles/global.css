@@ -41,7 +41,7 @@ body.custom {
   line-height: 1.8;
   /* 1rem in latex.css */
   font-size: 1.2rem;
-  background-color: black;
+  background-color: #131313;
   font-weight: bold;
   padding: 0;
 }

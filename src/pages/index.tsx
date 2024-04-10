@@ -7,9 +7,9 @@ import Graypaper from "../images/graypaper.png";
 const IndexPage: React.FC<PageProps> = (props) => {
   return (
     <Layout {...props}>
-      <div className="flex flex-col items-center pr-[25px] md:pr-[80px]">
+      <div className="flex flex-col items-center mt-28 pr-[25px] md:pr-[30px]">
         <StaticImage
-          src="../images/jam-pen.png"
+          src="../images/jam-pen-polkadot.png"
           alt="JAM Logo"
           placeholder="blurred"
           layout="fixed"
