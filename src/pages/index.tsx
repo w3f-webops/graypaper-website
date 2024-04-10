@@ -14,10 +14,7 @@ const IndexPage: React.FC<PageProps> = () => {
         TRUSTLESS VM
       </h1>
       <div className="abstract indent-pars">
-        <p
-          className="no-indent"
-          style={{ textAlign: "justify", fontFamily: "Computer Modern" }}
-        >
+        <p className="no-indent" style={{ textAlign: "justify" }}>
           <span style={{ fontVariant: "small-caps" }}>Abstract.</span> We
           present a comprehensive and formal definition of{" "}
           <span style={{ fontVariant: "small-caps" }}>jam</span>, a protocol

@@ -26,6 +26,7 @@ body.custom {
   /* 1rem in latex.css */
   font-size: 1.2rem;
   background-color: black;
+  font-weight: bold;
 }
 
 h2 {
