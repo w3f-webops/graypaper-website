@@ -16,7 +16,7 @@ const onRenderBody = (
   setHeadComponents([
     <link
       rel="preload"
-      href="/fonts/cmunui.ttf"
+      href="/fonts/cmunrm.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
