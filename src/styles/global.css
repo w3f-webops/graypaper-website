@@ -4,16 +4,19 @@
 
 @font-face {
   font-family: "Computer Modern";
-  /* font-weight: 100 900;
-  font-display: swap;
   font-style: normal;
-  font-named-instance: "Regular"; */
-  src: url(/fonts/cmunui.ttf) format("ttf");
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/cmunrm.ttf") format("truetype");
 }
 
-p {
-  font-family: "Computer Modern", sans-serif;
-  font-weight: 400;
+body.custom {
+  font-family: 'Computer Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  /* 1.8 in latex.css */
+  line-height: 1.4;
+  /* 1rem in latex.css */
+  font-size:1.2rem;
+  background-color: black;
 }
 
 h1,

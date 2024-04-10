@@ -39,11 +39,6 @@ const Header: React.FC = () => {
           />
         </Link>
       </div>
-      <h2 className="text-center">
-        JOIN-ACCUMULATE MACHINE:{" "}
-        <span className="whitespace-nowrap">A SEMI-COHERENT</span> SCALABLE
-        TRUSTLESS VM
-      </h2>
     </>
   );
 };

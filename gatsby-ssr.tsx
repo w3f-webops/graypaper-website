@@ -7,7 +7,7 @@ const onRenderBody = (
   pluginOptions
 ) => {
   setBodyAttributes({
-    className: "latex-dark bg-cover bg-black",
+    className: "custom latex-dark bg-cover bg-black",
     style: {
       backgroundImage: `url(${Background})`,
     },
