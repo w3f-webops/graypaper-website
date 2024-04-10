@@ -30,6 +30,22 @@ const onRenderBody = (
       crossOrigin="anonymous"
       key="computerModernBoldFont"
     />,
+    <link
+      rel="preload"
+      href="/fonts/cmunbi.ttf"
+      as="font"
+      type="font/ttf"
+      crossOrigin="anonymous"
+      key="computerModernBoldItalicFont"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/cmunti.ttf"
+      as="font"
+      type="font/ttf"
+      crossOrigin="anonymous"
+      key="computerModernItalicFont"
+    />,
   ]);
 };
 

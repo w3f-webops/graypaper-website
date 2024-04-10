@@ -18,6 +18,22 @@
   src: url("/fonts/cmunbx.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Computer Modern";
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url("/fonts/cmunbi.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Computer Modern";
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/cmunti.ttf") format("truetype");
+}
+
 body.custom {
   font-family: "Computer Modern", Georgia, Cambria, "Times New Roman", Times,
     serif;
