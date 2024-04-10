@@ -8,23 +8,23 @@ const Header: React.FC = () => {
     <>
       <div className="flex flex-row justify-center md:justify-end gap-4 w-full sticky top-4">
         <Link to="/news">
-          <button>News</button>
+          <button className="font-unbounded text-sm">News</button>
         </Link>
         <a href={Graypaper}>
-          <button>Download</button>
+          <button className="font-unbounded text-sm">Download</button>
         </a>
 
         <a href="https://matrix.org/">
-          <button>Resources</button>
+          <button className="font-unbounded text-sm">Resources</button>
         </a>
         <Link to="/implementations">
-          <button>Implementations</button>
+          <button className="font-unbounded text-sm">Implementations</button>
         </Link>
         <Link to="/prize">
-          <button>Prize</button>
+          <button className="font-unbounded text-sm">Prize</button>
         </Link>
         <Link to="/swag">
-          <button>Swag</button>
+          <button className="font-unbounded text-sm">Swag</button>
         </Link>
       </div>
 

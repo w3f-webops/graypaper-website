@@ -22,6 +22,14 @@ const onRenderBody = (
       crossOrigin="anonymous"
       key="computerModernFont"
     />,
+    <link
+      rel="preload"
+      href="/fonts/cmunbx.ttf"
+      as="font"
+      type="font/ttf"
+      crossOrigin="anonymous"
+      key="computerModernBoldFont"
+    />,
   ]);
 };
 

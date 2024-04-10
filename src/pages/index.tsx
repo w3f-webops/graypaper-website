@@ -1,17 +1,18 @@
 import type { HeadFC, PageProps } from "gatsby";
 import * as React from "react";
 import Header from "../components/Header";
-import Background from "../images/background.png";
 import Graypaper from "../images/graypaper.png";
+
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-      <h2 className="text-center">
-        JOIN-ACCUMULATE MACHINE:{" "}
+      <h1 className="text-center font-bold text-3xl mt-8">
+        JOIN-ACCUMULATE MACHINE:
+        <br />
         <span className="whitespace-nowrap">A SEMI-COHERENT</span> SCALABLE
         TRUSTLESS VM
-      </h2>
+      </h1>
       <div className="abstract indent-pars">
         <p
           className="no-indent"

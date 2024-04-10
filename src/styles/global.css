@@ -10,17 +10,24 @@
   src: url("/fonts/cmunrm.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Computer Modern";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("/fonts/cmunbx.ttf") format("truetype");
+}
+
 body.custom {
-  font-family: 'Computer Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-family: "Computer Modern", Georgia, Cambria, "Times New Roman", Times,
+    serif;
   /* 1.8 in latex.css */
   line-height: 1.4;
   /* 1rem in latex.css */
-  font-size:1.2rem;
+  font-size: 1.2rem;
   background-color: black;
 }
 
-h1,
 h2 {
   font-family: "Unbounded", sans-serif;
-  font-weight: 700;
 }
