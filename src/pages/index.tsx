@@ -7,7 +7,11 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
       <Header />
-
+      <h2 className="text-center">
+        JOIN-ACCUMULATE MACHINE:{" "}
+        <span className="whitespace-nowrap">A SEMI-COHERENT</span> SCALABLE
+        TRUSTLESS VM
+      </h2>
       <div className="abstract indent-pars">
         <p
           className="no-indent"
@@ -17,12 +21,12 @@ const IndexPage: React.FC<PageProps> = () => {
           present a comprehensive and formal definition of{" "}
           <span style={{ fontVariant: "small-caps" }}>jam</span>, a protocol
           combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a
-          single coherent model,{" "}
+          single coherent model,
           <span style={{ fontVariant: "small-caps" }}>jam</span> provides a
-          global singleton permissionless object environment-like the
-          smart-contract environment pioneered by Ethereum -- much paired with
-          secure sideband computation parallelized over a scalable node network,
-          a proposition pioneered by Polkadot.
+          global singleton permissionless object environment－much like the
+          smart-contract environment pioneered by Ethereum－paired with secure
+          sideband computation parallelized over a scalable node network, a
+          proposition pioneered by Polkadot.
         </p>
         <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
           <span style={{ fontVariant: "small-caps" }}>jam</span> introduces a
@@ -39,10 +43,10 @@ const IndexPage: React.FC<PageProps> = () => {
           to induce execution of this code through the procurement and
           allocation of <i>core-time</i>, a metric of resilient and ubiquitous
           computation, somewhat similar to the purchasing of gas in Ethereum. We
-          already envision a Polkadot-compatible Core Chains service.
+          already envision a Polkadot-compatible <i>CoreChains</i> service.
         </p>
         <a href={Graypaper}>
-          <p>Read whole Graypaper.</p>
+          <p>Read the whole Graypaper.</p>
         </a>
       </div>
     </>
