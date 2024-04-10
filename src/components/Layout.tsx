@@ -1,50 +1,21 @@
-import { StaticImage } from "gatsby-plugin-image";
-import * as React from "react";
-import Graypaper from "../images/graypaper.png";
-import { Link } from "gatsby";
+import React, { ReactNode } from "react";
+import Background from "../images/background.png";
+import Header from "./Header";
+import { PageProps } from "gatsby";
 
-const Header: React.FC = () => {
+interface LayoutProps extends Omit<PageProps, "children"> {
+  children: ReactNode;
+}
+export const Layout: React.FC<LayoutProps> = ({ children, ...pageProps }) => {
   return (
-    <>
-      <div className="flex flex-row justify-center md:justify-end gap-4 w-full sticky top-4">
-        <Link to="/news">
-          <button>News</button>
-        </Link>
-        <a href={Graypaper}>
-          <button>Download</button>
-        </a>
-
-        <a href="https://matrix.org/">
-          <button>Resources</button>
-        </a>
-        <Link to="/implementations">
-          <button>Implementations</button>
-        </Link>
-        <Link to="/prize">
-          <button>Prize</button>
-        </Link>
-        <Link to="/swag">
-          <button>Swag</button>
-        </Link>
-      </div>
-
-      <div className="flex flex-col items-center pr-[25px] md:pr-[80px]">
-        <Link to="/">
-          <StaticImage
-            src="../images/jam-pen.png"
-            alt="JAM Logo"
-            placeholder="blurred"
-            layout="fixed"
-            width={400}
-          />
-        </Link>
-      </div>
-      <h2 className="text-center">
-        JOIN-ACCUMULATE MACHINE:{" "}
-        <span className="whitespace-nowrap">A SEMI-COHERENT</span> SCALABLE
-        TRUSTLESS VM
-      </h2>
-    </>
+    <div
+      className=" pb-6 md:my-6 shadow-lg"
+      style={{
+        backgroundImage: `url(${Background})`,
+      }}
+    >
+      <Header {...pageProps} />
+      <div className="flex flex-col px-6 pb-6 min-h-svh">{children}</div>
+    </div>
   );
 };
-export default Header;

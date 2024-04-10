@@ -1,45 +1,39 @@
-import { StaticImage } from "gatsby-plugin-image";
+import { Link, PageProps } from "gatsby";
 import * as React from "react";
 import Graypaper from "../images/graypaper.png";
-import { Link } from "gatsby";
+import JamLogoSmall from "../images/jam-logo-small.png";
 
-const Header: React.FC = () => {
+const Header: React.FC<Omit<PageProps, "children">> = (props) => {
   return (
-    <>
-      <div className="flex flex-row justify-center md:justify-end gap-4 w-full sticky top-4">
+    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
+      <div className="flex h-20 sm:h-10 flex-row items-center gap-2 md:gap-4 justify-center text-xs md:justify-end px-4 font-unbounded content-center  flex-wrap">
+        {props.path !== "/" && (
+          <Link to="/">
+            <img className="h-8" src={JamLogoSmall} alt="JAM Logo" />
+          </Link>
+        )}
         <Link to="/news">
-          <button className="font-unbounded text-sm">News</button>
+          <button>News</button>
         </Link>
         <a href={Graypaper}>
-          <button className="font-unbounded text-sm">Download</button>
+          <button>Download</button>
         </a>
 
         <a href="https://matrix.org/">
-          <button className="font-unbounded text-sm">Resources</button>
+          <button>Resources</button>
         </a>
         <Link to="/implementations">
-          <button className="font-unbounded text-sm">Implementations</button>
+          <button>Implementations</button>
         </Link>
         <Link to="/prize">
-          <button className="font-unbounded text-sm">Prize</button>
+          <button>Prize</button>
         </Link>
-        <Link to="/swag">
-          <button className="font-unbounded text-sm">Swag</button>
-        </Link>
-      </div>
 
-      <div className="flex flex-col items-center pr-[25px] md:pr-[80px]">
-        <Link to="/">
-          <StaticImage
-            src="../images/jam-pen.png"
-            alt="JAM Logo"
-            placeholder="blurred"
-            layout="fixed"
-            width={400}
-          />
+        <Link to="/swag">
+          <button>Swag</button>
         </Link>
       </div>
-    </>
+    </header>
   );
 };
 export default Header;

@@ -1,22 +1,21 @@
 import type { HeadFC, PageProps } from "gatsby";
 import * as React from "react";
-import Header from "../components/Header";
-import Background from "../images/background.png";
+import { Layout } from "../components/Layout";
 
-const Page: React.FC<PageProps> = () => {
+const Page: React.FC<PageProps> = (props) => {
   return (
-    <>
-      <Header />
-
+    <Layout {...props}>
       <main>
         <article>
           <h2 id="Implement">Implementations</h2>
-          <p>
-            <i>Coming soon...</i>
-          </p>
+          <div className="h-[50vh] flex flex-col justify-center items-center">
+            <p>
+              <i>Coming soon...</i>
+            </p>
+          </div>
         </article>
       </main>
-    </>
+    </Layout>
   );
 };
 

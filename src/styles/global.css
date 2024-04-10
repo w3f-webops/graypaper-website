@@ -38,11 +38,16 @@ body.custom {
   font-family: "Computer Modern", Georgia, Cambria, "Times New Roman", Times,
     serif;
   /* 1.8 in latex.css */
-  line-height: 1.4;
+  line-height: 1.8;
   /* 1rem in latex.css */
   font-size: 1.2rem;
   background-color: black;
   font-weight: bold;
+  padding: 0;
+}
+
+.abstract {
+    line-height: 1.1;
 }
 
 h2 {

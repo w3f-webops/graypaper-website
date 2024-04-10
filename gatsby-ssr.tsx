@@ -1,16 +1,10 @@
 import React from "react";
-import Background from "./src/images/background.png";
+import { Layout } from "./src/components/Layout";
 
 // Adds a class name to the body element
-const onRenderBody = (
-  { setBodyAttributes, setHeadComponents },
-  pluginOptions
-) => {
+const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
   setBodyAttributes({
-    className: "custom latex-dark bg-cover bg-black",
-    style: {
-      backgroundImage: `url(${Background})`,
-    },
+    className: "custom latex-dark",
   });
 
   setHeadComponents([
@@ -49,9 +43,8 @@ const onRenderBody = (
   ]);
 };
 
-export { onRenderBody };
+const wrapPageElement = ({ element, props }) => {
+  return <Layout {...props}>{element}</Layout>;
+};
 
-// // Wraps every page in a component
-// exports.wrapPageElement = ({ element, props }) => {
-//   return <Layout {...props}>{element}</Layout>;
-// };
+export { onRenderBody, wrapPageElement };

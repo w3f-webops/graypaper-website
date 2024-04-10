@@ -1,16 +1,10 @@
-import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import Graypaper from "../images/graypaper.png";
-import Background from "../images/background.png";
-import Wordmark from "../images/wordmark.png";
-import { StaticImage } from "gatsby-plugin-image";
-import Header from "../components/Header";
+import * as React from "react";
+import { Layout } from "../components/Layout";
 
-const Page: React.FC<PageProps> = () => {
+const Page: React.FC<PageProps> = (props) => {
   return (
-    <>
-      <Header />
-
+    <Layout {...props}>
       <main>
         <article>
           <h2 id="News">News</h2>
@@ -24,7 +18,7 @@ const Page: React.FC<PageProps> = () => {
           </table>
         </article>
       </main>
-    </>
+    </Layout>
   );
 };
 
