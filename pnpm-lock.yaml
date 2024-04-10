@@ -20,6 +20,9 @@ dependencies:
   gatsby-plugin-fix-fouc:
     specifier: ^1.0.5
     version: 1.0.5(gatsby@5.13.3)
+  gatsby-plugin-i18n:
+    specifier: ^1.0.1
+    version: 1.0.1
   gatsby-plugin-image:
     specifier: ^3.13.1
     version: 3.13.1(@babel/core@7.24.4)(gatsby-plugin-sharp@5.13.1)(gatsby-source-filesystem@5.13.1)(gatsby@5.13.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -5875,6 +5878,11 @@ packages:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
     dev: false
 
+  /folktale@2.3.2:
+    resolution: {integrity: sha512-+8GbtQBwEqutP0v3uajDDoN64K2ehmHd0cjlghhxh0WpcfPzAIjPA03e1VvHlxL02FVGR0A6lwXsNQKn3H1RNQ==}
+    deprecated: This package is no longer actively maintained. Only security patches will be provided, if needed. Consider switching to fp-ts.
+    dev: false
+
   /follow-redirects@1.15.6(debug@4.3.4):
     resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
@@ -6180,6 +6188,15 @@ packages:
     dependencies:
       camel-case: 4.1.2
       gatsby: 5.13.3(babel-eslint@10.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
+    dev: false
+
+  /gatsby-plugin-i18n@1.0.1:
+    resolution: {integrity: sha512-6Cucb15sLQp9cTVgmRC34MeWVJu0a09G7LRrCNV87PgMlbS5iVUX00TwDnIUB0b+f6RUq3z5+V6/sIBIvsz8/Q==}
+    dependencies:
+      folktale: 2.3.2
+      graphql: 0.11.7
+      ptz-i18n: 1.0.0
+      ramda: 0.24.1
     dev: false
 
   /gatsby-plugin-image@3.13.1(@babel/core@7.24.4)(gatsby-plugin-sharp@5.13.1)(gatsby-source-filesystem@5.13.1)(gatsby@5.13.3)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
@@ -6878,6 +6895,12 @@ packages:
       graphql: 16.8.1
     dev: false
 
+  /graphql@0.11.7:
+    resolution: {integrity: sha512-x7uDjyz8Jx+QPbpCFCMQ8lltnQa4p4vSYHx6ADe8rVYRTdsyhCJbvSty5DAsLVmU6cGakl+r8HQYolKHxk/tiw==}
+    dependencies:
+      iterall: 1.1.3
+    dev: false
+
   /graphql@16.8.1:
     resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
@@ -7502,6 +7525,10 @@ packages:
   /isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /iterall@1.1.3:
+    resolution: {integrity: sha512-Cu/kb+4HiNSejAPhSaN1VukdNTTi/r4/e+yykqjlG/IW+1gZH5b4+Bq3whDX4tvbYugta3r8KTMUiqT3fIGxuQ==}
     dev: false
 
   /iterator.prototype@1.1.2:
@@ -9275,6 +9302,13 @@ packages:
     resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
     dev: false
 
+  /ptz-i18n@1.0.0:
+    resolution: {integrity: sha512-3buuv2T+Qo2tyo3A1pSx2arxheW0vd+tPGizmWdvr9RWJKfQlrNw8GtnYXdjChUKN0s2UO/JJkWswOTRYBi/OQ==}
+    dependencies:
+      folktale: 2.3.2
+      ramda: 0.24.1
+    dev: false
+
   /pump@3.0.0:
     resolution: {integrity: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==}
     dependencies:
@@ -9316,6 +9350,10 @@ packages:
   /quick-lru@5.1.1:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
+    dev: false
+
+  /ramda@0.24.1:
+    resolution: {integrity: sha512-HEm619G8PaZMfkqCa23qiOe7r3R0brPu7ZgOsgKUsnvLhd0qhc/vTjkUovomgPWa5ECBa08fJZixth9LaoBo5w==}
     dev: false
 
   /randombytes@2.1.0:
