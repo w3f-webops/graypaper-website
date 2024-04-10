@@ -9,7 +9,7 @@ interface LayoutProps extends Omit<PageProps, "children"> {
 export const Layout: React.FC<LayoutProps> = ({ children, ...pageProps }) => {
   return (
     <div
-      className="pb-6 md:my-6 shadow-md shadow-zinc-950 "
+      className="md:pb-6 md:my-6 shadow-md shadow-zinc-950 "
       style={{
         backgroundImage: `url(${Background})`,
       }}
