@@ -29,18 +29,24 @@ const IndexPage: React.FC<PageProps> = (props) => {
             <p className="no-indent" style={{ textAlign: "justify" }}>
               <span style={{ fontVariant: "small-caps" }}>Abstract.</span> We
               present a comprehensive and formal definition of{" "}
-              <span style={{ fontVariant: "small-caps" }}>Jam</span>, a protocol
-              combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In
-              a single coherent model,
-              <span style={{ fontVariant: "small-caps" }}>Jam</span> provides a
-              global singleton permissionless object environment－much like the
-              smart-contract environment pioneered by Ethereum－paired with
-              secure sideband computation parallelized over a scalable node
-              network, a proposition pioneered by Polkadot.
+              <span style={{ fontVariant: "small-caps" }}>
+                <span className="align-sub">J</span>am
+              </span>
+              , a protocol combining elements of both <i>Polkadot</i> and{" "}
+              <i>Ethereum</i>. In a single coherent model,{" "}
+              <span style={{ fontVariant: "small-caps" }}>
+                <span className="align-sub">J</span>am
+              </span>{" "}
+              provides a global singleton permissionless object
+              environment－much like the smart-contract environment pioneered by
+              Ethereum－paired with secure sideband computation parallelized
+              over a scalable node network, a proposition pioneered by Polkadot.
             </p>
             <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
-              <span style={{ fontVariant: "small-caps" }}>Jam</span> introduces
-              a decentralized hybrid system offering smart-contract
+              <span style={{ fontVariant: "small-caps" }}>
+                <span className="align-sub">J</span>am
+              </span>{" "}
+              introduces a decentralized hybrid system offering smart-contract
               functionality structured around a secure and scalable
               in-core/on-chain dualism. While the smart-contract functionality
               implies some similarities with Ethereum's paradigm, the overall
@@ -48,8 +54,10 @@ const IndexPage: React.FC<PageProps> = (props) => {
               architecture of Polkadot.
             </p>
             <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
-              <span style={{ fontVariant: "small-caps" }}>Jam</span> is
-              permissionless in nature, allowing anyone to deploy code as a
+              <span style={{ fontVariant: "small-caps" }}>
+                <span className="align-sub">J</span>am
+              </span>{" "}
+              is permissionless in nature, allowing anyone to deploy code as a
               service on it for a fee commensurate with the resources this code
               utilizes and to induce execution of this code through the
               procurement and allocation of <i>core-time</i>, a metric of
