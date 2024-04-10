@@ -10,7 +10,7 @@ const Page: React.FC<PageProps> = () => {
 
       <main>
         <article>
-          <h2 id="Prize">Prize</h2>
+          <h2 id="Swag">Swag</h2>
           <p>
             <i>Coming soon...</i>
           </p>
@@ -24,7 +24,7 @@ export default Page;
 
 export const Head: HeadFC = () => (
   <>
-    <title>JAM Prize</title>
+    <title>JAM Swag</title>
 
     <link rel="stylesheet" href="https://latex.now.sh/style.css"></link>
     <meta

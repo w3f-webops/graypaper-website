@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Computer Modern";
+  /* font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular"; */
+  src: url(/fonts/cmunui.ttf) format("ttf");
+}
+
+p {
+  font-family: "Computer Modern", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 700;
+}

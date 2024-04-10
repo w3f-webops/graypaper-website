@@ -66,12 +66,5 @@ export const Head: HeadFC = () => (
       name="twitter:image"
       content="https://opengraph.b-cdn.net/production/documents/83d1980a-1bb3-4db3-b64f-f05851e9cee0.png?token=nM98IeTAMa5qe5b0KkcqMGUxotMv6sbTNHKogUPKiIQ&height=630&width=1200&expires=33248677595"
     />
-
-    <body
-      className="latex-dark bg-cover bg-black"
-      style={{
-        backgroundImage: `url(${Background})`,
-      }}
-    />
   </>
 );

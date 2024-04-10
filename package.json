@@ -18,6 +18,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "gatsby": "^5.13.3",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-fix-fouc": "^1.0.5",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
@@ -26,6 +28,7 @@
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
