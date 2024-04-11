@@ -27,7 +27,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
             TRUSTLESS VM
           </h1>
           <div className="abstract indent-pars">
-            <p className="no-indent" style={{ textAlign: "justify" }}>
+            <p className="no-indent">
               <span style={{ fontVariant: "small-caps" }}>Abstract.</span> We
               present a comprehensive and formal definition of{" "}
               <span className="jam">
@@ -43,7 +43,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
               Ethereum－paired with secure sideband computation parallelized
               over a scalable node network, a proposition pioneered by Polkadot.
             </p>
-            <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
+            <p>
               <span className="jam">
                 <span>J</span>am
               </span>{" "}
@@ -54,7 +54,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
               model of the service offered is driven largely by underlying
               architecture of Polkadot.
             </p>
-            <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
+            <p>
               <span className="jam">
                 <span>J</span>am
               </span>{" "}

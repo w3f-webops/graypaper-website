@@ -4,13 +4,15 @@ import { OpenGraph } from "./OpenGraph";
 
 interface CreateHeadProps {
   title: string;
+  lang?: string;
 }
 
 export const createHead =
-  ({ title }: CreateHeadProps): HeadFC =>
+  ({ title, lang }: CreateHeadProps): HeadFC =>
   () =>
     (
       <>
+        <html lang={lang ?? "en"} />
         <title>{title}</title>
 
         <link rel="stylesheet" href="https://latex.now.sh/style.css"></link>
