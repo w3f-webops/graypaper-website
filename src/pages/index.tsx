@@ -30,13 +30,13 @@ const IndexPage: React.FC<PageProps> = (props) => {
             <p className="no-indent" style={{ textAlign: "justify" }}>
               <span style={{ fontVariant: "small-caps" }}>Abstract.</span> We
               present a comprehensive and formal definition of{" "}
-              <span style={{ fontVariant: "small-caps" }}>
-                <span className="align-sub">J</span>am
+              <span className="jam">
+                <span>J</span>am
               </span>
               , a protocol combining elements of both <i>Polkadot</i> and{" "}
               <i>Ethereum</i>. In a single coherent model,{" "}
-              <span style={{ fontVariant: "small-caps" }}>
-                <span className="align-sub">J</span>am
+              <span className="jam">
+                <span>J</span>am
               </span>{" "}
               provides a global singleton permissionless object
               environment－much like the smart-contract environment pioneered by
@@ -44,8 +44,8 @@ const IndexPage: React.FC<PageProps> = (props) => {
               over a scalable node network, a proposition pioneered by Polkadot.
             </p>
             <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
-              <span style={{ fontVariant: "small-caps" }}>
-                <span className="align-sub">J</span>am
+              <span className="jam">
+                <span>J</span>am
               </span>{" "}
               introduces a decentralized hybrid system offering smart-contract
               functionality structured around a secure and scalable
@@ -55,8 +55,8 @@ const IndexPage: React.FC<PageProps> = (props) => {
               architecture of Polkadot.
             </p>
             <p style={{ textAlign: "justify", fontFamily: "Computer Modern" }}>
-              <span style={{ fontVariant: "small-caps" }}>
-                <span className="align-sub">J</span>am
+              <span className="jam">
+                <span>J</span>am
               </span>{" "}
               is permissionless in nature, allowing anyone to deploy code as a
               service on it for a fee commensurate with the resources this code
@@ -69,7 +69,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
           </div>
           <div>
             <p className="text-center">
-              <a href={Graypaper}>Read the whole Graypaper.</a>
+              <a href={Graypaper}>Read the Graypaper</a>
             </p>
           </div>
         </div>

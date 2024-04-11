@@ -50,6 +50,15 @@ body.custom {
     line-height: 1.1;
 }
 
+.jam {
+    font-variant: small-caps;
+}
+
+.jam > span {
+    position: relative;
+    top: 2.6pt;
+}
+
 h2 {
   font-family: "Unbounded", sans-serif;
 }

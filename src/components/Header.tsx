@@ -1,12 +1,12 @@
 import { Link, PageProps } from "gatsby";
 import * as React from "react";
 import Graypaper from "../images/graypaper.png";
-import JamLogoSmall from "../images/jam-logo-small.png";
+import JamLogoSmall from "../images/jam-compact.png";
 import { cn } from "../utils";
 
 const Header: React.FC<Omit<PageProps, "children">> = (props) => {
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full bg-[#0002] bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
       <div className="flex flex-row items-center py-2 gap-4 gap-x-8 md:gap-8 justify-center text-xs md:justify-between px-4 font-unbounded content-center  flex-wrap">
         <div
           className={cn({
@@ -17,7 +17,7 @@ const Header: React.FC<Omit<PageProps, "children">> = (props) => {
           {props.path !== "/" && (
             <Link to="/">
               <img
-                className="h-8 justify-self-start"
+                className="h-8 justify-self-start mt-2 md:mt-0"
                 src={JamLogoSmall}
                 alt="JAM Logo"
               />
@@ -38,6 +38,9 @@ const Header: React.FC<Omit<PageProps, "children">> = (props) => {
           </a>
           <Link to="/implementations">
             <button>Implementations</button>
+          </Link>
+          <Link to="/tour">
+            <button>Tour</button>
           </Link>
           <Link to="/prize">
             <button>Prize</button>

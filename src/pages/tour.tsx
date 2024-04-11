@@ -8,10 +8,10 @@ const Page: React.FC<PageProps> = (props) => {
     <Layout {...props}>
       <main>
         <article>
-          <h2 id="Implement">Implementierungen</h2>
+          <h2 id="Tour">Tour</h2>
           <div className="h-[50vh] flex flex-col justify-center items-center">
             <p>
-              <i>Bald verfügbar...</i>
+              <i>Coming soon...</i>
             </p>
           </div>
         </article>
@@ -23,5 +23,5 @@ const Page: React.FC<PageProps> = (props) => {
 export default Page;
 
 export const Head = createHead({
-  title: "JAM Implementierungen",
+  title: "JAM Prize",
 });
