@@ -10,14 +10,6 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
   setHeadComponents([
     <link
       rel="preload"
-      href="/fonts/cmunrm.ttf"
-      as="font"
-      type="font/ttf"
-      crossOrigin="anonymous"
-      key="computerModernFont"
-    />,
-    <link
-      rel="preload"
       href="/fonts/cmunbx.ttf"
       as="font"
       type="font/ttf"
@@ -32,14 +24,23 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       crossOrigin="anonymous"
       key="computerModernBoldItalicFont"
     />,
-    <link
-      rel="preload"
-      href="/fonts/cmunti.ttf"
-      as="font"
-      type="font/ttf"
-      crossOrigin="anonymous"
-      key="computerModernItalicFont"
-    />,
+    // Only need bold and bold italic, these are regular and italic
+    // <link
+    //   rel="preload"
+    //   href="/fonts/cmunrm.ttf"
+    //   as="font"
+    //   type="font/ttf"
+    //   crossOrigin="anonymous"
+    //   key="computerModernFont"
+    // />,
+    // <link
+    //   rel="preload"
+    //   href="/fonts/cmunti.ttf"
+    //   as="font"
+    //   type="font/ttf"
+    //   crossOrigin="anonymous"
+    //   key="computerModernItalicFont"
+    // />,
   ]);
 };
 
