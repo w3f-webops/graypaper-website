@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
-import Background from "../images/background.webp";
 import Navigation from "./Navigation";
 import { PageProps } from "gatsby";
+import "../i18n";
 
 interface LayoutProps extends Omit<PageProps, "children"> {
   children: ReactNode;

@@ -1,10 +1,11 @@
 import { Link, PageProps } from "gatsby";
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 import JamLogoSmall from "../images/jam-compact.png";
 import { cn } from "../utils";
 import { LanguageSelect } from "./LanguageSelect";
-
 export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
+  const { t } = useTranslation();
   return (
     <header className="sticky top-0 z-50 w-full bg-[#0002] bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
       <div className="flex flex-row items-center py-2 gap-4 gap-x-8 md:gap-8 justify-center text-xs md:justify-between px-4 font-unbounded content-center  flex-wrap">
@@ -27,22 +28,14 @@ export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
 
         <div className="flex flex-row gap-x-8 flex-wrap sm:justify-end justify-center py-2 gap-y-4 transition-all">
           <Link to="/resources">
-            <button>Resources</button>
+            <button>{t("Resources")}</button>
           </Link>
-
-          {/* <Link to="/implementations">
-            <button>Implementations</button>
-          </Link> */}
           <Link to="/tour">
-            <button>Tour</button>
+            <button>{t("Tour")}</button>
           </Link>
           <Link to="/prize">
-            <button>Prize</button>
+            <button>{t("Prize")}</button>
           </Link>
-
-          {/* <Link to="/swag">
-            <button>Swag</button>
-          </Link> */}
           <LanguageSelect />
         </div>
       </div>
