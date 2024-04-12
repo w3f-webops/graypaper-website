@@ -30,7 +30,7 @@ i18n
           Contribute: "Contribute",
           "Coming soon": "Coming soon...",
           "Resources.Download": "Get a copy of the Graypaper here:",
-          "Resources.Contribute": "Join the JAM in our [matrix] space:",
+          "Resources.Contribute": `Join the ${KeywordJam} in our [matrix] space:`,
           "Graypaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
           "Abstract.p1": `${KeywordAbstract} We present a comprehensive and formal definition of ${KeywordJam}, a protocol combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a single coherent model, ${KeywordJam} provides a global singleton permissionless object environment&#8212;much like the smart-contract environment pioneered by Ethereum&#8212;paired with secure sideband computation parallelized over a scalable node network, a proposition pioneered by Polkadot.`,
@@ -49,7 +49,7 @@ i18n
           Contribute: "Contribuir",
           "Coming soon": "Próximamente...",
           "Resources.Download": "Obtén una copia del Graypaper aquí:",
-          "Resources.Contribute": "Únete al JAM en nuestro espacio [matrix]:",
+          "Resources.Contribute": `Únete al ${KeywordJam} en nuestro espacio [matrix]:`,
           "Graypaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />Una máquina virtual escalable, semi-coherente y sin confianza',
           "Abstract.p1": `${KeywordAbstract} Presentamos una definición completa y formal de ${KeywordJam}, un protocolo que combina elementos tanto de <i>Polkadot</i> como de <i>Ethereum</i>. En un modelo coherente único, ${KeywordJam} proporciona un entorno de objeto global sin permisos y singleton&#8212;muy similar al entorno de contrato inteligente pionero de Ethereum&#8212;emparejado con cálculo de banda lateral seguro paralelizado sobre una red de nodos escalable, una propuesta pionera de Polkadot.`,
@@ -68,7 +68,7 @@ i18n
           Contribute: "貢献する",
           "Coming soon": "近日公開...",
           "Resources.Download": "こちらでGraypaperのコピーを入手してください：",
-          "Resources.Contribute": "[matrix]スペースでJAMに参加しよう：",
+          "Resources.Contribute": `[matrix]スペースで${KeywordJam}に参加しよう：`,
           "Graypaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント スケーラブル トラストレス VM',
           "Abstract.p1": `${KeywordAbstract} 我々は、<i>Polkadot</i>と<i>Ethereum</i>の両方の要素を組み合わせたプロトコルである${KeywordJam}の包括的かつ正式な定義を提示します。一つの矛盾のないモデルとして、${KeywordJam}はグローバルなシングルトンの許可不要のオブジェクト環境を提供します。これはEthereumによって先駆けられたスマートコントラクト環境と非常に似ており、スケーラブルなノードネットワーク上で並列化された安全なサイドバンド計算と組み合わされています。これはPolkadotによって先駆けられた提案です。`,
@@ -87,7 +87,7 @@ i18n
           Contribute: "贡献",
           "Coming soon": "即将推出...",
           "Resources.Download": "在这里获取Graypaper的副本：",
-          "Resources.Contribute": "在我们的[matrix]空间加入JAM：",
+          "Resources.Contribute": `在我们的[matrix]空间加入${KeywordJam}：`,
           "Graypaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />半一致可扩展无需信任的虚拟机',
           "Abstract.p1": `${KeywordAbstract} 我们提出了一个全面和正式的定义${KeywordJam}，一个结合了<i>Polkadot</i>和<i>Ethereum</i>的元素的协议。在一个单一的连贯模型中，${KeywordJam}提供了一个全球单例无需许可的对象环境——非常类似于Ethereum开创的智能合约环境——与一个在可扩展节点网络上并行的安全边带计算相结合，这是Polkadot首创的提议。`,

@@ -51,7 +51,7 @@ const Page: React.FC<PageProps> = (props) => {
             </a>
           </p>
           <h3 id="contribute">3. {t("Contribute")}</h3>
-          <p>{t("Resources.Contribute")}</p>
+          <p dangerouslySetInnerHTML={{ __html: t("Resources.Contribute") }} />
           <p className="pl-10">
             <a
               className="underline"
