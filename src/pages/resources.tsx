@@ -49,8 +49,11 @@ const Page: React.FC<PageProps> = (props) => {
           </p>
           <h3 id="contribute">3. Contribute</h3>
           <p>
-            Join in on the development by discussing with us in our [matrix]
-            space.
+            To connect to the{" "}
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            community, join our [matrix] space:
           </p>
           <p className="pl-10">
             <a
