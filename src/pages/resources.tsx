@@ -15,10 +15,10 @@ const Page: React.FC<PageProps> = (props) => {
                 <a href="#news">News</a>
               </li>
               <li>
-                <a href="#graypaper">Download</a>
+                <a href="#download">Download</a>
               </li>
               <li>
-                <a href="#matrix">Contact</a>
+                <a href="#contribute">Contribute</a>
               </li>
             </ol>
           </nav>
@@ -50,7 +50,7 @@ const Page: React.FC<PageProps> = (props) => {
             </a>
           </p>
 
-          <h3 id="contact">Contact</h3>
+          <h3 id="contribute">Contribute</h3>
           <p>
             Join in on the development by discussing with us in our{" "}
             <a
