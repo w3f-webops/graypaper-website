@@ -1,8 +1,8 @@
 import { type PageProps } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import { createHead } from "../components/Head";
 import { Layout } from "../components/Layout";
-import { OpenGraph } from "../components/OpenGraph";
 import Graypaper from "../images/graypaper.png";
 
 const IndexPage: React.FC<PageProps> = (props) => {
@@ -80,22 +80,6 @@ const IndexPage: React.FC<PageProps> = (props) => {
 
 export default IndexPage;
 
-export const Head = () => (
-  <>
-    <html lang={"en"} />
-    <title>JAM</title>
-
-    <link rel="stylesheet" href="https://latex.now.sh/style.css"></link>
-    <meta
-      name="description"
-      content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
-    />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <OpenGraph />
-  </>
-);
+export const Head = createHead({
+  title: "JAM",
+});
