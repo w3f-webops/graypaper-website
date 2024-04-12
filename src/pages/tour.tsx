@@ -1,6 +1,6 @@
 import type { PageProps } from "gatsby";
 import * as React from "react";
-import { createHead } from "../components/Head";
+import { CommonHead } from "../components/Head/CommonHead";
 import { Layout } from "../components/Layout";
 
 const Page: React.FC<PageProps> = (props) => {
@@ -22,6 +22,9 @@ const Page: React.FC<PageProps> = (props) => {
 
 export default Page;
 
-export const Head = createHead({
-  title: "JAM Prize",
-});
+export const Head = () => (
+  <>
+    <title>Tour</title>
+    <CommonHead />
+  </>
+);

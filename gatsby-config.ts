@@ -2,12 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `jam`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `JAM`,
+    siteUrl: `https://www.graypaper.com`,
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
@@ -41,7 +38,7 @@ const config: GatsbyConfig = {
         web: [
           {
             name: `Unbounded`,
-            file: `https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap`,
+            file: `https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap`,
           },
         ],
       },

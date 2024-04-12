@@ -1,6 +1,6 @@
 import type { PageProps } from "gatsby";
 import React from "react";
-import { createHead } from "../components/Head";
+import { CommonHead } from "../components/Head/CommonHead";
 import { Layout } from "../components/Layout";
 import Graypaper from "../images/graypaper.png";
 const Page: React.FC<PageProps> = (props) => {
@@ -71,6 +71,9 @@ const Page: React.FC<PageProps> = (props) => {
 
 export default Page;
 
-export const Head = createHead({
-  title: "JAM Resources",
-});
+export const Head = () => (
+  <>
+    <title>Resources</title>
+    <CommonHead />
+  </>
+);

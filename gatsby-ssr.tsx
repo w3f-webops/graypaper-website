@@ -3,10 +3,6 @@ import { Layout } from "./src/components/Layout";
 
 // Adds a class name to the body element
 const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
-  setBodyAttributes({
-    className: "custom latex-dark",
-  });
-
   setHeadComponents([
     <link
       rel="preload"
@@ -24,6 +20,7 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       crossOrigin="anonymous"
       key="computerModernBoldItalicFont"
     />,
+    // Google Font Preconnect is done by plugin,
     // Only need bold and bold italic, these are regular and italic
     // <link
     //   rel="preload"
@@ -42,6 +39,9 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
     //   key="computerModernItalicFont"
     // />,
   ]);
+  setBodyAttributes({
+    className: "custom latex-dark",
+  });
 };
 
 const wrapPageElement = ({ element, props }) => {

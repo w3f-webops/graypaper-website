@@ -1,10 +1,9 @@
 import { type PageProps } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
-import { createHead } from "../components/Head";
+import { CommonHead } from "../components/Head/CommonHead";
 import { Layout } from "../components/Layout";
 import Graypaper from "../images/graypaper.png";
-import { OpenGraph } from "../components/OpenGraph";
 
 const IndexPage: React.FC<PageProps> = (props) => {
   return (
@@ -81,19 +80,7 @@ export default IndexPage;
 
 export const Head = () => (
   <>
-    <html lang="en" />
     <title>JAM</title>
-
-    <meta
-      name="description"
-      content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
-    />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-
-    <OpenGraph />
+    <CommonHead />
   </>
 );

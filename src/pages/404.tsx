@@ -1,6 +1,6 @@
 import { PageProps } from "gatsby";
 import * as React from "react";
-import { createHead } from "../components/Head";
+import { CommonHead } from "../components/Head/CommonHead";
 const NotFoundPage: React.FC<PageProps> = () => {
   React.useEffect(() => {
     window.location.replace("/");
@@ -14,4 +14,9 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage;
 
-export const Head = createHead({ title: "404: Not found" });
+export const Head = () => (
+  <>
+    <title>404</title>
+    <CommonHead />
+  </>
+);
