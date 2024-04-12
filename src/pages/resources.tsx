@@ -22,8 +22,7 @@ const Page: React.FC<PageProps> = (props) => {
               </li>
             </ol>
           </nav>
-
-          <h3 id="news">News</h3>
+          <h3 id="news">1. News</h3>
           <table className="borders-custom">
             <tbody>
               <tr>
@@ -41,27 +40,27 @@ const Page: React.FC<PageProps> = (props) => {
               </tr>
             </tbody>
           </table>
-
-          <h3 id="download">Download</h3>
+          <h3 id="download">2. Download</h3>
           <p>Get a copy of the Graypaper here:</p>
-          <p className="text-center">
+          <p className="pl-10">
             <a href={Graypaper} className="underline" rel="noopener noreferrer">
               https://graypaper.com/graypaper.pdf
             </a>
           </p>
-
-          <h3 id="contribute">Contribute</h3>
+          <h3 id="contribute">3. Contribute</h3>
           <p>
-            Join in on the development by discussing with us in our{" "}
+            Join in on the development by discussing with us in our [matrix]
+            space.
+          </p>
+          <p className="pl-10">
             <a
               className="underline"
               href="https://matrix.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Matrix Channel
+              #jam:parity.io
             </a>
-            .
           </p>
         </article>
       </main>
