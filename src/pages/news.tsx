@@ -10,12 +10,20 @@ const Page: React.FC<PageProps> = (props) => {
         <article>
           <h2 id="News">News</h2>
           <table className="borders-custom">
-            <tr>
-              <td>18/04/2024</td>
-              <a href="https://github.com/paritytech/polkajam" target="_blank">
-                <td>Graypaper JAM specification published</td>
-              </a>
-            </tr>
+            <tbody>
+              <tr>
+                <td>18/04/2024</td>
+
+                <td>
+                  <a
+                    href="https://github.com/paritytech/polkajam"
+                    target="_blank"
+                  >
+                    Graypaper JAM specification published
+                  </a>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </article>
       </main>
