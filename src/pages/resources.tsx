@@ -1,9 +1,10 @@
 import type { PageProps } from "gatsby";
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { CommonHead } from "../components/Head/CommonHead";
 import { Layout } from "../components/Layout";
 import Graypaper from "../images/graypaper.png";
-import { useTranslation } from "react-i18next";
+
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation();
   return (

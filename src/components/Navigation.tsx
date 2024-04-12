@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import JamLogoSmall from "../images/jam-compact.png";
 import { cn } from "../utils";
 import { LanguageSelect } from "./LanguageSelect";
+
 export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
   const { t } = useTranslation();
   return (

@@ -55,9 +55,6 @@ const IndexPage: React.FC<PageProps> = (props) => {
               subyacente de Polkadot.
             </p>
             <p>
-              <span className="jam">
-                <span>J</span>am
-              </span>{" "}
               es de naturaleza sin permisos, lo que permite a cualquiera
               implementar código como servicio en él por una tarifa proporcional
               a los recursos que este código utiliza y para inducir la ejecución

@@ -61,6 +61,10 @@ td {
   @apply hyphens-auto text-justify;
 }
 
+.abstract-word {
+  font-variant: small-caps;
+}
+
 .jam {
     font-variant: small-caps;
 }
