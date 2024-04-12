@@ -27,22 +27,6 @@ const config: GatsbyConfig = {
         useLangKeyLayout: false,
       },
     },
-    {
-      resolve: `gatsby-omni-font-loader`,
-      options: {
-        enableListener: true,
-        preconnect: [
-          `https://fonts.googleapis.com`,
-          `https://fonts.gstatic.com`,
-        ],
-        web: [
-          {
-            name: `Unbounded`,
-            file: `https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap`,
-          },
-        ],
-      },
-    },
   ],
 };
 

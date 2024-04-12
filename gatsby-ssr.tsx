@@ -20,24 +20,23 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       crossOrigin="anonymous"
       key="computerModernBoldItalicFont"
     />,
-    // Google Font Preconnect is done by plugin,
-    // Only need bold and bold italic, these are regular and italic
-    // <link
-    //   rel="preload"
-    //   href="/fonts/cmunrm.ttf"
-    //   as="font"
-    //   type="font/ttf"
-    //   crossOrigin="anonymous"
-    //   key="computerModernFont"
-    // />,
-    // <link
-    //   rel="preload"
-    //   href="/fonts/cmunti.ttf"
-    //   as="font"
-    //   type="font/ttf"
-    //   crossOrigin="anonymous"
-    //   key="computerModernItalicFont"
-    // />,
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+      key={"googleFontsPreconnect"}
+    />,
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossOrigin="anonymous"
+      key={"gstaticPreconnect"}
+    />,
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap"
+      rel="stylesheet"
+      media="screen"
+      key={"unboundedFont"}
+    />,
   ]);
   setBodyAttributes({
     className: "custom latex-dark",
