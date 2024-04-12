@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import Background from "../images/background.png";
+import Background from "../images/background.webp";
 import Header from "./Header";
 import { PageProps } from "gatsby";
 
