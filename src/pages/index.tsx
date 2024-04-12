@@ -79,7 +79,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
 
 export default IndexPage;
 
-export const Head = (
+export const Head = () => (
   <>
     <html lang="en" />
     <title>JAM</title>
