@@ -8,7 +8,7 @@ interface LayoutProps extends Omit<PageProps, "children"> {
 }
 export const Layout: React.FC<LayoutProps> = ({ children, ...pageProps }) => {
   return (
-    <div className="shadow-md shadow-zinc-950 bg-lemon-jelly bg-cover bg-center">
+    <div className="shadow-md shadow-zinc-950 bg-lemon-jelly">
       <Navigation {...pageProps} />
       <div className="flex flex-col px-6 pb-6 min-h-svh">{children}</div>
     </div>
