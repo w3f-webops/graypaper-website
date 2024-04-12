@@ -8,23 +8,20 @@ import Graypaper from "../images/graypaper.png";
 const IndexPage: React.FC<PageProps> = (props) => {
   return (
     <Layout {...props}>
-      <div className="flex flex-col items-center mt-28 pr-[25px] md:pr-[30px]">
+      <div className="flex flex-col items-center mt-10 sm:mt-20 sm:pr-[25px] md:pr-[30px]">
         <StaticImage
+          className="w-[90%]  sm:w-[400px]"
           src="../images/jam-pen-polkadot.png"
           alt="JAM Logo"
           placeholder="blurred"
-          layout="fixed"
-          width={400}
         />
       </div>
 
       <div className="flex flex-col justify-center items-center">
         <div className="w-full md:w-3/4">
-          <h1 className="text-center font-bold text-xl sm:text-3xl mt-8">
-            JOIN-ACCUMULATE MACHINE:
-            <br />
-            <span className="whitespace-nowrap">A SEMI-COHERENT</span> SCALABLE
-            TRUSTLESS VM
+          <h1 className="text-center font-bold text-lg sm:text-2xl md:text-3xl mt-8">
+            <span className="whitespace-nowrap">JOIN-ACCUMULATE MACHINE:</span>
+            <br />A SEMI-COHERENT SCALABLE TRUSTLESS VM
           </h1>
           <div className="abstract indent-pars">
             <p className="no-indent">
@@ -51,9 +48,9 @@ const IndexPage: React.FC<PageProps> = (props) => {
               introduces a decentralized hybrid system offering smart-contract
               functionality structured around a secure and scalable
               in-core/on-chain dualism. While the smart-contract functionality
-              implies some similarities with Ethereum's paradigm, the overall
-              model of the service offered is driven largely by underlying
-              architecture of Polkadot.
+              implies some similarities with Ethereum&#x2019;s paradigm, the
+              overall model of the service offered is driven largely by
+              underlying architecture of Polkadot.
             </p>
             <p>
               <span className="jam">
@@ -68,7 +65,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
               Polkadot-compatible <i>CoreChains</i> service.
             </p>
           </div>
-          <div>
+          <div className="abstract">
             <p className="text-center">
               <a href={Graypaper}>Read the Graypaper</a>
             </p>
