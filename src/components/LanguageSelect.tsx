@@ -19,6 +19,7 @@ export const LanguageSelect = () => {
         id="language"
         className="appearance-none bg-transparent w-9 before:content-['penis']"
         onChange={changeLanguage}
+        value={i18n.language}
       >
         <option value={"en"}>EN</option>
         <option value={"es"}>ES</option>
