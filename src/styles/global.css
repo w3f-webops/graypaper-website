@@ -46,6 +46,10 @@ body.custom {
   padding: 0;
 }
 
+td {
+  @apply align-baseline
+}
+
 .abstract {
   line-height: 1.1;
 }
