@@ -14,9 +14,6 @@ dependencies:
   gatsby:
     specifier: ^5.13.3
     version: 5.13.3(babel-eslint@10.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
-  gatsby-omni-font-loader:
-    specifier: ^2.0.2
-    version: 2.0.2(gatsby@5.13.3)(react-helmet@6.1.0)
   gatsby-plugin-fix-fouc:
     specifier: ^1.0.5
     version: 1.0.5(gatsby@5.13.3)
@@ -6134,16 +6131,6 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
-  /gatsby-omni-font-loader@2.0.2(gatsby@5.13.3)(react-helmet@6.1.0):
-    resolution: {integrity: sha512-Bp6truuUwbDRHWtL+u/lUvMsAT5ipO45LNJgqNdOzTUGw3GB7dw8k4RHDtpxwFTgacdk25kH8aOYfh460jJYCQ==}
-    peerDependencies:
-      gatsby: ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
-      react-helmet: '>=6.0.0'
-    dependencies:
-      gatsby: 5.13.3(babel-eslint@10.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
-      react-helmet: 6.1.0(react@18.2.0)
     dev: false
 
   /gatsby-page-utils@3.13.1:
