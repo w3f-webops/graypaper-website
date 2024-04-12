@@ -63,6 +63,6 @@ body.custom {
     top: 2.6pt;
 }
 
-h2 {
+h2, h3 {
   font-family: "Unbounded", sans-serif;
 }
