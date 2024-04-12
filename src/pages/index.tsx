@@ -39,9 +39,10 @@ const IndexPage: React.FC<PageProps> = (props) => {
                 <span>J</span>am
               </span>{" "}
               provides a global singleton permissionless object
-              environment－much like the smart-contract environment pioneered by
-              Ethereum－paired with secure sideband computation parallelized
-              over a scalable node network, a proposition pioneered by Polkadot.
+              environment&#8212;much like the smart-contract environment
+              pioneered by Ethereum&#8212;paired with secure sideband
+              computation parallelized over a scalable node network, a
+              proposition pioneered by Polkadot.
             </p>
             <p>
               <span className="jam">
