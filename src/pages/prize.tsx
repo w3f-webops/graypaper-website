@@ -8,16 +8,14 @@ const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   return (
     <Layout {...props}>
-      <main>
-        <article>
-          <h2 id="Prize">{t("Prize")}</h2>
-          <div className="flex h-[50vh] flex-col items-center justify-center">
-            <p>
-              <i>{t("Coming soon")}</i>
-            </p>
-          </div>
-        </article>
-      </main>
+      <article>
+        <h2 id="Prize">{t("Prize")}</h2>
+        <div className="flex h-[50vh] flex-col items-center justify-center">
+          <p>
+            <i>{t("Coming soon")}</i>
+          </p>
+        </div>
+      </article>
     </Layout>
   )
 }

@@ -6,16 +6,14 @@ import { Layout } from "../components/Layout"
 const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout {...props}>
-      <main>
-        <article>
-          <h2 id="Swag">Swag</h2>
-          <div className="flex h-[50vh] flex-col items-center justify-center">
-            <p>
-              <i>Coming soon...</i>
-            </p>
-          </div>
-        </article>
-      </main>
+      <article>
+        <h2 id="Swag">Swag</h2>
+        <div className="flex h-[50vh] flex-col items-center justify-center">
+          <p>
+            <i>Coming soon...</i>
+          </p>
+        </div>
+      </article>
     </Layout>
   )
 }

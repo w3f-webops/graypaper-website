@@ -1,8 +1,7 @@
 import React from "react"
-import { Layout } from "./src/components/Layout"
 
 // Adds a class name to the body element
-const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
+export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
   setHeadComponents([
     <link
       rel="preload"
@@ -43,8 +42,6 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
   })
 }
 
-const wrapPageElement = ({ element, props }) => {
-  return <Layout {...props}>{element}</Layout>
-}
-
-export { onRenderBody, wrapPageElement }
+// export const wrapPageElement = ({ element, props }) => {
+//   return <Layout {...props}>{element}</Layout>
+// }

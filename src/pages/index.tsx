@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 import Graypaper from "../images/graypaper.png"
-import { OpenGraph } from "../components/Head/OpenGraph"
 
 const IndexPage: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
