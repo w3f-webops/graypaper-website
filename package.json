@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prettier": "prettier . --write"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
@@ -26,7 +27,7 @@
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
-    "i18next": "^23.11.1",
+    "i18next": "^23.11.2",
     "i18next-browser-languagedetector": "^7.2.1",
     "latex.css": "^1.11.0",
     "postcss": "^8.4.38",
@@ -39,8 +40,10 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.77",
+    "@types/react": "^18.2.78",
     "@types/react-dom": "^18.2.25",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "typescript": "^5.4.5"
   }
 }
