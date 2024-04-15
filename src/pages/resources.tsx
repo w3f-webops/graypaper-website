@@ -1,4 +1,4 @@
-import type { PageProps } from "gatsby"
+import type { HeadFC, PageProps } from "gatsby"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
@@ -70,13 +70,18 @@ const Page: React.FC<PageProps> = (props) => {
 
 export default Page
 
-export const Head = () => (
-  <>
-    <title>Resources</title>
-    <meta
-      name="description"
-      content="All the resources you need to join the JAM."
-    />
-    <CommonHead />
-  </>
-)
+export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
+  const { t, i18n } = useTranslation(undefined)
+  return (
+    <>
+      <CommonHead />
+      <html id="html" lang={i18n.language} />
+      <title id="title">Resources</title>
+      <meta
+        id="description"
+        name="description"
+        content={"All the resources you need to join the JAM."}
+      />
+    </>
+  )
+}

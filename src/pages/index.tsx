@@ -52,14 +52,14 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
   const { t, i18n } = useTranslation(undefined)
   return (
     <>
-      <html lang={i18n.language} />
-
-      <title>JAM</title>
-      <meta name="description" content={t("Graypaper.Title")} />
-
-      <OpenGraph />
-
       <CommonHead />
+      <html id="html" lang={i18n.language} />
+      <title id="title">JAM</title>
+      <meta
+        id="description"
+        name="description"
+        content={t("Graypaper.Title")}
+      />
     </>
   )
 }

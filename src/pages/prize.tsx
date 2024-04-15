@@ -1,4 +1,4 @@
-import type { PageProps } from "gatsby"
+import type { HeadFC, PageProps } from "gatsby"
 import * as React from "react"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
@@ -24,9 +24,18 @@ const Page: React.FC<PageProps> = (props) => {
 
 export default Page
 
-export const Head = () => (
-  <>
-    <title>Prize</title>
-    <CommonHead />
-  </>
-)
+export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
+  const { t, i18n } = useTranslation(undefined)
+  return (
+    <>
+      <CommonHead />
+      <html id="html" lang={i18n.language} />
+      <title id="title">Prize</title>
+      <meta
+        id="description"
+        name="description"
+        content={t("Graypaper.Title")}
+      />
+    </>
+  )
+}
