@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 export const OpenGraph: React.FC = () => (
   <>
     {/* <!-- Facebook Meta Tags --> */}
@@ -28,4 +28,4 @@ export const OpenGraph: React.FC = () => (
       content="https://opengraph.b-cdn.net/production/documents/071b08d8-3cf5-4536-99df-913b960c7bf0.png?token=gtsIp0vjcn8ec0YNc-Lae6hNH5LNXunCRsq-Hco8edw&height=630&width=1200&expires=33248759780"
     />
   </>
-);
+)

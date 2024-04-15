@@ -1,18 +1,18 @@
-import { Link, PageProps } from "gatsby";
-import * as React from "react";
-import { useTranslation } from "react-i18next";
-import JamLogoSmall from "../images/jam-compact.png";
-import { cn } from "../utils";
-import { LanguageSelect } from "./LanguageSelect";
+import { Link, PageProps } from "gatsby"
+import * as React from "react"
+import { useTranslation } from "react-i18next"
+import JamLogoSmall from "../images/jam-compact.png"
+import { cn } from "../utils"
+import { LanguageSelect } from "./LanguageSelect"
 
 export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <header
       aria-label="navigation"
-      className="sticky top-0 z-50 w-full bg-[#0002] bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60"
+      className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full bg-[#0002] backdrop-blur-sm"
     >
-      <div className="flex flex-row items-center py-2 gap-4 gap-x-8 md:gap-8 justify-center text-xs md:justify-between px-4 font-unbounded content-center  flex-wrap">
+      <div className="flex flex-row flex-wrap content-center items-center justify-center gap-4 gap-x-8 px-4 py-2 font-unbounded text-xs md:justify-between  md:gap-8">
         <div
           className={cn({
             hidden: props.path === "/",
@@ -22,7 +22,7 @@ export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
           {props.path !== "/" && (
             <Link to="/">
               <img
-                className="h-8 justify-self-start mt-2 md:mt-0"
+                className="mt-2 h-8 justify-self-start md:mt-0"
                 src={JamLogoSmall}
                 alt="JAM Logo"
               />
@@ -30,7 +30,7 @@ export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
           )}
         </div>
 
-        <div className="flex flex-row gap-x-8 flex-wrap sm:justify-end justify-center py-2 gap-y-4 transition-all">
+        <div className="flex flex-row flex-wrap justify-center gap-x-8 gap-y-4 py-2 transition-all sm:justify-end">
           <Link to="/resources">
             <button>{t("Resources")}</button>
           </Link>
@@ -44,6 +44,6 @@ export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
         </div>
       </div>
     </header>
-  );
-};
-export default Navigation;
+  )
+}
+export default Navigation

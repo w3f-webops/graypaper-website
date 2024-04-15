@@ -1,12 +1,12 @@
-import type { PageProps } from "gatsby";
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { CommonHead } from "../components/Head/CommonHead";
-import { Layout } from "../components/Layout";
-import Graypaper from "../images/graypaper.png";
+import type { PageProps } from "gatsby"
+import React from "react"
+import { useTranslation } from "react-i18next"
+import { CommonHead } from "../components/Head/CommonHead"
+import { Layout } from "../components/Layout"
+import Graypaper from "../images/graypaper.png"
 
 const Page: React.FC<PageProps> = (props) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <Layout {...props}>
       <main>
@@ -65,10 +65,10 @@ const Page: React.FC<PageProps> = (props) => {
         </article>
       </main>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
 
 export const Head = () => (
   <>
@@ -79,4 +79,4 @@ export const Head = () => (
     />
     <CommonHead />
   </>
-);
+)

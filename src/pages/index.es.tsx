@@ -1,17 +1,17 @@
-import { HeadFC, type PageProps } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
-import * as React from "react";
-import { useTranslation } from "react-i18next";
-import { CommonHead } from "../components/Head/CommonHead";
-import { OpenGraph } from "../components/Head/OpenGraph";
-import { Layout } from "../components/Layout";
-import Graypaper from "../images/graypaper.png";
+import { HeadFC, type PageProps } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react"
+import { useTranslation } from "react-i18next"
+import { CommonHead } from "../components/Head/CommonHead"
+import { OpenGraph } from "../components/Head/OpenGraph"
+import { Layout } from "../components/Layout"
+import Graypaper from "../images/graypaper.png"
 
 const IndexPage: React.FC<PageProps> = (props) => {
-  const { t } = useTranslation(undefined, { lng: "es" });
+  const { t } = useTranslation(undefined, { lng: "es" })
   return (
     <Layout {...props}>
-      <div className="flex flex-col items-center mt-10 sm:mt-20 sm:pr-[25px] md:pr-[30px]">
+      <div className="mt-10 flex flex-col items-center sm:mt-20 sm:pr-[25px] md:pr-[30px]">
         <StaticImage
           className="w-[90%]  sm:w-[400px]"
           src="../images/jam-pen-polkadot.png"
@@ -20,10 +20,10 @@ const IndexPage: React.FC<PageProps> = (props) => {
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col items-center justify-center">
         <div className="w-full md:w-3/4">
           <h1
-            className="text-center font-bold text-lg sm:text-2xl md:text-3xl mt-8 uppercase"
+            className="mt-8 text-center text-lg font-bold uppercase sm:text-2xl md:text-3xl"
             dangerouslySetInnerHTML={{ __html: t("Graypaper.Title") }}
           />
 
@@ -43,13 +43,13 @@ const IndexPage: React.FC<PageProps> = (props) => {
         </div>
       </div>
     </Layout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
 
 export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
-  const { t } = useTranslation(undefined, { lng: "es" });
+  const { t } = useTranslation(undefined, { lng: "es" })
   return (
     <>
       <html lang={"es"} />
@@ -61,5 +61,5 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
 
       <CommonHead />
     </>
-  );
-};
+  )
+}

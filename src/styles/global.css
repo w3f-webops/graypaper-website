@@ -46,15 +46,15 @@ body.custom {
 }
 
 body.custom {
-  @apply sm:text-lg leading-normal;
+  @apply leading-normal sm:text-lg;
 }
 
 td {
-  @apply align-baseline
+  @apply align-baseline;
 }
 
 .abstract {
- line-height: 1.2;
+  line-height: 1.2;
 }
 
 .abstract.indent-pars > p {
@@ -66,14 +66,15 @@ td {
 }
 
 .jam {
-    font-variant: small-caps;
+  font-variant: small-caps;
 }
 
 .jam > span {
-    position: relative;
-    top: 2.6pt;
+  position: relative;
+  top: 2.6pt;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Unbounded", sans-serif;
 }

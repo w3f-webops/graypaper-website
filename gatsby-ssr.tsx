@@ -1,5 +1,5 @@
-import React from "react";
-import { Layout } from "./src/components/Layout";
+import React from "react"
+import { Layout } from "./src/components/Layout"
 
 // Adds a class name to the body element
 const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
@@ -37,14 +37,14 @@ const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       media="screen"
       key={"unboundedFont"}
     />,
-  ]);
+  ])
   setBodyAttributes({
     className: "custom latex-dark",
-  });
-};
+  })
+}
 
 const wrapPageElement = ({ element, props }) => {
-  return <Layout {...props}>{element}</Layout>;
-};
+  return <Layout {...props}>{element}</Layout>
+}
 
-export { onRenderBody, wrapPageElement };
+export { onRenderBody, wrapPageElement }

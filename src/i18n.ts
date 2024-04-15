@@ -1,9 +1,9 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
+import i18n from "i18next"
+import { initReactI18next } from "react-i18next"
+import LanguageDetector from "i18next-browser-languagedetector"
 
-const KeywordAbstract = `<span class="abstract-word">Abstract.</span>`;
-const KeywordJam = `<span class="jam"><span>J</span>am</span>`;
+const KeywordAbstract = `<span class="abstract-word">Abstract.</span>`
+const KeywordJam = `<span class="jam"><span>J</span>am</span>`
 
 i18n
   // detect user language
@@ -97,6 +97,6 @@ i18n
         },
       },
     },
-  });
+  })
 
-export default i18n;
+export default i18n

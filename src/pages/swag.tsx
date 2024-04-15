@@ -1,7 +1,7 @@
-import type { PageProps } from "gatsby";
-import * as React from "react";
-import { CommonHead } from "../components/Head/CommonHead";
-import { Layout } from "../components/Layout";
+import type { PageProps } from "gatsby"
+import * as React from "react"
+import { CommonHead } from "../components/Head/CommonHead"
+import { Layout } from "../components/Layout"
 
 const Page: React.FC<PageProps> = (props) => {
   return (
@@ -9,7 +9,7 @@ const Page: React.FC<PageProps> = (props) => {
       <main>
         <article>
           <h2 id="Swag">Swag</h2>
-          <div className="h-[50vh] flex flex-col justify-center items-center">
+          <div className="flex h-[50vh] flex-col items-center justify-center">
             <p>
               <i>Coming soon...</i>
             </p>
@@ -17,14 +17,14 @@ const Page: React.FC<PageProps> = (props) => {
         </article>
       </main>
     </Layout>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
 
 export const Head = () => (
   <>
     <title>Swag</title>
     <CommonHead />
   </>
-);
+)
