@@ -2,7 +2,7 @@ import React from "react"
 export const OpenGraph: React.FC = () => (
   <>
     {/* <!-- Facebook Meta Tags --> */}
-    <meta property="og:url" content="https://polkadot.network" />
+    <meta property="og:url" content="https://graypaper.com" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="JAM Graypaper" />
     <meta
@@ -16,8 +16,8 @@ export const OpenGraph: React.FC = () => (
 
     {/* <!-- Twitter Meta Tags --> */}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="polkadot.network" />
-    <meta property="twitter:url" content="https://polkadot.network" />
+    <meta property="twitter:domain" content="graypaper.com" />
+    <meta property="twitter:url" content="https://graypaper.com" />
     <meta name="twitter:title" content="JAM Graypaper" />
     <meta
       name="twitter:description"
