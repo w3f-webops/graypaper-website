@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { cn } from "../utils";
 
 export const LanguageSelect = () => {
   const { i18n } = useTranslation();
@@ -14,7 +15,11 @@ export const LanguageSelect = () => {
     <div className="relative">
       <select
         aria-label="Language Select"
-        className="appearance-none bg-transparent w-9"
+        className={cn(
+          "appearance-none bg-transparent",
+          { "w-12": i18n.language === "jp" },
+          { "w-9": i18n.language !== "jp" }
+        )}
         onChange={changeLanguage}
         value={i18n.language}
       >
