@@ -8,7 +8,10 @@ import { LanguageSelect } from "./LanguageSelect";
 export const Navigation: React.FC<Omit<PageProps, "children">> = (props) => {
   const { t } = useTranslation();
   return (
-    <header className="sticky top-0 z-50 w-full bg-[#0002] bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
+    <header
+      aria-label="navigation"
+      className="sticky top-0 z-50 w-full bg-[#0002] bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60"
+    >
       <div className="flex flex-row items-center py-2 gap-4 gap-x-8 md:gap-8 justify-center text-xs md:justify-between px-4 font-unbounded content-center  flex-wrap">
         <div
           className={cn({

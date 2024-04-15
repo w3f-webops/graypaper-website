@@ -13,8 +13,8 @@ export const LanguageSelect = () => {
   return (
     <div className="relative">
       <select
-        id="language"
-        className="appearance-none bg-transparent w-9 before:content-['penis']"
+        aria-label="Language Select"
+        className="appearance-none bg-transparent w-9"
         onChange={changeLanguage}
         value={i18n.language}
       >
