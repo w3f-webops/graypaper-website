@@ -3,12 +3,12 @@ import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 import { CommonHead } from "../components/Head/CommonHead";
+import { OpenGraph } from "../components/Head/OpenGraph";
 import { Layout } from "../components/Layout";
 import Graypaper from "../images/graypaper.png";
-import { OpenGraph } from "../components/Head/OpenGraph";
 
 const IndexPage: React.FC<PageProps> = (props) => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(undefined, { lng: "cn" });
   return (
     <Layout {...props}>
       <div className="flex flex-col items-center mt-10 sm:mt-20 sm:pr-[25px] md:pr-[30px]">
@@ -49,10 +49,10 @@ const IndexPage: React.FC<PageProps> = (props) => {
 export default IndexPage;
 
 export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
-  const { t, i18n } = useTranslation(undefined);
+  const { t } = useTranslation(undefined, { lng: "cn" });
   return (
     <>
-      <html lang={i18n.language} />
+      <html lang={"cn"} />
 
       <title>JAM</title>
       <meta name="description" content={t("Graypaper.Title")} />
