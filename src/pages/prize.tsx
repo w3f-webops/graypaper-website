@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next"
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Layout {...props}>
+    <Layout>
       <article>
         <h2 id="Prize">{t("Prize")}</h2>
         <div className="flex h-[50vh] flex-col items-center justify-center">

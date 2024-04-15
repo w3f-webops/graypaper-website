@@ -41,7 +41,3 @@ export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
     className: "custom latex-dark",
   })
 }
-
-// export const wrapPageElement = ({ element, props }) => {
-//   return <Layout {...props}>{element}</Layout>
-// }

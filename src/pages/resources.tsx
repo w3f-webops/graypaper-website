@@ -8,7 +8,7 @@ import Graypaper from "../images/graypaper.png"
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Layout {...props}>
+    <Layout>
       <article>
         <nav className="toc">
           <h2 id="Resources">{t("Resources")}</h2>

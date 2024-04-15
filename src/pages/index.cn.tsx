@@ -10,7 +10,7 @@ import Graypaper from "../images/graypaper.png"
 const IndexPage: React.FC<PageProps> = (props) => {
   const { t } = useTranslation(undefined, { lng: "cn" })
   return (
-    <Layout {...props}>
+    <Layout isRoot>
       <div className="mt-10 flex flex-col items-center sm:mt-20 sm:pr-[25px] md:pr-[30px]">
         <StaticImage
           className="w-[90%]  sm:w-[400px]"

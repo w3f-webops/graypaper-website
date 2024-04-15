@@ -5,7 +5,7 @@ import { Layout } from "../components/Layout"
 
 const Page: React.FC<PageProps> = (props) => {
   return (
-    <Layout {...props}>
+    <Layout>
       <article>
         <h2 id="Swag">Swag</h2>
         <div className="flex h-[50vh] flex-col items-center justify-center">
