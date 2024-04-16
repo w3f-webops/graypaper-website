@@ -53,10 +53,6 @@ td {
   @apply align-baseline;
 }
 
-.abstract {
-  line-height: 1.2;
-}
-
 .abstract.indent-pars > p {
   @apply hyphens-auto text-justify;
 }

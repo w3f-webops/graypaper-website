@@ -5,14 +5,15 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 import Graypaper from "../images/graypaper.png"
+import { cn } from "../utils"
 
 const IndexPage: React.FC<PageProps> = (props) => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
     <Layout isRoot>
       <div className="mt-10 flex flex-col items-center sm:mt-20 sm:pr-[25px] md:pr-[30px]">
         <StaticImage
-          className="w-[90%]  sm:w-[400px]"
+          className="w-[90%] sm:w-[400px]"
           src="../images/jam-pen-polkadot.png"
           alt="JAM Logo"
           placeholder="blurred"
@@ -20,7 +21,12 @@ const IndexPage: React.FC<PageProps> = (props) => {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="w-full md:w-3/4">
+        <div
+          className={cn("w-full md:w-3/4", {
+            "leading-5": ["en", "es"].includes(i18n.language),
+            "leading-7": ["cn", "jp"].includes(i18n.language),
+          })}
+        >
           <h1
             className="mt-8 text-center text-lg font-bold uppercase sm:text-2xl md:text-3xl"
             dangerouslySetInnerHTML={{ __html: t("Graypaper.Title") }}
