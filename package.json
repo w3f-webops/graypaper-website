@@ -1,12 +1,9 @@
 {
-  "name": "jam",
+  "name": "jam-website",
   "version": "1.0.0",
   "private": true,
-  "description": "polkajam-website",
-  "author": "peetzweg/",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "jam-website",
+  "author": "W3F <webops@web3.foundation>",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
