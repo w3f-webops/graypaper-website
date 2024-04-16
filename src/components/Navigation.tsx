@@ -13,13 +13,20 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
       aria-label="navigation"
       className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full bg-[#0002] backdrop-blur-sm"
     >
-      <div className="flex flex-row flex-wrap content-center items-center justify-center gap-4 gap-x-8 px-4 py-2 font-unbounded text-xs md:justify-between  md:gap-8">
+      <div
+        className={cn(
+          "xs:justify-between flex flex-row flex-wrap content-center items-center justify-center gap-x-8 px-6 py-2 font-unbounded text-xs",
+          {
+            "xs:gap-0 gap-x-8 gap-y-2": !props.isRoot,
+          },
+        )}
+      >
         {props.isRoot ? (
-          <div />
+          <div className="invisible sm:visible" />
         ) : (
-          <Link to="/">
+          <Link to="/" className="self-start">
             <img
-              className="mt-2 h-8 justify-self-start md:mt-0"
+              className="xs:mt-0 h-8 justify-self-start"
               src={JamLogoSmall}
               alt="JAM Logo"
             />
