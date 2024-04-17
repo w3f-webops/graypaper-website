@@ -27,7 +27,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">{t("Tour")}</title>
+      <title id="title">{`JAM ${t("Tour")}`}</title>
       {/* <meta
         id="description"
         name="description"
