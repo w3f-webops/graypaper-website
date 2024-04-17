@@ -59,11 +59,12 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">JAM Gray Paper</title>
+      <title id="title">JAM Gray Paper - JOIN-ACCUMULATE MACHINE</title>
+
       <meta
         id="description"
         name="description"
-        content={t("GrayPaper.Title")}
+        content="We present a comprehensive and formal definition of Jam, a protocol combining elements of both Polkadot and Ethereum, in a single coherent model, JAM."
       />
     </>
   )

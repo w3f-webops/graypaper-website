@@ -29,6 +29,9 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <CommonHead />
       <html id="html" lang={i18n.language} />
       <title id="title">{`JAM ${t("Prize")}`}</title>
+
+      {/* TODO remove once content is available */}
+      <meta name="robots" content="noindex, nofollow" />
       {/* <meta
         id="description"
         name="description"

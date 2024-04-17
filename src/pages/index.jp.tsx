@@ -53,11 +53,12 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">JAM Gray Paper</title>
+      <title id="title">JAM Gray Paper - JOIN-ACCUMULATE MACHINE</title>
+
       <meta
         id="description"
         name="description"
-        content={t("GrayPaper.Title")}
+        content="ここに、PolkadotとEthereumの両方の要素を組み合わせたプロトコルであるJamの形式仕様の全体像を提示します。JAM"
       />
     </>
   )

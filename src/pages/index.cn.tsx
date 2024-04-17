@@ -53,11 +53,12 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">JAM Gray Paper</title>
+      <title id="title">JAM Gray Paper - JOIN-ACCUMULATE MACHINE</title>
+
       <meta
         id="description"
         name="description"
-        content={t("GrayPaper.Title")}
+        content="我们提出了一个全面和正式的关于Jam的定义，一个结合了Polkadot和Ethereum元素的协议, JAM。"
       />
     </>
   )
