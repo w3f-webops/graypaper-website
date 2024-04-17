@@ -68,14 +68,15 @@ i18n
           News: "ニュース",
           Contribute: "貢献する",
           "Coming soon": "近日公開...",
-          "Resources.Download": "Gray Paperはここからダウンロードできます：",
+
+          "Resources.Download": "Graypaperはここからダウンロードできます：",
           "Resources.Contribute": `${KeywordMatrix}スペースで${KeywordJam}に参加しよう：`,
-          "GrayPaper.Title":
-            '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント スケーラブル トラストレス 仮想マシン（VM）',
-          "Abstract.p1": `${KeywordAbstract} ここに、<i>Polkadot</i>と<i>Ethereum</i>の両方の要素を組み合わせたプロトコルである${KeywordJam}の形式仕様の全体像を提示します。${KeywordJam}という一貫した一つのモデルの中には、Ethereumによって先駆けられたスマートコントラクト環境に通ずる「グローバルで、単一（シングルトン）の、パーミッションレスなオブジェクト指向環境」と、Polkadotによって先駆けられた「スケーラブルなノードネットワーク上で並列化された、セキュアなサイドバンド計算」が組み合わされています。`,
-          "Abstract.p2": `${KeywordJam}は、セキュアでスケーラブルな、インコア（in-core）/オンチェーン（on-chain）の二元性を軸に構成されたスマートコントラクト機能を提供できる分散型ハイブリッドシステムを導入します。スマートコントラクト機能はEthereumの枠組みとある程度の類似点を示唆していますが、提供されるサービスモデルの全体は、主にPolkadotが基盤とするアーキテクチャによって動かされます。`,
-          "Abstract.p3": `${KeywordJam}は本質的にパーミッションレスであり、誰でもコードをサービスとして${KeywordJam}上にデプロイすることができます。その際、コードが消費するリソース量に応じて、Ethereumでのガス購入と似た仕組みで、${KeywordJam}上では<i>コアタイム（core-time）</i>と呼ばれる計算リソースを購入し、割り当てることで、デプロイしたコードの実行を行うことができます。<i>コアタイム</i>は、安定していてどこでも利用可能な計算リソースの単位です。私たちはすでに、Polkadotと互換性のある<i>CoreChains</i>サービスを構想しています。`,
-          "CTA.Download": "Gray Paperを読む",
+          "Graypaper.Title":
+            '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント、スケーラブル、トラストレス仮想マシン（VM）',
+          "Abstract.p1": `${KeywordAbstract} ここに、<i>Polkadot</i>と<i>Ethereum</i>の両方の要素を組み合わせたプロトコルである${KeywordJam}の形式仕様の全体像を提示します。${KeywordJam}という一貫した一つのモデルの中には、Ethereumによって先駆けられたスマートコントラクト環境に通ずる「グローバルで、単一（シングルトン）の、パーミッションレスなオブジェクト指向環境」と、Polkadotによって先駆けられた「スケーラブルなノードネットワーク上で並列化された、セキュアなサイドバンド計算」の両要素が組み合わされています。`,
+          "Abstract.p2": `${KeywordJam}は、セキュアでスケーラブルな、インコア（in-core）/オンチェーン（on-chain）の二元性を軸に構成されたスマートコントラクト機能を提供できる分散型ハイブリッドシステムを導入します。スマートコントラクト機能はEthereumの枠組みとある程度の類似点を示唆していますが、Polkadotが基盤とするアーキテクチャが、提供されるサービスモデル全体の礎となっています。`,
+          "Abstract.p3": `${KeywordJam}は本質的にパーミッションレスであり、誰でもコードをサービスとして${KeywordJam}上にデプロイすることができます。その際、コードが消費するリソース量に応じて、Ethereumでのガス購入と似た形式で、${KeywordJam}上では<i>コアタイム（core-time）</i>と呼ばれる計算リソースを購入し、割り当てることで、デプロイしたコードの実行を行うことができます。<i>コアタイム</i>は、安定していてどこでも利用可能な計算リソースの単位です。私たちはすでに、Polkadotと互換性のある<i>コアチェーン（CoreChains）</i>サービスを構想しています。`,
+          "CTA.Download": "Graypaperを読む",
         },
       },
       cn: {
