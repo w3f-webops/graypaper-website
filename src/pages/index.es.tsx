@@ -49,17 +49,17 @@ const IndexPage: React.FC<PageProps> = (props) => {
 export default IndexPage
 
 export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
-  const { t } = useTranslation(undefined, { lng: "es" })
+  const { t, i18n } = useTranslation(undefined, { lng: "es" })
   return (
     <>
-      <html lang={"es"} />
-
-      <title>JAM</title>
-      <meta name="description" content={t("Graypaper.Title")} />
-
-      <OpenGraph />
-
       <CommonHead />
+      <html id="html" lang={i18n.language} />
+      <title id="title">JAM</title>
+      <meta
+        id="description"
+        name="description"
+        content={t("Graypaper.Title")}
+      />
     </>
   )
 }
