@@ -3,9 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
-import { OpenGraph } from "../components/Head/OpenGraph"
 import { Layout } from "../components/Layout"
-import Graypaper from "../images/graypaper.png"
+import GrayPaper from "../images/graypaper.png"
 
 const IndexPage: React.FC<PageProps> = (props) => {
   const { t } = useTranslation(undefined, { lng: "cn" })
@@ -24,7 +23,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
         <div className="w-full md:w-3/4">
           <h1
             className="mt-8 text-center text-lg font-bold uppercase sm:text-2xl md:text-3xl"
-            dangerouslySetInnerHTML={{ __html: t("Graypaper.Title") }}
+            dangerouslySetInnerHTML={{ __html: t("GrayPaper.Title") }}
           />
 
           <div className="abstract indent-pars">
@@ -37,7 +36,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
           </div>
           <div className="abstract">
             <p className="text-center">
-              <a href={Graypaper}>{t("CTA.Download")}</a>
+              <a href={GrayPaper}>{t("CTA.Download")}</a>
             </p>
           </div>
         </div>
@@ -49,17 +48,18 @@ const IndexPage: React.FC<PageProps> = (props) => {
 export default IndexPage
 
 export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
-  const { t } = useTranslation(undefined, { lng: "cn" })
+  const { t, i18n } = useTranslation(undefined, { lng: "cn" })
   return (
     <>
-      <html lang={"cn"} />
-
-      <title>JAM</title>
-      <meta name="description" content={t("Graypaper.Title")} />
-
-      <OpenGraph />
-
       <CommonHead />
+      <html id="html" lang={i18n.language} />
+      <title id="title">JAM Gray Paper - JOIN-ACCUMULATE MACHINE</title>
+
+      <meta
+        id="description"
+        name="description"
+        content="我们提出了一个全面和正式的关于Jam的定义，一个结合了Polkadot和Ethereum元素的协议, JAM。"
+      />
     </>
   )
 }
