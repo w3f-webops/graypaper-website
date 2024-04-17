@@ -28,12 +28,12 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">Prize</title>
-      <meta
+      <title id="title">{t("Prize")}</title>
+      {/* <meta
         id="description"
         name="description"
-        content={t("Graypaper.Title")}
-      />
+        content={""}
+      /> */}
     </>
   )
 }
