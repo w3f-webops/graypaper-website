@@ -54,7 +54,7 @@ const Page: React.FC<PageProps> = (props) => {
         <div className="flex flex-col items-start gap-1 pl-5 sm:pl-10">
           <a
             className="underline"
-            href="https://app.element.io/#/room/#jam:polkadot.io"
+            href="https://matrix.to/#/#jam:polkadot.io"
             target="_blank"
             rel="noopener noreferrer"
           >
