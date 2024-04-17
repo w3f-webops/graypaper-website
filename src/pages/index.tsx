@@ -4,7 +4,7 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
-import Graypaper from "../images/graypaper.png"
+import GrayPaper from "../images/graypaper.png"
 import { cn } from "../utils"
 
 const IndexPage: React.FC<PageProps> = (props) => {
@@ -29,7 +29,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
         >
           <h1
             className="mt-8 text-center text-lg font-bold uppercase sm:text-2xl md:text-3xl"
-            dangerouslySetInnerHTML={{ __html: t("Graypaper.Title") }}
+            dangerouslySetInnerHTML={{ __html: t("GrayPaper.Title") }}
           />
 
           <div className="abstract indent-pars">
@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
           </div>
           <div className="abstract">
             <p className="text-center">
-              <a href={Graypaper}>{t("CTA.Download")}</a>
+              <a href={GrayPaper}>{t("CTA.Download")}</a>
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <meta
         id="description"
         name="description"
-        content={t("Graypaper.Title")}
+        content={t("GrayPaper.Title")}
       />
     </>
   )
