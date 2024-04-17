@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         unbounded: ['"Unbounded"', "sans-serif"],
+        mincho: ['"Shippori Mincho"', "serif"],
       },
       backgroundImage: {
         "lemon-jelly": "url('/img/background.webp')",

@@ -36,6 +36,11 @@ export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       media="screen"
       key={"unboundedFont"}
     />,
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap"
+      rel="stylesheet"
+      key={"minchoFont"}
+    />,
   ])
   setBodyAttributes({
     className: "custom latex-dark",

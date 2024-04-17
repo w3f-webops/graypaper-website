@@ -21,12 +21,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-        <div
-          className={cn("w-full md:w-3/4", {
-            "leading-5": ["en", "es"].includes(i18n.language),
-            "leading-7": ["cn", "jp"].includes(i18n.language),
-          })}
-        >
+        <div className="w-full md:w-3/4">
           <h1
             className="mt-8 text-center text-lg font-bold uppercase sm:text-2xl md:text-3xl"
             dangerouslySetInnerHTML={{ __html: t("GrayPaper.Title") }}
