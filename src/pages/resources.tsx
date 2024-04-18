@@ -30,10 +30,34 @@ const Page: React.FC<PageProps> = (props) => {
               <td>18/04/2024</td>
               <td>
                 <a
+                  href="https://polkadot.polkassembly.io/referenda/682"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  OpenGov&#8212;Proposal #682 for JAM Ratification, Conformance,
+                  Performance by Polkadot Fellows
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>18/04/2024</td>
+              <td>
+                <a
+                  href="/The_Big_JAM.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  TOKEN2049&#8212;The Big JAM Slides Released
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>18/04/2024</td>
+              <td>
+                <a
                   href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="underline"
                 >
                   Announcing the JAM Implementer’s Prize
                 </a>
@@ -44,11 +68,7 @@ const Page: React.FC<PageProps> = (props) => {
         <h3 id="download">{t("Download")}</h3>
         <p>{t("Resources.Download")}</p>
         <p className="pl-5 sm:pl-10">
-          <a
-            href="/graypaper.pdf"
-            className="underline"
-            rel="noopener noreferrer"
-          >
+          <a href="/graypaper.pdf" rel="noopener noreferrer">
             https://graypaper.com/graypaper.pdf
           </a>
         </p>
@@ -56,7 +76,6 @@ const Page: React.FC<PageProps> = (props) => {
         <p className="pl-5 sm:pl-10">
           <a
             href="https://github.com/gavofyork/graypaper"
-            className="underline"
             rel="noopener noreferrer"
           >
             https://github.com/gavofyork/graypaper
@@ -66,7 +85,6 @@ const Page: React.FC<PageProps> = (props) => {
         <p dangerouslySetInnerHTML={{ __html: t("Resources.Contribute") }} />
         <div className="flex flex-col items-start gap-1 pl-5 sm:pl-10">
           <a
-            className="underline"
             href="https://matrix.to/#/#jam:polkadot.io"
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +92,6 @@ const Page: React.FC<PageProps> = (props) => {
             #jam:polkadot.io
           </a>
           <a
-            className="underline"
             href="https://matrix.to/#/#graypaper:polkadot.io"
             target="_blank"
             rel="noopener noreferrer"

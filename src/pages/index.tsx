@@ -33,11 +33,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
       </div>
       <div className="abstract">
         <p className="text-center">
-          <a
-            href="/graypaper.pdf"
-            className="underline"
-            rel="noopener noreferrer"
-          >
+          <a href="/graypaper.pdf" rel="noopener noreferrer">
             {t("CTA.Download")}
           </a>
         </p>
