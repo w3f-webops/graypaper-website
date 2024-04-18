@@ -4,7 +4,6 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
-import GrayPaper from "../images/graypaper.png"
 
 const IndexPage: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
@@ -34,7 +33,13 @@ const IndexPage: React.FC<PageProps> = (props) => {
       </div>
       <div className="abstract">
         <p className="text-center">
-          <a href={GrayPaper}>{t("CTA.Download")}</a>
+          <a
+            href="/graypaper.pdf"
+            className="underline"
+            rel="noopener noreferrer"
+          >
+            {t("CTA.Download")}
+          </a>
         </p>
       </div>
     </Layout>
