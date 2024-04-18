@@ -23,24 +23,24 @@ const Page: React.FC<PageProps> = (props) => {
             </li>
           </ol>
         </nav> */}
-        {/* <h3 id="news">1. {t("News")}</h3>
+        <h3 id="news">{t("News")}</h3>
         <table className="borders-custom">
           <tbody>
             <tr>
               <td>18/04/2024</td>
               <td>
                 <a
-                  href="https://github.com/paritytech/polkajam"
+                  href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="underline"
                 >
-                  JAM Gray Paper specification published
+                  Announcing the JAM Implementer’s Prize
                 </a>
               </td>
             </tr>
           </tbody>
-        </table> */}
+        </table>
         <h3 id="download">{t("Download")}</h3>
         <p>{t("Resources.Download")}</p>
         <p className="pl-5 sm:pl-10">
