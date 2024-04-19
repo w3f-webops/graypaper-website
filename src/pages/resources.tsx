@@ -30,6 +30,18 @@ const Page: React.FC<PageProps> = (props) => {
               <td>18/04/2024</td>
               <td>
                 <a
+                  href="https://wiki.polkadot.network/docs/learn-jam-chain"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Polkadot Wiki&#8212;Polkadot's JAM Chain
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>18/04/2024</td>
+              <td>
+                <a
                   href="https://polkadot.polkassembly.io/referenda/682"
                   rel="noopener noreferrer"
                   target="_blank"
