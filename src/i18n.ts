@@ -70,7 +70,7 @@ i18n
           "Coming soon": "近日公開...",
 
           "Resources.Download": "Graypaperはここからダウンロードできます：",
-          "Resources.Contribute": `${KeywordMatrix}チャットスペースから${KeywordJam}に参加しよう：`,
+          "Resources.Contribute": `${KeywordMatrix}チャットルームから${KeywordJam}に参加しよう：`,
           "Graypaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント、スケーラブル、トラストレス仮想マシン（VM）',
           "Abstract.p1": `${KeywordAbstract} ここに、<i>Polkadot</i>と<i>Ethereum</i>の両方の要素を組み合わせたプロトコルである${KeywordJam}の形式仕様の全体像を提示します。${KeywordJam}という一貫した一つのモデルの中には、Ethereumによって先駆けられたスマートコントラクト環境に通ずる「グローバルで、単一（シングルトン）の、パーミッションレスなオブジェクト指向環境」と、Polkadotによって先駆けられた「スケーラブルなノードネットワーク上で並列化された、セキュアなサイドバンド計算」の両要素が組み合わされています。`,
