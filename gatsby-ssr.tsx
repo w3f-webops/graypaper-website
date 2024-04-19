@@ -46,11 +46,6 @@ export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       rel="stylesheet"
       key={"notoSerifFont"}
     />,
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap"
-      rel="stylesheet"
-      key={"notoSansFont"}
-    />,
   ])
   setBodyAttributes({
     className: "custom latex-dark",
