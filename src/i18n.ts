@@ -70,6 +70,8 @@ i18n
           Contribute: "貢献する",
           "Coming soon": "近日公開...",
           "Resources.Download": "Gray Paperはここからダウンロードできます：",
+          "Resources.Latex":
+            "もしくは、こちらからLaTeXソースファイルをコンパイルできます:",
           "Resources.Contribute": `${KeywordMatrix}スペースで${KeywordJam}に参加しよう：`,
           "GrayPaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント、スケーラブル、トラストレス仮想マシン（VM）',
