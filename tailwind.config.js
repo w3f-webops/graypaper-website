@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         unbounded: ['"Unbounded"', "sans-serif"],
         mincho: ['"Shippori Mincho"', "serif"],
+        "noto-sans": ['"Noto Sans SC"', "sans-serif"],
       },
       backgroundImage: {
         "lemon-jelly": "url('/img/background.webp')",
