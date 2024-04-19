@@ -14,7 +14,9 @@ export const Layout: React.FC<LayoutProps> = ({ children, ...layoutProps }) => {
     <div
       className={cn("bg-lemon-jelly bg-fixed shadow-md shadow-zinc-950", {
         "leading-5": ["en", "es"].includes(i18n.language),
-        "leading-8 tracking-wider": ["cn"].includes(i18n.language),
+        "font-noto-serif leading-7 tracking-wider": ["cn"].includes(
+          i18n.language,
+        ),
         "font-mincho leading-7 tracking-wide": ["jp"].includes(i18n.language),
       })}
     >
