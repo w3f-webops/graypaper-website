@@ -12,10 +12,7 @@ const Page: React.FC<PageProps> = (props) => {
         <h2 id="Prize">{t("Prize")}</h2>
         <div className="flex h-[50vh] flex-col items-center justify-center">
           <p>
-            <a
-              className="underline"
-              href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d"
-            >
+            <a href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d">
               <i>{t("Coming soon")}</i>
             </a>
           </p>

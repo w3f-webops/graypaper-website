@@ -69,7 +69,7 @@ const Page: React.FC<PageProps> = (props) => {
         <p>{t("Resources.Download")}</p>
         <p className="pl-5 sm:pl-10">
           <a href="/graypaper.pdf" rel="noopener noreferrer">
-            https://graypaper.com/graypaper.pdf
+            <code>https://graypaper.com/graypaper.pdf</code>
           </a>
         </p>
         <p>or compile the LaTeX from source:</p>
@@ -78,25 +78,25 @@ const Page: React.FC<PageProps> = (props) => {
             href="https://github.com/gavofyork/graypaper"
             rel="noopener noreferrer"
           >
-            https://github.com/gavofyork/graypaper
+            <code>https://github.com/gavofyork/graypaper</code>
           </a>
         </p>
         <h3 id="contribute">{t("Contribute")}</h3>
         <p dangerouslySetInnerHTML={{ __html: t("Resources.Contribute") }} />
-        <div className="flex flex-col items-start gap-1 pl-5 sm:pl-10">
+        <div className="flex flex-col items-start gap-4 pl-5 sm:pl-10">
           <a
             href="https://matrix.to/#/#jam:polkadot.io"
             target="_blank"
             rel="noopener noreferrer"
           >
-            #jam:polkadot.io
+            <code>#jam:polkadot.io</code>
           </a>
           <a
             href="https://matrix.to/#/#graypaper:polkadot.io"
             target="_blank"
             rel="noopener noreferrer"
           >
-            #graypaper:polkadot.io
+            <code>#graypaper:polkadot.io</code>
           </a>
         </div>
       </article>
