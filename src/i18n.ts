@@ -31,6 +31,7 @@ i18n
           Contribute: "Contribute",
           "Coming soon": "Coming soon...",
           "Resources.Download": "Get a copy of the Gray Paper here:",
+          "Resources.Latex": "or compile the LaTeX from source:",
           "Resources.Contribute": `Join the ${KeywordJam} in our ${KeywordMatrix} rooms:`,
           "GrayPaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
@@ -68,7 +69,6 @@ i18n
           News: "ニュース",
           Contribute: "貢献する",
           "Coming soon": "近日公開...",
-
           "Resources.Download": "Graypaperはここからダウンロードできます：",
           "Resources.Contribute": `${KeywordMatrix}スペースで${KeywordJam}に参加しよう：`,
           "Graypaper.Title":

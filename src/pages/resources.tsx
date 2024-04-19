@@ -84,7 +84,7 @@ const Page: React.FC<PageProps> = (props) => {
             <code>https://graypaper.com/graypaper.pdf</code>
           </a>
         </p>
-        <p>or compile the LaTeX from source:</p>
+        <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
             href="https://github.com/gavofyork/graypaper"
