@@ -27,6 +27,18 @@ const Page: React.FC<PageProps> = (props) => {
         <table className="borders-custom">
           <tbody>
             <tr>
+              <td>29/04/2024</td>
+              <td>
+                <a
+                  href="https://www.youtube.com/watch?v=xTMiE0UcZUo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Polkadot's Future: The Big Jam&#8212;TOKEN2049 Dubai 2024
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>28/04/2024</td>
               <td>
                 <a
