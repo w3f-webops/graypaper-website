@@ -34,7 +34,7 @@ const Page: React.FC<PageProps> = (props) => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Polkadot's Future: The Big Jam&#8212;TOKEN2049 Dubai 2024
+                  TOKEN2049&#8212;Polkadot's Future: The Big JAM Presentation
                 </a>
               </td>
             </tr>
