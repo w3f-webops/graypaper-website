@@ -104,11 +104,18 @@ const Page: React.FC<PageProps> = (props) => {
         </table>
         <h3 id="download">{t("Download")}</h3>
         <p>{t("Resources.Download")}</p>
-        <p className="pl-5 sm:pl-10">
-          <a href="/graypaper.pdf" rel="noopener noreferrer">
+        <p className="flex flex-col gap-4 pl-5 sm:pl-10">
+          <a href="/graypaper.pdf" download={true}>
             <code>https://graypaper.com/graypaper.pdf</code>
           </a>
+          <a href="/graypaper_inverted.pdf" download={true}>
+            <code>https://graypaper.com/graypaper_inverted.pdf</code>
+          </a>
+          <a href="/graypaper_no_background.pdf" download={true}>
+            <code>https://graypaper.com/graypaper_no_background.pdf</code>
+          </a>
         </p>
+
         <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
