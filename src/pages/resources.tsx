@@ -31,7 +31,7 @@ const Page: React.FC<PageProps> = (props) => {
               <td>06/05/2024</td>
               <td>
                 <a
-                  href="https://sites.google.com/gbm.auction/gavin-wood"
+                  href="https://gavinwood.gbm.auction"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
