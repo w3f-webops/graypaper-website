@@ -24,8 +24,21 @@ const Page: React.FC<PageProps> = (props) => {
           </ol>
         </nav> */}
         <h3 id="news">{t("News")}</h3>
+
         <table className="borders-custom">
           <tbody>
+            <tr>
+              <td>06/05/2024</td>
+              <td>
+                <a
+                  href="https://sites.google.com/gbm.auction/gavin-wood"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Charity Bid-to-Earn Auction&#8212;May 16th, 2024
+                </a>
+              </td>
+            </tr>
             <tr>
               <td>29/04/2024</td>
               <td>
