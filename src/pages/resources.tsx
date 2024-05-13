@@ -28,6 +28,18 @@ const Page: React.FC<PageProps> = (props) => {
         <table className="borders-custom">
           <tbody>
             <tr>
+              <td>09/05/2024</td>
+              <td>
+                <a
+                  href="https://twitter.com/Polkadot/status/1788614918796607848"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  X Space&#8212;Gavin Wood on JAM: The next disruptor in Web3
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>06/05/2024</td>
               <td>
                 <a
@@ -128,7 +140,6 @@ const Page: React.FC<PageProps> = (props) => {
             <code>https://graypaper.com/graypaper_no_background.pdf</code>
           </a>
         </p>
-
         <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
