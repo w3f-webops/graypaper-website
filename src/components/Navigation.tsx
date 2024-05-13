@@ -15,9 +15,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
     >
       <div
         className={cn(
-          "xs:justify-between flex flex-row flex-wrap content-center items-center justify-center gap-x-8 px-6 py-2 font-unbounded text-xs",
+          "flex flex-row flex-wrap content-center items-center justify-center gap-x-8 px-6 py-2 font-unbounded text-xs xs:justify-between",
           {
-            "xs:gap-0 gap-x-8 gap-y-2": !props.isRoot,
+            "gap-x-8 gap-y-2 xs:gap-0": !props.isRoot,
           },
         )}
       >
@@ -26,7 +26,7 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
         ) : (
           <Link to="/" className="self-start">
             <img
-              className="xs:mt-0 h-8 justify-self-start"
+              className="h-8 justify-self-start xs:mt-0"
               src={JamLogoSmall}
               alt="JAM Logo"
             />
@@ -34,6 +34,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
         )}
 
         <div className="flex flex-row flex-wrap justify-center gap-x-8 gap-y-4 py-2 transition-all sm:justify-end">
+          <Link to="/news">
+            <button>{t("News")}</button>
+          </Link>
           <Link to="/resources">
             <button>{t("Resources")}</button>
           </Link>
