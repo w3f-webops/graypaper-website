@@ -21,6 +21,26 @@ const Page: React.FC<PageProps> = (props) => {
         <table className="borders-custom">
           <tbody>
             <tr>
+              <td>18&#x2013;20/06/2024</td>
+              <td>Singapore</td>
+            </tr>
+            <tr>
+              <td>12/06/2024</td>
+              <td>Seoul, South Korea</td>
+            </tr>
+            <tr>
+              <td>08/06/2024</td>
+              <td>Tokyo, Japan</td>
+            </tr>
+            <tr>
+              <td>23/05/2024</td>
+              <td>Zurich, Switzerland</td>
+            </tr>
+            <tr>
+              <td>14/05/2024</td>
+              <td>Stanford, United States</td>
+            </tr>
+            <tr>
               <td>10/05/2024</td>
               <td>
                 <a
