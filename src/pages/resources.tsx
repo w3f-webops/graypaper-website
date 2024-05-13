@@ -10,6 +10,45 @@ const Page: React.FC<PageProps> = (props) => {
     <Layout>
       <article>
         <h2 id="Resources">{t("Resources")}</h2>
+        <table className="borders-custom">
+          <tbody>
+            <tr>
+              <td>
+                <a
+                  href="https://www.youtube.com/watch?v=xTMiE0UcZUo"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  TOKEN2049&#8212;Polkadot's Future: The Big JAM Presentation
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://wiki.polkadot.network/docs/learn-jam-chain"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Polkadot Wiki&#8212;Polkadot's JAM Chain
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="https://polkadot.polkassembly.io/referenda/682"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  OpenGov&#8212;Proposal #682 for JAM Ratification, Conformance,
+                  Performance by Polkadot Fellows
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
         <h3 id="download">{t("Download")}</h3>
         <p>{t("Resources.Download")}</p>
         <p className="flex flex-col gap-4 pl-5 sm:pl-10">
