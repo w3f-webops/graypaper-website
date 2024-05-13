@@ -1,19 +1,39 @@
 import type { HeadFC, PageProps } from "gatsby"
 import * as React from "react"
+import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
-import { useTranslation } from "react-i18next"
+
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   return (
     <Layout>
       <article>
-        <h2 id="Tour">{t("Tour")}</h2>
-        <div className="flex h-[50vh] flex-col items-center justify-center">
-          <p>
-            <i>{t("Coming soon")}</i>
-          </p>
-        </div>
+        <h2 id="tour">{t("Tour")}</h2>
+
+        <p>
+          Gavin Wood will be appearing at universities around the world in a
+          series of lectures to take viewers through the Gray Paper and explain
+          each part in depth.
+        </p>
+
+        <h3 id="dates">{t("Dates")}</h3>
+        <table className="borders-custom">
+          <tbody>
+            <tr>
+              <td>10/05/2024</td>
+              <td>
+                <a
+                  href="https://lu.ma/973rb5f1"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Buenos Aires, Argentina
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </article>
     </Layout>
   )
