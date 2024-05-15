@@ -22,26 +22,82 @@ const Page: React.FC<PageProps> = (props) => {
           <tbody>
             <tr>
               <td>18&#x2013;20/06/2024</td>
-              <td>Singapore</td>
+              <td>National University of Singapore</td>
             </tr>
             <tr>
-              <td>12/06/2024</td>
-              <td>Seoul, South Korea</td>
+              <td>
+                <a
+                  href="https://lu.ma/1x6q3bo5"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  12/06/2024
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://lu.ma/1x6q3bo5"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Seoul National University, South Korea
+                </a>
+              </td>
             </tr>
             <tr>
-              <td>08/06/2024</td>
-              <td>Tokyo, Japan</td>
+              <td>
+                <a
+                  href="https://lu.ma/9d9lf7po"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  08/06/2024
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://lu.ma/9d9lf7po"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  University of Tokyo, Japan
+                </a>
+              </td>
             </tr>
+
             <tr>
-              <td>23/05/2024</td>
-              <td>Zurich, Switzerland</td>
+              <a
+                href="https://finsuretech.ethz.ch/events/finsuretech-talks-.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <td>23/05/2024</td>
+              </a>
+
+              <td>
+                <a
+                  href="https://finsuretech.ethz.ch/events/finsuretech-talks-.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  ETH Zürich, Switzerland
+                </a>
+              </td>
             </tr>
             <tr>
               <td>14/05/2024</td>
               <td>Stanford, United States</td>
             </tr>
             <tr>
-              <td>10/05/2024</td>
+              <td>
+                <a
+                  href="https://lu.ma/973rb5f1"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  10/05/2024
+                </a>
+              </td>
               <td>
                 <a
                   href="https://lu.ma/973rb5f1"
