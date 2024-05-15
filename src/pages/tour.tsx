@@ -6,6 +6,37 @@ import { Layout } from "../components/Layout"
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
+  const events = [
+    {
+      date: "18-20/06/2024",
+      location: "National University of Singapore",
+    },
+    {
+      date: "12/06/2024",
+      location: "Seoul National University, South Korea",
+      link: "https://lu.ma/1x6q3bo5",
+    },
+    {
+      date: "08/06/2024",
+      location: "University of Tokyo, Japan",
+      link: "https://lu.ma/9d9lf7po",
+    },
+    {
+      date: "23/05/2024",
+      location: "ETH Zürich, Switzerland",
+      link: "https://finsuretech.ethz.ch/events/finsuretech-talks-.html",
+    },
+    {
+      date: "14/05/2024",
+      location: "Stanford, United States",
+    },
+    {
+      date: "10/05/2024",
+      location: "Buenos Aires, Argentina",
+      link: "https://lu.ma/973rb5f1",
+    },
+  ]
+
   return (
     <Layout>
       <article>
@@ -20,94 +51,36 @@ const Page: React.FC<PageProps> = (props) => {
         <h3 id="dates">{t("Dates")}</h3>
         <table className="borders-custom">
           <tbody>
-            <tr>
-              <td>18&#x2013;20/06/2024</td>
-              <td>National University of Singapore</td>
-            </tr>
-            <tr>
-              <td>
-                <a
-                  href="https://lu.ma/1x6q3bo5"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  12/06/2024
-                </a>
-              </td>
-              <td>
-                <a
-                  href="https://lu.ma/1x6q3bo5"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Seoul National University, South Korea
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a
-                  href="https://lu.ma/9d9lf7po"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  08/06/2024
-                </a>
-              </td>
-              <td>
-                <a
-                  href="https://lu.ma/9d9lf7po"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  University of Tokyo, Japan
-                </a>
-              </td>
-            </tr>
-
-            <tr>
-              <a
-                href="https://finsuretech.ethz.ch/events/finsuretech-talks-.html"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <td>23/05/2024</td>
-              </a>
-
-              <td>
-                <a
-                  href="https://finsuretech.ethz.ch/events/finsuretech-talks-.html"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  ETH Zürich, Switzerland
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>14/05/2024</td>
-              <td>Stanford, United States</td>
-            </tr>
-            <tr>
-              <td>
-                <a
-                  href="https://lu.ma/973rb5f1"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  10/05/2024
-                </a>
-              </td>
-              <td>
-                <a
-                  href="https://lu.ma/973rb5f1"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Buenos Aires, Argentina
-                </a>
-              </td>
-            </tr>
+            {events.map((event, index) => (
+              <tr key={index}>
+                <td>
+                  {event.link ? (
+                    <a
+                      href={event.link}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {event.date}
+                    </a>
+                  ) : (
+                    event.date
+                  )}
+                </td>
+                <td>
+                  {event.link ? (
+                    <a
+                      href={event.link}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {event.location}
+                    </a>
+                  ) : (
+                    event.location
+                  )}
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </article>
