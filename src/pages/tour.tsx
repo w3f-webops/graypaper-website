@@ -8,7 +8,7 @@ const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   const events = [
     {
-      date: "18-20/06/2024",
+      date: "19/06/2024",
       location: "National University of Singapore",
     },
     {
