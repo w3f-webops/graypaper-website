@@ -10,6 +10,7 @@ const Page: React.FC<PageProps> = (props) => {
     {
       date: "19/06/2024",
       location: "National University of Singapore",
+      link: "https://lu.ma/6hz84cdt",
     },
     {
       date: "12/06/2024",
