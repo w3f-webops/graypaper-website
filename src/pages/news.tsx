@@ -6,6 +6,11 @@ import { Layout } from "../components/Layout"
 
 const newsData = [
   {
+    date: "31/05/2024",
+    title: "ETHPrague—JAM",
+    link: "https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19",
+  },
+  {
     date: "27/05/2024",
     title: "OpenGov—Proposal #682 for JAM Ratification Confirmed",
     link: "https://polkadot.polkassembly.io/referenda/682",
@@ -97,11 +102,11 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">{`JAM ${t("Resources")}`}</title>
+      <title id="title">{`JAM ${t("News")}`}</title>
       <meta
         id="description"
         name="description"
-        content={"All the resources you need to join the JAM."}
+        content={"Recent and past news about the JAM."}
       />
     </>
   )
