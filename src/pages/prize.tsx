@@ -12,22 +12,33 @@ const Page: React.FC<PageProps> = (props) => {
         <h2 id="Prize">{t("Prize")}</h2>
         <div className="flex h-[50vh] flex-col">
           <p>
-            The Web3 Foundation announces the JAM Implementer&#x2019;s Prize, a
-            10 Million DOT prize pool aimed at fostering diversity in the
-            development of the JAM protocol. The goal of this prize is to
-            encourage the creation of multiple client implementations, enhancing
-            the network’s resilience.
+            The Web3 Foundation announces the{" "}
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at
+            fostering diversity in the development of the{" "}
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            protocol. The goal of this prize is to encourage the creation of
+            multiple client implementations, enhancing the network&#x2019;s
+            resilience.
           </p>
           <p>
             <a href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d">
-              Read the announcement.
+              Read the announcement
             </a>
           </p>
 
           <p>
             The foundation is still finalizing the details of the application
             process, and more information will be published soon here and on the
-            Web3 Foundation JAM Page.
+            Web3 Foundation{" "}
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            Page.
           </p>
           <p>
             <a href="https://jam.web3.foundation/">
@@ -36,8 +47,11 @@ const Page: React.FC<PageProps> = (props) => {
           </p>
 
           <p>
-            If you’re interested in applying for the JAM Implementer&#x2019;s
-            Prize, please fill out{" "}
+            If you’re interested in applying for the{" "}
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            Implementer&#x2019;s Prize, please fill out{" "}
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvisUospNv_ZUG-RMgCvPD1gp7rtX80Z65NpaQyvovBEf7Zg/viewform">
               this form
             </a>
