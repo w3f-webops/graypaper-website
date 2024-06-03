@@ -12,7 +12,7 @@ const Page: React.FC<PageProps> = (props) => {
         <h2 id="Resources">{t("Resources")}</h2>
 
         <nav>
-          <ol className=" space-y-3 pl-5 md:pl-10">
+          <ol className="space-y-3 pl-5 md:pl-10">
             <li>
               <a href="#download">Download</a>
             </li>
@@ -78,20 +78,19 @@ const Page: React.FC<PageProps> = (props) => {
           3. {t("Interview")}
         </h3>
         <iframe
-          width="560"
-          height="315"
+          className="aspect-video h-auto w-full"
           src="https://www.youtube.com/embed/O3kRAVBTkfs?si=auiYGd6pQfrYV2D4"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-        ></iframe>
+        />
 
         <h3 className="text-xl" id="additional-resources">
           4. {t("Additional Resources")}
         </h3>
-        <ul className="list-disc  space-y-3 pl-5 md:pl-10">
+        <ul className="list-disc space-y-3 pl-5 md:pl-10">
           <li>
             <a
               href="https://www.youtube.com/watch?v=xTMiE0UcZUo"
