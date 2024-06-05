@@ -93,6 +93,15 @@ const Page: React.FC<PageProps> = (props) => {
         <ul className="list-disc space-y-3 pl-5 md:pl-10">
           <li>
             <a
+              href="https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              ETHPrague&#8212;JAM Presentation
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.youtube.com/watch?v=xTMiE0UcZUo"
               rel="noopener noreferrer"
               target="_blank"
@@ -107,16 +116,6 @@ const Page: React.FC<PageProps> = (props) => {
               target="_blank"
             >
               Polkadot Wiki&#8212;Polkadot's JAM Chain
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://polkadot.polkassembly.io/referenda/682"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              OpenGov&#8212;Proposal #682 for JAM Ratification, Conformance,
-              Performance by Polkadot Fellows
             </a>
           </li>
         </ul>
