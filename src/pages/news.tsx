@@ -6,6 +6,12 @@ import { Layout } from "../components/Layout"
 
 const newsData = [
   {
+    date: "09/06/2024",
+    title:
+      "Behind the Code: Web3 Thinkers—Gavin Wood: A Difficult Balance & the DOT JAM Mission",
+    link: "https://www.youtube.com/watch?v=spOeQl0Z_fw",
+  },
+  {
     date: "31/05/2024",
     title: "ETHPrague—JAM",
     link: "https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19",
@@ -39,6 +45,12 @@ const newsData = [
     date: "28/04/2024",
     title: "Gavin Wood: The Gray Paper Interview—JAM & the Future of Polkadot",
     link: "https://www.youtube.com/watch?v=O3kRAVBTkfs",
+  },
+  {
+    date: "19/04/2024",
+    title:
+      "JAM Session: Gavin Wood Reveals Bold Vision for Polkadot's Next Revolution",
+    link: "https://polkadot.network/blog/jam-new-vision-for-polkadot-gavin-wood",
   },
   {
     date: "18/04/2024",
