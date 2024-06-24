@@ -4,7 +4,12 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 
-const newsData = [
+const newsData: Array<{ date: string, title: string, link: string }> = [
+  {
+    date: "17/06/2024",
+    title: "SNB-CIF Conference May 2024: Keynote Lecture by Gavin Wood",
+    link: "https://www.snb.ch/en/services-events/digital-services/researchtv-events/researchtv-2024-05-24_1"
+  },
   {
     date: "14/06/2024",
     title: "Apply now for the JAM Implementers’ Prize: A 10 Million DOT Opportunity",
