@@ -6,6 +6,11 @@ import { Layout } from "../components/Layout"
 
 const newsData = [
   {
+    date: "14/06/2024",
+    title: "Apply now for the JAM Implementers’ Prize: A 10 Million DOT Opportunity",
+    link: "https://medium.com/web3foundation/apply-now-for-the-jam-implementers-prize-a-10-million-dot-opportunity-3a2fd753e16d"
+  },
+  {
     date: "09/06/2024",
     title:
       "Behind the Code: Web3 Thinkers—Gavin Wood: A Difficult Balance & the DOT JAM Mission",
