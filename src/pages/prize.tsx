@@ -25,38 +25,29 @@ const Page: React.FC<PageProps> = (props) => {
             multiple client implementations, enhancing the network&#x2019;s
             resilience.
           </p>
-          <p>
+
+          <div className="flex flex-row justify-center items-center pt-4">
             <a href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d">
               Read the announcement
             </a>
-          </p>
+          </div>
 
           <p>
-            The foundation is still finalizing the details of the application
-            process, and more information will be published soon here and on the
-            Web3 Foundation{" "}
-            <span className="jam">
+            The <span className="jam">
               <span>J</span>am
-            </span>{" "}
-            Page.
+            </span> {" "}Implementers’ Prize encourages multiple client implementations to boost network resilience. The Foundation seeks proposals for <span className="jam">
+              <span>J</span>am
+            </span> {" "} implementations in diverse programming languages, including OCaml, Go, and Zig among others.
+            The Foundation is excited to support enthusiastic developers in shaping the future of blockchain technology.
+            Interested teams can apply for the <span className="jam">
+              <span>J</span>am
+            </span> Implementers’ Prize here:
           </p>
-          <p>
+          <div className="flex flex-row justify-center items-center p-4">
             <a href="https://jam.web3.foundation/">
               https://jam.web3.foundation/
             </a>
-          </p>
-
-          <p>
-            If you’re interested in applying for the{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Implementer&#x2019;s Prize, please fill out{" "}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvisUospNv_ZUG-RMgCvPD1gp7rtX80Z65NpaQyvovBEf7Zg/viewform">
-              this form
-            </a>
-            .
-          </p>
+          </div>
         </div>
       </article>
     </Layout>
