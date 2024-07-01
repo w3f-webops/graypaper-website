@@ -6,6 +6,11 @@ import { Layout } from "../components/Layout"
 
 const newsData: Array<{ date: string, title: string, link: string }> = [
   {
+    date: "30/06/2024",
+    title: "The Join Accumulate Machine—Audience Questions on the Next DOT - Space Monkeys 152",
+    link: "https://www.youtube.com/watch?v=pCPD2A4dM3c"
+  },
+  {
     date: "17/06/2024",
     title: "SNB-CIF Conference May 2024: Keynote Lecture by Gavin Wood",
     link: "https://www.snb.ch/en/services-events/digital-services/researchtv-events/researchtv-2024-05-24_1"
