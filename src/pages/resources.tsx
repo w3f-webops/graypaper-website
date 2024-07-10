@@ -6,6 +6,25 @@ import { Layout } from "../components/Layout"
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
+  const additionalResources = [
+    {
+      title: "ETHPrague—JAM Presentation",
+      link: "https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19",
+    },
+    {
+      title: "TOKEN2049—Polkadot's Future: The Big JAM Presentation",
+      link: "https://www.youtube.com/watch?v=xTMiE0UcZUo",
+    },
+    {
+      title: "Polkadot Wiki—Polkadot's JAM Chain",
+      link: "https://wiki.polkadot.network/docs/learn-jam-chain",
+    },
+    {
+      title: "Kian Paimani—Demystifying JAM",
+      link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/"
+    }
+  ];
+
   return (
     <Layout>
       <article>
@@ -20,10 +39,10 @@ const Page: React.FC<PageProps> = (props) => {
               <a href="#contribute">Contribute</a>
             </li>
             <li>
-              <a href="#interview">Interview</a>
+              <a href="#additional-resources">Additional Resources</a>
             </li>
             <li>
-              <a href="#additional-resources">Additional Resources</a>
+              <a href="#interview">Interview</a>
             </li>
           </ol>
         </nav>
@@ -43,6 +62,7 @@ const Page: React.FC<PageProps> = (props) => {
             <code>https://graypaper.com/graypaper_no_background.pdf</code>
           </a>
         </p>
+
         <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
@@ -74,8 +94,21 @@ const Page: React.FC<PageProps> = (props) => {
           </a>
         </div>
 
+        <h3 className="text-xl" id="additional-resources">
+          3. {t("Additional Resources")}
+        </h3>
+        <ul className="list-disc space-y-3 pl-5 md:pl-10">
+          {additionalResources.map((resource, index) => (
+            <li key={index}>
+              <a href={resource.link} rel="noopener noreferrer" target="_blank">
+                {resource.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+
         <h3 className="text-xl" id="interview">
-          3. {t("Interview")}
+          4. {t("Interview")}
         </h3>
         <iframe
           className="aspect-video h-auto w-full"
@@ -87,40 +120,10 @@ const Page: React.FC<PageProps> = (props) => {
           allowfullscreen
         />
 
-        <h3 className="text-xl" id="additional-resources">
-          4. {t("Additional Resources")}
-        </h3>
-        <ul className="list-disc space-y-3 pl-5 md:pl-10">
-          <li>
-            <a
-              href="https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ETHPrague&#8212;JAM Presentation
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=xTMiE0UcZUo"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              TOKEN2049&#8212;Polkadot's Future: The Big JAM Presentation
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://wiki.polkadot.network/docs/learn-jam-chain"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Polkadot Wiki&#8212;Polkadot's JAM Chain
-            </a>
-          </li>
-        </ul>
-      </article>
-    </Layout>
+
+      </article >
+
+    </Layout >
   )
 }
 
