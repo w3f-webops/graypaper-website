@@ -6,8 +6,13 @@ import { Layout } from "../components/Layout"
 
 const newsData: Array<{ date: string, title: string, link: string }> = [
   {
+    date: "10/07/2024",
+    title: "Building True Unstoppability: Protocol-Hosted Decentralised Protocol Development",
+    link: "https://ethcc.io/archive/Building-True-Unstoppability-Protocol-Hosted-Decentralised-Protocol-Development"
+  },
+  {
     date: "30/06/2024",
-    title: "The Join Accumulate Machine—Audience Questions on the Next DOT - Space Monkeys 152",
+    title: "Space Monkeys 152—JAM—Audience Questions on the Next DOT",
     link: "https://www.youtube.com/watch?v=pCPD2A4dM3c"
   },
   {
