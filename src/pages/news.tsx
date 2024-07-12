@@ -6,6 +6,11 @@ import { Layout } from "../components/Layout"
 
 const newsData: Array<{ date: string, title: string, link: string }> = [
   {
+    date: "11/07/2024",
+    title: "Polkadot Decoded—Introduction to JAM & the JAM Prize by Gavin Wood",
+    link: "https://www.youtube.com/live/eaCY6k_oKII?feature=shared&t=4450",
+  },
+  {
     date: "10/07/2024",
     title: "Building True Unstoppability: Protocol-Hosted Decentralised Protocol Development",
     link: "https://ethcc.io/archive/Building-True-Unstoppability-Protocol-Hosted-Decentralised-Protocol-Development"
