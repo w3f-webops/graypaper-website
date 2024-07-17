@@ -34,7 +34,7 @@ const Page: React.FC<PageProps> = (props) => {
 
             <thead>
               <tr>
-                <th className="">Name</th>
+                <th>Name</th>
                 <th>Set</th>
                 <th>Language</th>
                 <th>Milestone</th>
@@ -47,7 +47,7 @@ const Page: React.FC<PageProps> = (props) => {
                 .sort((a, b) => a.lang_set.localeCompare(b.lang_set))
                 .map((client, index) => (
                   <tr key={index} className="borders-custom">
-                    <td>{client.name}</td>
+                    <td className="text-nowrap">{client.name}</td>
                     <td><em>{client.lang_set}</em></td>
                     <td>{client.lang}</td>
                     <td>{client.milestone > 0 ? client.milestone : "-"}</td>
