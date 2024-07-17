@@ -5,6 +5,7 @@
   "author": "W3F <webops@web3.foundation>",
   "scripts": {
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",

@@ -43,6 +43,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
           <Link to="/tour">
             <button>{t("Tour")}</button>
           </Link>
+          <Link to="/lectures">
+            <button>{t("Lectures")}</button>
+          </Link>
           <Link to="/prize">
             <button>{t("Prize")}</button>
           </Link>
