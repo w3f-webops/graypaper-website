@@ -1,8 +1,7 @@
 {
-  "name": "jam-website",
+  "name": "graypaper-website",
   "version": "1.0.0",
   "private": true,
-  "description": "jam-website",
   "author": "W3F <webops@web3.foundation>",
   "scripts": {
     "develop": "gatsby develop",
