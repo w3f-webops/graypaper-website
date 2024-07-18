@@ -22,6 +22,10 @@ const Page: React.FC<PageProps> = (props) => {
     {
       title: "Kian Paimani—Demystifying JAM",
       link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/"
+    },
+    {
+      title: "Test Vectors for the JAM Protocol",
+      link: "https://github.com/w3f/jamtestvectors/"
     }
   ];
 
@@ -30,7 +34,7 @@ const Page: React.FC<PageProps> = (props) => {
       <article>
         <h2 id="Resources" className="text-center">{t("Resources")}</h2>
 
-        <h3 className="text-lg" id="download">
+        <h3 className="text-xl" id="download">
           {t("Graypaper PDF")}
         </h3>
         <p>Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code></p>
