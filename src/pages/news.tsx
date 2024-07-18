@@ -6,6 +6,11 @@ import { Layout } from "../components/Layout"
 
 const newsData: Array<{ date: string, title: string, link: string }> = [
   {
+    title: "Polkadot Coffee Break—Demystifying JAM with Kian Paimani",
+    date: "18/07/2024",
+    link: "https://x.com/filippoweb3/status/1813893471763329320"
+  },
+  {
     date: "17/07/2024",
     title: "Gav’s Unofficial JAM Prize Notes",
     link: "https://hackmd.io/@polkadot/jamprize",
