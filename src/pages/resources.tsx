@@ -28,29 +28,12 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="Resources">{t("Resources")}</h2>
+        <h2 id="Resources" className="text-center">{t("Resources")}</h2>
 
-        <nav>
-          <ol className="space-y-3 pl-5 md:pl-10">
-            <li>
-              <a href="#download">Download</a>
-            </li>
-            <li>
-              <a href="#contribute">Contribute</a>
-            </li>
-            <li>
-              <a href="#additional-resources">Additional Resources</a>
-            </li>
-            <li>
-              <a href="#interview">Interview</a>
-            </li>
-          </ol>
-        </nav>
-
-        <h3 className="text-xl" id="download">
-          1. {t("Download")}
+        <h3 className="text-lg" id="download">
+          {t("Graypaper PDF")}
         </h3>
-        <p>{t("Resources.Download")}</p>
+        <p>Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code></p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
             <code>https://graypaper.com/graypaper.pdf</code>
@@ -74,7 +57,7 @@ const Page: React.FC<PageProps> = (props) => {
         </p>
 
         <h3 className="text-xl" id="contribute">
-          2. {t("Contribute")}
+          {t("Contribute")}
         </h3>
         <p dangerouslySetInnerHTML={{ __html: t("Resources.Contribute") }} />
         <div className="flex flex-col items-start gap-3 pl-5 sm:pl-10">
@@ -95,7 +78,7 @@ const Page: React.FC<PageProps> = (props) => {
         </div>
 
         <h3 className="text-xl" id="additional-resources">
-          3. {t("Additional Resources")}
+          {t("Additional Resources")}
         </h3>
         <ul className="list-disc space-y-3 pl-5 md:pl-10">
           {additionalResources.map((resource, index) => (
@@ -108,7 +91,7 @@ const Page: React.FC<PageProps> = (props) => {
         </ul>
 
         <h3 className="text-xl" id="interview">
-          4. {t("Interview")}
+          {t("Interview")}
         </h3>
         <iframe
           className="aspect-video h-auto w-full"

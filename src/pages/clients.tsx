@@ -11,7 +11,7 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="news">{t("Clients")}</h2>
+        <h2 id="Clients" className="text-center">{t("Clients")}</h2>
 
         <p>
           The <a href="/prize">Jam Implementers’ Prize</a> encourages multiple

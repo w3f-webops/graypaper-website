@@ -111,7 +111,7 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="news">{t("News")}</h2>
+        <h2 id="news" className="text-center">{t("News")}</h2>
 
         <table className="borders-custom">
           <tbody>

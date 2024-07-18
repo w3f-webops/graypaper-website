@@ -9,7 +9,7 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="Prize">{t("Prize")}</h2>
+        <h2 id="Prize" className="text-center">{t("Prize")}</h2>
         <div className="flex h-[50vh] flex-col">
           <p>
             The Web3 Foundation announces the{" "}
