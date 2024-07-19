@@ -14,7 +14,9 @@ const Page: React.FC<PageProps> = (props) => {
         <h2 id="Clients" className="text-center">{t("Clients")}</h2>
 
         <p>
-          The <a href="/prize">Jam Implementers’ Prize</a> encourages multiple
+          The <a href="/prize"><span className="jam">
+            <span>J</span>am
+          </span> {" "}Implementer’s Prize</a> encourages multiple
           client implementations to boost network resilience. The following
           table list the publicly known clients in development.
         </p>
