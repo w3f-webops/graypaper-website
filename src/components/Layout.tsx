@@ -8,6 +8,9 @@ export interface LayoutProps {
   children: ReactNode
   isRoot?: boolean
 }
+
+export const Head = () => <body className="bg-lemon-jelly bg-fixed" />
+
 export const Layout: React.FC<LayoutProps> = ({ children, ...layoutProps }) => {
   const { i18n } = useTranslation()
   return (
@@ -22,7 +25,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, ...layoutProps }) => {
     >
       <Navigation {...layoutProps} />
       <main className="flex min-h-svh flex-col items-center px-6 pb-6">
-        <div className="w-full md:w-3/4">{children}</div>
+        <div className="w-full">{children}</div>
       </main>
     </div>
   )

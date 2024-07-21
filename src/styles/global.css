@@ -74,3 +74,9 @@ h2,
 h3 {
   font-family: "Unbounded", sans-serif;
 }
+
+.react-pdf__Page__canvas,
+.react-pdf__Page__textContent {
+  width: 100% !important;
+  height: auto !important;
+}

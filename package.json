@@ -14,6 +14,8 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "autoprefixer": "^10.4.19",
     "clsx": "^2.1.0",
     "gatsby": "^5.13.4",
@@ -27,11 +29,15 @@
     "i18next": "^23.11.2",
     "i18next-browser-languagedetector": "^7.2.1",
     "latex.css": "^1.11.0",
+    "pdfjs-dist": "^3.4.120",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-i18next": "^14.1.0",
+    "react-lite-youtube-embed": "^2.4.0",
+    "react-pdf": "^9.1.0",
+    "react-zoom-pan-pinch": "^3.6.1",
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "^3.4.3"
   },
@@ -39,6 +45,7 @@
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.78",
     "@types/react-dom": "^18.2.25",
+    "node-loader": "^2.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "typescript": "^5.4.5"
