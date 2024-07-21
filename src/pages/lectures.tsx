@@ -9,30 +9,8 @@ import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 import { toDoubleDigit } from "../utils"
 
-// import { pdfjs } from "react-pdf"
-// pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-//   "pdfjs-dist/build/pdf.worker.min.mjs",
-//   import.meta.url,
-// ).toString()
-
-// import { Document, Page as PdfPage } from "react-pdf"
-// import "react-pdf/dist/Page/TextLayer.css"
-// import "react-pdf/dist/Page/AnnotationLayer.css"
-
-// // Core viewer
-// import { Viewer } from "@react-pdf-viewer/core"
-
-// // Plugins
-// import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"
-
-// // Import styles
-// import "@react-pdf-viewer/core/lib/styles/index.css"
-// import "@react-pdf-viewer/default-layout/lib/styles/index.css"
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch"
 import { PdfControls } from "../components/PdfControls"
-
-// Create new plugin instance
-// const defaultLayoutPluginInstance = defaultLayoutPlugin()
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
@@ -94,8 +72,6 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <h2 id="lectures">{t("Lectures")}</h2>
-
-      {/* <p className="mb-4">Intro</p> */}
 
       <label htmlFor="select-lecture">Select a lecture</label>
       <select
