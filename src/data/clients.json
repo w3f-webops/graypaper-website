@@ -140,7 +140,7 @@
     "contact": ["vinsystems@proton.me"]
   },
   {
-    "description": "C implementation of JAM.",
+    "description": "C++ implementation of JAM.",
     "homepage": "https://marmaladeorg.github.io/marmalade-frontend/",
     "name": "Marmalade",
     "lang": "C++",
