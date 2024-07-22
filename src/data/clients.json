@@ -24,9 +24,7 @@
     "lang": "Python",
     "lang_set": "C",
     "milestone": 0,
-    "contact": [
-      "@DaKKK:matrix.org"
-    ]
+    "contact": ["@DaKKK:matrix.org"]
   },
   {
     "description": "Boka / 波卡 / bō kǎ: JAM built with Swift. Brought to you by Laminar Labs.",
@@ -35,9 +33,7 @@
     "lang": "Swift",
     "lang_set": "B",
     "milestone": 0,
-    "contact": [
-      "bryan@acala.network"
-    ]
+    "contact": ["bryan@acala.network"]
   },
   {
     "description": "We are working on the Go implementation of Jam 🍓",
@@ -46,9 +42,7 @@
     "lang": "Go",
     "lang_set": "A",
     "milestone": 0,
-    "contact": [
-      "hello@eiger.co"
-    ]
+    "contact": ["hello@eiger.co"]
   },
   {
     "description": "TypeScript implementation of the JAM protocol. Currently not publicly visible.",
@@ -57,9 +51,7 @@
     "lang": "TypeScript",
     "lang_set": "C",
     "milestone": 0,
-    "contact": [
-      "@prematurata:matrix.org"
-    ]
+    "contact": ["@prematurata:matrix.org"]
   },
   {
     "description": "Scala implementation of the JAM protocol. Currently not publicly visible.",
@@ -82,9 +74,7 @@
     "lang": "Go",
     "lang_set": "A",
     "milestone": 0,
-    "contact": [
-      "@marcuspang:matrix.org"
-    ]
+    "contact": ["@marcuspang:matrix.org"]
   },
   {
     "description": "Spread the Joy with Every Jar - Taste the Magic of Our Jam & Jelly!",
@@ -93,9 +83,7 @@
     "lang": "Julia",
     "lang_set": "D",
     "milestone": 0,
-    "contact": [
-      "jelly@zondax.ch"
-    ]
+    "contact": ["jelly@zondax.ch"]
   },
   {
     "description": "We are a team of 8, experienced in Java and Kotlin blockchain development.",
@@ -104,9 +92,7 @@
     "lang": "Kotlin",
     "lang_set": "A",
     "milestone": 0,
-    "contact": [
-      "@philoniare:matrix.org"
-    ]
+    "contact": ["@philoniare:matrix.org"]
   },
   {
     "description": "From Colorful Notion: Would love to connect our working QUIC implementation in Fall, organize a weeklong meetup at Devcon in Thailand.",
@@ -115,9 +101,7 @@
     "lang": "Go",
     "lang_set": "A",
     "milestone": 0,
-    "contact": [
-      "https://t.me/colorfulnotion"
-    ]
+    "contact": ["https://t.me/colorfulnotion"]
   },
   {
     "description": "",
@@ -126,9 +110,7 @@
     "lang": "TypeScript",
     "lang_set": "C",
     "milestone": 0,
-    "contact": [
-      "@tomusdrw:matrix.org"
-    ]
+    "contact": ["@tomusdrw:matrix.org"]
   },
   {
     "description": "A Team of Web3 Researchers+Devs; Currently private.",
@@ -137,9 +119,7 @@
     "lang": "Rust",
     "lang_set": "B",
     "milestone": 0,
-    "contact": [
-      "prasad@chainscore.finance"
-    ]
+    "contact": ["prasad@chainscore.finance"]
   },
   {
     "description": "We are working on Zig implementation of JAM. Currently closed source.",
@@ -148,9 +128,15 @@
     "lang": "Zig",
     "lang_set": "B",
     "milestone": 0,
-    "contact": [
-      "@rosarp:matrix.org"
-    ]
+    "contact": ["@rosarp:matrix.org"]
+  },
+  {
+    "description": "Rust implementation of JAM.",
+    "homepage": "",
+    "name": "Vinwolf",
+    "lang": "Rust",
+    "lang_set": "B",
+    "milestone": 0,
+    "contact": ["vinsystems@proton.me"]
   }
-
 ]
