@@ -143,7 +143,7 @@
     "description": "C implementation of JAM.",
     "homepage": "https://marmaladeorg.github.io/marmalade-frontend/",
     "name": "Marmalade",
-    "lang": "C",
+    "lang": "C++",
     "lang_set": "B",
     "milestone": 0,
     "contact": ["@sisco0:matrix.org"]
