@@ -140,5 +140,17 @@
     "contact": [
       "prasad@chainscore.finance"
     ]
+  },
+  {
+    "description": "We are working on Zig implementation of JAM. Currently closed source.",
+    "homepage": "",
+    "name": "Jam With Zig",
+    "lang": "Zig",
+    "lang_set": "B",
+    "milestone": 0,
+    "contact": [
+      "@rosarp:matrix.org"
+    ]
   }
+
 ]
