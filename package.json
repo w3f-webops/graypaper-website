@@ -16,7 +16,11 @@
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/full-screen": "^3.12.0",
+    "@react-pdf-viewer/page-navigation": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
     "autoprefixer": "^10.4.19",
+    "canvas": "^2.11.2",
     "clsx": "^2.1.0",
     "gatsby": "^5.13.4",
     "gatsby-plugin-fix-fouc": "^1.0.5",

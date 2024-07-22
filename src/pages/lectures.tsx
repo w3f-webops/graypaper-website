@@ -11,59 +11,18 @@ import { toDoubleDigit } from "../utils"
 
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch"
 import { PdfControls } from "../components/PdfControls"
+import { lectures } from "../data"
+
+import { Worker, Viewer } from "@react-pdf-viewer/core"
+import "@react-pdf-viewer/core/lib/styles/index.css"
+import { zoomPlugin } from "@react-pdf-viewer/zoom"
+import "@react-pdf-viewer/zoom/lib/styles/index.css"
+import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation"
+import "@react-pdf-viewer/page-navigation/lib/styles/index.css"
+import PdfViewer from "../components/PdfViewer"
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
-  const lectures = [
-    {
-      section: "1.1 Nomenclature",
-      video: "wbnTnBQNDr4",
-      pages: [1],
-    },
-    {
-      section: "1.2 Driving Factors",
-      video: "abrGvSbKEjM",
-      pages: [1, 2],
-    },
-
-    {
-      section: "1.3 Scaling Under Size-Synchrony Antagonism",
-      video: "8f4aibO5vTI",
-      pages: [2],
-    },
-
-    {
-      section: "2.1 Polkadot",
-      video: "jFUQje4puAM",
-      pages: [2, 3],
-    },
-
-    {
-      section: "2.2 Ethereum",
-      video: "45c2oQTs-P8",
-      pages: [3, 4],
-    },
-    {
-      section: "2.3 Fragmented Meta-Networks",
-      video: "AUQZ38Wgl4c",
-      pages: [4, 5],
-    },
-    {
-      section: "2.4 High-Performance Fully Synchronous Networks",
-      video: "dhO53bV2b8c",
-      pages: [5],
-    },
-    {
-      section: "3.1 Typography",
-      video: "nPKq_5ChZv8",
-      pages: [5],
-    },
-    {
-      section: "3.2 Functions and Operators",
-      video: "qOw4XOu_n_w",
-      pages: [6],
-    },
-  ]
 
   const [activeLectureIndex, setActiveLectureIndex] = React.useState(0)
   const [graypaperVisible, setGraypaperVisible] = React.useState(false)
@@ -71,6 +30,7 @@ const Page: React.FC<PageProps> = (props) => {
 
   return (
     <Layout>
+      <div className="text-xs"></div>
       <h2 id="lectures">{t("Lectures")}</h2>
 
       <label htmlFor="select-lecture">Select a lecture</label>
@@ -86,12 +46,15 @@ const Page: React.FC<PageProps> = (props) => {
           </option>
         ))}
       </select>
-      {lectures[activeLectureIndex] && (
+      {activeLecture && (
         <div>
-          <h3>{activeLecture.section}</h3>
+          <h3 className="mb-0">{activeLecture.section}</h3>
+          <p className="mb-4 mt-0 w-full text-sm font-normal text-gray-400">
+            {activeLecture.subtitle}
+          </p>
           <LiteYouTubeEmbed
             iframeClass="mt-0 pt-0"
-            id={activeLecture.video}
+            id={activeLecture.videoId}
             title={activeLecture.section}
           />
         </div>
@@ -104,6 +67,14 @@ const Page: React.FC<PageProps> = (props) => {
         {graypaperVisible ? "↑" : "↓"}
       </Button>
       {graypaperVisible && (
+        <PdfViewer
+          key={activeLecture.pages[0]}
+          pdfUrl={"/graypaper_no_background.pdf"}
+          initialPage={activeLecture.pages[0] - 1}
+          className="mt-4"
+        />
+      )}
+      {/* {graypaperVisible && (
         <div className="relative mt-4">
           <TransformWrapper>
             {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
@@ -119,8 +90,8 @@ const Page: React.FC<PageProps> = (props) => {
             )}
           </TransformWrapper>
         </div>
-      )}
-      <div className="mt-4 flex justify-between gap-8">
+      )} */}
+      <div className="mt-4 flex justify-between gap-4">
         <Button
           onClick={() =>
             setActiveLectureIndex(Math.max(0, activeLectureIndex - 1))
@@ -133,6 +104,12 @@ const Page: React.FC<PageProps> = (props) => {
             {lectures[activeLectureIndex - 1]?.section}
           </span>
         </Button>
+        {/* <div className="border-none p-2 text-center">
+          <span className="block">{activeLecture.section}</span>
+          <span className="block whitespace-nowrap text-xs">
+            ({activeLectureIndex + 1} of {lectures.length})
+          </span>
+        </div> */}
         <Button
           onClick={() =>
             setActiveLectureIndex(
