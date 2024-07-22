@@ -5,6 +5,24 @@ import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 import clients from "../data/clients.json"
 
+type Client = typeof clients[number];
+const sortClients = (a: Client, b: Client) => {
+  // First, compare by lang_set
+  const langSetComparison = a.lang_set.localeCompare(b.lang_set);
+  if (langSetComparison !== 0) return langSetComparison;
+
+  // If lang_set is the same, compare by lang
+  const langComparison = a.lang.localeCompare(b.lang);
+  if (langComparison !== 0) return langComparison;
+
+  // If lang is also the same, compare by milestone (descending order)
+  const milestoneComparison = b.milestone - a.milestone;
+  if (milestoneComparison !== 0) return milestoneComparison;
+
+  // If milestone is also the same, compare by name
+  return a.name.localeCompare(b.name);
+};
+
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
 
@@ -46,7 +64,7 @@ const Page: React.FC<PageProps> = (props) => {
             </thead>
             <tbody>
               {clients
-                .sort((a, b) => a.lang_set.localeCompare(b.lang_set))
+                .sort(sortClients)
                 .map((client, index) => (
                   <tr key={index} className="borders-custom">
                     <td className="text-nowrap">{client.name}</td>
