@@ -21,12 +21,11 @@ const Page: React.FC<PageProps> = (props) => {
 
   return (
     <Layout>
-      <div className="text-xs"></div>
       <h2 id="lectures">{t("Lectures")}</h2>
       <label htmlFor="select-lecture">{t("Select Lecture")}</label>
       <select
         id="select-lecture"
-        className="mt-1 block rounded-sm p-2 text-sm text-black"
+        className="mt-1 block rounded-sm p-2 text-xs text-black"
         onChange={(e) => setActiveLectureIndex(parseInt(e.target.value))}
         value={activeLectureIndex}
       >
@@ -67,7 +66,7 @@ const Page: React.FC<PageProps> = (props) => {
           className="mt-2 rounded-md"
         />
       )}
-      <div className="mt-4 flex justify-between gap-4">
+      <div className="mt-12 flex justify-between gap-4">
         <Button
           onClick={() =>
             setActiveLectureIndex(Math.max(0, activeLectureIndex - 1))
@@ -108,6 +107,11 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <CommonHead />
       <html id="html" lang={i18n.language} />
       <title id="title">{`JAM ${t("Lectures")}`}</title>
+      <meta
+        id="description"
+        name="description"
+        content={"Lectures of the JAM Graypaper by Gavin Wood"}
+      />
     </>
   )
 }

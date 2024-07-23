@@ -5,3 +5,16 @@ exports.onPostBuild = ({ reporter, basePath, pathPrefix }) => {
     if (err) throw err
   })
 }
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: /\.node$/,
+          use: ["node-loader"],
+        },
+      ],
+    },
+  })
+}
