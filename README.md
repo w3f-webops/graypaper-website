@@ -1,6 +1,4 @@
-
 ![JAM Open Graph Image](./static/img/opengraph.png)
-
 
 # JAM Graypaper Website
 
@@ -22,23 +20,34 @@ https://graypaper.com/clients/json
 ### Getting Started
 
 Install dependencies:
+
 ```sh
 pnpm install
 ```
 
-
 Run development server:
+
 ```sh
 pnpm develop
 ```
 
-
 Create production build:
+
 ```sh
 pnpm build
 ```
 
 Serve production build:
+
 ```sh
 pnpm serve
+```
+
+### Troubleshooting
+
+There is a [known issue](https://github.com/Automattic/node-canvas/issues/1825#issuecomment-1090125736) with the `node-canvas` package on apple M1 / M2 chips, which is needed for the pdf viewer. If you run into issues try
+
+```sh
+pnpm apple-canvas-fix
+# "brew install pkg-config cairo pango && pnpm rebuild canvas
 ```
