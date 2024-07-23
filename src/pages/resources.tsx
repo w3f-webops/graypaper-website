@@ -40,13 +40,13 @@ const Page: React.FC<PageProps> = (props) => {
         <p>Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code></p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
-            <code>https://graypaper.com/graypaper.pdf</code>
+            <code>graypaper.com/graypaper.pdf</code>
           </a>
           <a href="/graypaper_inverted.pdf" download={true}>
-            <code>https://graypaper.com/graypaper_inverted.pdf</code>
+            <code>graypaper.com/graypaper_inverted.pdf</code>
           </a>
           <a href="/graypaper_no_background.pdf" download={true}>
-            <code>https://graypaper.com/graypaper_no_background.pdf</code>
+            <code>graypaper.com/graypaper_no_background.pdf</code>
           </a>
         </p>
 
@@ -56,7 +56,7 @@ const Page: React.FC<PageProps> = (props) => {
             href="https://github.com/gavofyork/graypaper"
             rel="noopener noreferrer"
           >
-            <code>https://github.com/gavofyork/graypaper</code>
+            <code>github.com/gavofyork/graypaper</code>
           </a>
         </p>
 
