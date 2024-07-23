@@ -49,6 +49,11 @@ body.custom {
   @apply leading-normal sm:text-lg;
 }
 
+.container {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
 td {
   @apply align-baseline;
 }
@@ -74,14 +79,8 @@ h2,
 h3 {
   font-family: "Unbounded", sans-serif;
 }
-
-.react-pdf__Page__canvas,
-.react-pdf__Page__textContent {
-  width: 100% !important;
-  height: auto !important;
-}
-
 .pdf-viewer-container {
-  height: 600px;
+  aspect-ratio: 210 / 297;
+  width: 100%;
   border: 1px solid #ccc;
 }

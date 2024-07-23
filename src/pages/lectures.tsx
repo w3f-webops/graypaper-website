@@ -7,18 +7,8 @@ import { Button } from "../components/Button"
 
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
-import { toDoubleDigit } from "../utils"
 
-import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch"
-import { PdfControls } from "../components/PdfControls"
 import { lectures } from "../data"
-
-import { Worker, Viewer } from "@react-pdf-viewer/core"
-import "@react-pdf-viewer/core/lib/styles/index.css"
-import { zoomPlugin } from "@react-pdf-viewer/zoom"
-import "@react-pdf-viewer/zoom/lib/styles/index.css"
-import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation"
-import "@react-pdf-viewer/page-navigation/lib/styles/index.css"
 import PdfViewer from "../components/PdfViewer"
 
 const Page: React.FC<PageProps> = (props) => {
@@ -27,13 +17,13 @@ const Page: React.FC<PageProps> = (props) => {
   const [activeLectureIndex, setActiveLectureIndex] = React.useState(0)
   const [graypaperVisible, setGraypaperVisible] = React.useState(false)
   const activeLecture = lectures[activeLectureIndex]
+  const activePage = activeLecture.pages[0] - 1
 
   return (
     <Layout>
       <div className="text-xs"></div>
       <h2 id="lectures">{t("Lectures")}</h2>
-
-      <label htmlFor="select-lecture">Select a lecture</label>
+      <label htmlFor="select-lecture">{t("Select Lecture")}</label>
       <select
         id="select-lecture"
         className="mt-1 block rounded-sm p-2 text-sm text-black"
@@ -46,6 +36,7 @@ const Page: React.FC<PageProps> = (props) => {
           </option>
         ))}
       </select>
+
       {activeLecture && (
         <div>
           <h3 className="mb-0">{activeLecture.section}</h3>
@@ -56,6 +47,7 @@ const Page: React.FC<PageProps> = (props) => {
             iframeClass="mt-0 pt-0"
             id={activeLecture.videoId}
             title={activeLecture.section}
+            poster="maxresdefault"
           />
         </div>
       )}
@@ -63,34 +55,18 @@ const Page: React.FC<PageProps> = (props) => {
         className="mt-4 w-full"
         onClick={() => setGraypaperVisible(!graypaperVisible)}
       >
-        {graypaperVisible ? "Hide" : "Show"} Sections in Graypaper{" "}
+        {graypaperVisible
+          ? t("Hide Graypaper")
+          : t("Show Section in Graypaper")}{" "}
         {graypaperVisible ? "↑" : "↓"}
       </Button>
       {graypaperVisible && (
         <PdfViewer
-          key={activeLecture.pages[0]}
-          pdfUrl={"/graypaper_no_background.pdf"}
-          initialPage={activeLecture.pages[0] - 1}
-          className="mt-4"
+          pdfUrl="/graypaper_no_background.pdf"
+          initialPage={activePage}
+          className="mt-2 rounded-md"
         />
       )}
-      {/* {graypaperVisible && (
-        <div className="relative mt-4">
-          <TransformWrapper>
-            {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-              <>
-                <PdfControls />
-                <TransformComponent>
-                  <img
-                    src={`/svg_graypaper_no_background/graypaper_no_background-${toDoubleDigit(activeLecture.pages[0])}.svg`}
-                    alt={`Page ${activeLecture.pages[0]}`}
-                  />
-                </TransformComponent>
-              </>
-            )}
-          </TransformWrapper>
-        </div>
-      )} */}
       <div className="mt-4 flex justify-between gap-4">
         <Button
           onClick={() =>
@@ -99,17 +75,11 @@ const Page: React.FC<PageProps> = (props) => {
           disabled={activeLectureIndex === 0}
           className="w-1/2"
         >
-          ← Previous Section
+          ← {t("Previous Section")}
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex - 1]?.section}
           </span>
         </Button>
-        {/* <div className="border-none p-2 text-center">
-          <span className="block">{activeLecture.section}</span>
-          <span className="block whitespace-nowrap text-xs">
-            ({activeLectureIndex + 1} of {lectures.length})
-          </span>
-        </div> */}
         <Button
           onClick={() =>
             setActiveLectureIndex(
@@ -119,7 +89,7 @@ const Page: React.FC<PageProps> = (props) => {
           disabled={activeLectureIndex === lectures.length - 1}
           className="w-1/2"
         >
-          Next Section →
+          {t("Next Section")} →
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex + 1]?.section}
           </span>
@@ -137,15 +107,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
     <>
       <CommonHead />
       <html id="html" lang={i18n.language} />
-      <title id="title">{`JAM ${t("Tour")}`}</title>
-
-      {/* TODO remove once content is available */}
-      <meta name="robots" content="noindex, nofollow" />
-      {/* <meta
-        id="description"
-        name="description"
-        content={""}
-      /> */}
+      <title id="title">{`JAM ${t("Lectures")}`}</title>
     </>
   )
 }

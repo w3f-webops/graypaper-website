@@ -122,4 +122,189 @@ export const lectures: Array<{
     subtitle:
       "Filmed at the National University of Singapore on June 19 , 2024.",
   },
+
+  // 4.3 Which History?
+  // Page 9
+
+  // 4.4 Time
+  // Page 9
+
+  {
+    section: "4.5 Best Block",
+    videoId: "C7D4DzUhV_M",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [9],
+  },
+
+  // 4.6 Economics
+  // Page 9, 10
+
+  {
+    section: "4.7 Virtual Machine and Gas",
+    videoId: "UXujxrshzDQ",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [10],
+  },
+
+  // 4.8 Epochs and Slots
+  // Page 10, 11
+
+  // 4.9 The Core Model and Services
+  // Page 11, 12
+
+  {
+    section: "5 The Header",
+    videoId: "eG75u2GmUD0",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [12],
+  },
+
+  {
+    section: "5.1 The Epoch and Winning Tickets Markers",
+    videoId: "N4b1SzB9TOg",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [12],
+  },
+
+  {
+    section: "6.1 Timekeeping",
+    videoId: "9rDkc8R9gU4",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [12, 13],
+  },
+  // 6.2 Safrole Basic State
+  // Page 13
+
+  {
+    section: "6.3 Key Rotation",
+    videoId: "pn4FK4fScMg",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [13],
+  },
+
+  {
+    section: "6.4 Sealing and Entropy Accumulation",
+    videoId: "CL6vMZLwtDk",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [13, 14],
+  },
+
+  {
+    section: "6.5 The Slot Key Sequence",
+    videoId: "jeiNDhT536o",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [14],
+  },
+
+  {
+    section: "6.6 The Markers",
+    videoId: "QfrN2i8XGag",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [14],
+  },
+
+  {
+    section: "6.7 The Extrinsic and Tickets",
+    videoId: "1xySjieSoDU",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [14, 15],
+  },
+
+  {
+    section: "7 Recent History",
+    videoId: "E2JA6bveihk",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [15],
+  },
+
+  {
+    section: "8 Authorization",
+    videoId: "gyY6LGJ9dbo",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [15],
+  },
+
+  {
+    section: "8.1 Authorizers and Authorizations",
+    videoId: "EJ4q8N4haV0",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [15],
+  },
+
+  {
+    section: "8.2 Pool and Queue",
+    videoId: "QSaCKG2B908",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [15, 16],
+  },
+
+  {
+    section: "9 Service Accounts",
+    videoId: "iek9B42k8Rg",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [16],
+  },
+
+  {
+    section: "9.1 Code and Gas",
+    videoId: "5UonAD0EpKI",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [16],
+  },
+
+  {
+    section: "9.2 Preimage Lookups",
+    videoId: "4leVpNtf3iw",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [16],
+  },
+
+  {
+    section: "9.2.1 Invariants",
+    videoId: "QIf6gShjByk",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [17],
+  },
+
+  {
+    section: "9.2.2 Semantics",
+    videoId: "a0OPe50r84o",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [17],
+  },
+
+  {
+    section: "9.3 Account Footprint and Threshold Balance",
+    videoId: "jI9k5PUGR9M",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [17],
+  },
+
+  {
+    section: "9.4 Service Privileges ",
+    videoId: "fND-n4gtxxI",
+    subtitle:
+      "Filmed at the National University of Singapore on June 19 , 2024.",
+    pages: [17],
+  },
 ]
