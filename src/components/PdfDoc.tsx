@@ -75,7 +75,7 @@ export default function PdfDoc({ pdfUrl, initialPageNumber }: PdfViewerProps) {
   }
 
   return (
-    <div className="pdf-container relative" ref={containerRef}>
+    <div className="pdf-container relative mt-4" ref={containerRef}>
       <PdfControls
         scale={scale}
         minScale={minScale}

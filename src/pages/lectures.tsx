@@ -23,45 +23,51 @@ const Page: React.FC<PageProps> = (props) => {
   const isSSR = typeof window === "undefined"
 
   return (
-    <Layout>
-      <h2 id="lectures">{t("Lectures")}</h2>
-      <label htmlFor="select-lecture">{t("Select Lecture")}</label>
-      <select
-        id="select-lecture"
-        className="mt-1 block rounded-sm p-2 text-xs text-black md:text-sm"
-        onChange={(e) => setActiveLectureIndex(parseInt(e.target.value))}
-        value={activeLectureIndex}
-      >
-        {lectures.map((lecture, index) => (
-          <option key={index} value={index}>
-            {lecture.section}
-          </option>
-        ))}
-      </select>
+    <Layout wide>
+      <div className="mx-auto md:w-3/4">
+        <h2 id="lectures">{t("Lectures")}</h2>
+        <label htmlFor="select-lecture">{t("Select Lecture")}</label>
+        <select
+          id="select-lecture"
+          className="mt-1 block rounded-sm p-2 text-xs text-black md:text-sm"
+          onChange={(e) => setActiveLectureIndex(parseInt(e.target.value))}
+          value={activeLectureIndex}
+        >
+          {lectures.map((lecture, index) => (
+            <option key={index} value={index}>
+              {lecture.section}
+            </option>
+          ))}
+        </select>
+      </div>
 
       {activeLecture && (
-        <div>
-          <h3 className="mb-0">{activeLecture.section}</h3>
-          <p className="mb-4 mt-0 w-full text-sm font-normal text-gray-400">
-            {activeLecture.subtitle}
-          </p>
+        <>
+          <div className="mx-auto md:w-3/4">
+            <h3 className="mb-0">{activeLecture.section}</h3>
+            <p className="mb-4 mt-0 w-full text-sm font-normal text-gray-400">
+              {activeLecture.subtitle}
+            </p>
+          </div>
           <LiteYouTubeEmbed
             iframeClass="mt-0 pt-0"
             id={activeLecture.videoId}
             title={activeLecture.section}
             poster="maxresdefault"
           />
-        </div>
+        </>
       )}
-      <Button
-        className="mt-4 w-full"
-        onClick={() => setGraypaperVisible(!graypaperVisible)}
-      >
-        {graypaperVisible
-          ? t("Hide Graypaper")
-          : t("Show Section in Graypaper")}{" "}
-        {graypaperVisible ? "↑" : "↓"}
-      </Button>
+      <div className="mx-auto md:w-3/4">
+        <Button
+          className="mt-4 w-full"
+          onClick={() => setGraypaperVisible(!graypaperVisible)}
+        >
+          {graypaperVisible
+            ? t("Hide Graypaper")
+            : t("Show Section in Graypaper")}{" "}
+          {graypaperVisible ? "↑" : "↓"}
+        </Button>
+      </div>
       {graypaperVisible && (
         <>
           {!isSSR && (
@@ -74,7 +80,7 @@ const Page: React.FC<PageProps> = (props) => {
           )}
         </>
       )}
-      <div className="mt-12 flex justify-between gap-4">
+      <div className="mx-auto mt-12 flex justify-between gap-4 md:w-3/4">
         <Button
           onClick={() =>
             setActiveLectureIndex(Math.max(0, activeLectureIndex - 1))
