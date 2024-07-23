@@ -79,8 +79,11 @@ h2,
 h3 {
   font-family: "Unbounded", sans-serif;
 }
-.pdf-viewer-container {
+.pdf-container {
   aspect-ratio: 210 / 297;
   width: 100%;
   border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

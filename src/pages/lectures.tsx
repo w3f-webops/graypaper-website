@@ -9,7 +9,8 @@ import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
 import { lectures } from "../data"
-import PdfViewer from "../components/PdfViewer"
+
+const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
@@ -17,7 +18,9 @@ const Page: React.FC<PageProps> = (props) => {
   const [activeLectureIndex, setActiveLectureIndex] = React.useState(0)
   const [graypaperVisible, setGraypaperVisible] = React.useState(false)
   const activeLecture = lectures[activeLectureIndex]
-  const activePage = activeLecture.pages[0] - 1
+  const activePage = activeLecture.pages[0]
+
+  const isSSR = typeof window === "undefined"
 
   return (
     <Layout>
@@ -25,7 +28,7 @@ const Page: React.FC<PageProps> = (props) => {
       <label htmlFor="select-lecture">{t("Select Lecture")}</label>
       <select
         id="select-lecture"
-        className="mt-1 block rounded-sm p-2 text-xs text-black"
+        className="mt-1 block rounded-sm p-2 text-xs text-black md:text-sm"
         onChange={(e) => setActiveLectureIndex(parseInt(e.target.value))}
         value={activeLectureIndex}
       >
@@ -60,11 +63,16 @@ const Page: React.FC<PageProps> = (props) => {
         {graypaperVisible ? "↑" : "↓"}
       </Button>
       {graypaperVisible && (
-        <PdfViewer
-          pdfUrl="/graypaper_no_background.pdf"
-          initialPage={activePage}
-          className="mt-2 rounded-md"
-        />
+        <>
+          {!isSSR && (
+            <React.Suspense fallback={<div />}>
+              <ClientSidePdfDoc
+                pdfUrl="/graypaper_no_background.pdf"
+                initialPageNumber={activePage}
+              />
+            </React.Suspense>
+          )}
+        </>
       )}
       <div className="mt-12 flex justify-between gap-4">
         <Button

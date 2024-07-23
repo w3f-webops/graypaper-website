@@ -15,12 +15,6 @@
     "apple-canvas-fix": "brew install pkg-config cairo pango && pnpm rebuild canvas"
   },
   "dependencies": {
-    "@react-pdf-viewer/core": "^3.12.0",
-    "@react-pdf-viewer/default-layout": "^3.12.0",
-    "@react-pdf-viewer/full-screen": "^3.12.0",
-    "@react-pdf-viewer/page-navigation": "^3.12.0",
-    "@react-pdf-viewer/scroll-mode": "^3.12.0",
-    "@react-pdf-viewer/zoom": "^3.12.0",
     "autoprefixer": "^10.4.19",
     "canvas": "^2.11.2",
     "clsx": "^2.1.0",
@@ -35,6 +29,7 @@
     "i18next": "^23.11.2",
     "i18next-browser-languagedetector": "^7.2.1",
     "latex.css": "^1.11.0",
+    "lucide-react": "^0.414.0",
     "pdfjs-dist": "^3.4.120",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
