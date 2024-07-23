@@ -7,12 +7,19 @@ assignees: ''
 
 ---
 
+<!---
+You can also directly open a pull request adding/updating your client information yourself, thanks!
+
+The file is located here:
+https://github.com/w3f-webops/graypaper-website/blob/main/src/data/clients.json
+-->
+
 I would like to list/change the following JAM client implementation:
 
 - Name: ""
-- Bio: ""
-- Optional website: ""
+- Description: ""
+- Optional Website: ""
 - Language: ""
 - Language Set: ""
 - Finished milestones: 0
-- Optional contact (email/matrix/tg etc): ""
+- Optional contact (email/matrix/telegram etc): ""

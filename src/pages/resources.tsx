@@ -22,44 +22,31 @@ const Page: React.FC<PageProps> = (props) => {
     {
       title: "Kian Paimani—Demystifying JAM",
       link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/"
+    },
+    {
+      title: "Test Vectors for the JAM Protocol",
+      link: "https://github.com/w3f/jamtestvectors/"
     }
   ];
 
   return (
     <Layout>
       <article>
-        <h2 id="Resources">{t("Resources")}</h2>
-
-        <nav>
-          <ol className="space-y-3 pl-5 md:pl-10">
-            <li>
-              <a href="#download">Download</a>
-            </li>
-            <li>
-              <a href="#contribute">Contribute</a>
-            </li>
-            <li>
-              <a href="#additional-resources">Additional Resources</a>
-            </li>
-            <li>
-              <a href="#interview">Interview</a>
-            </li>
-          </ol>
-        </nav>
+        <h2 id="Resources" className="text-center">{t("Resources")}</h2>
 
         <h3 className="text-xl" id="download">
-          1. {t("Download")}
+          {t("Graypaper PDF")}
         </h3>
-        <p>{t("Resources.Download")}</p>
+        <p>Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code></p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
-            <code>https://graypaper.com/graypaper.pdf</code>
+            <code>graypaper.com/graypaper.pdf</code>
           </a>
           <a href="/graypaper_inverted.pdf" download={true}>
-            <code>https://graypaper.com/graypaper_inverted.pdf</code>
+            <code>graypaper.com/graypaper_inverted.pdf</code>
           </a>
           <a href="/graypaper_no_background.pdf" download={true}>
-            <code>https://graypaper.com/graypaper_no_background.pdf</code>
+            <code>graypaper.com/graypaper_no_background.pdf</code>
           </a>
         </p>
 
@@ -69,12 +56,12 @@ const Page: React.FC<PageProps> = (props) => {
             href="https://github.com/gavofyork/graypaper"
             rel="noopener noreferrer"
           >
-            <code>https://github.com/gavofyork/graypaper</code>
+            <code>github.com/gavofyork/graypaper</code>
           </a>
         </p>
 
         <h3 className="text-xl" id="contribute">
-          2. {t("Contribute")}
+          {t("Contribute")}
         </h3>
         <p dangerouslySetInnerHTML={{ __html: t("Resources.Contribute") }} />
         <div className="flex flex-col items-start gap-3 pl-5 sm:pl-10">
@@ -95,7 +82,7 @@ const Page: React.FC<PageProps> = (props) => {
         </div>
 
         <h3 className="text-xl" id="additional-resources">
-          3. {t("Additional Resources")}
+          {t("Additional Resources")}
         </h3>
         <ul className="list-disc space-y-3 pl-5 md:pl-10">
           {additionalResources.map((resource, index) => (
@@ -108,7 +95,7 @@ const Page: React.FC<PageProps> = (props) => {
         </ul>
 
         <h3 className="text-xl" id="interview">
-          4. {t("Interview")}
+          {t("Interview")}
         </h3>
         <iframe
           className="aspect-video h-auto w-full"

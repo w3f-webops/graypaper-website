@@ -42,7 +42,7 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="tour">{t("Tour")}</h2>
+        <h2 id="tour" className="text-center">{t("Tour")}</h2>
 
         <p>
           Gavin Wood will be appearing at universities around the world in a

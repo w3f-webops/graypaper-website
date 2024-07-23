@@ -9,7 +9,9 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="Prize">{t("Prize")}</h2>
+        <h2 id="Prize" className="text-center">
+          {t("Prize")}
+        </h2>
         <div className="flex h-[50vh] flex-col">
           <p>
             The Web3 Foundation announces the{" "}
@@ -26,25 +28,41 @@ const Page: React.FC<PageProps> = (props) => {
             resilience.
           </p>
 
-          <div className="flex flex-row justify-center items-center pt-4">
-            <a href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d">
+          <div className="flex flex-row items-center justify-center pt-4">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d"
+            >
               Read the announcement
             </a>
           </div>
 
           <p>
-            The <span className="jam">
+            The{" "}
+            <span className="jam">
               <span>J</span>am
-            </span> {" "}Implementers’ Prize encourages multiple client implementations to boost network resilience. The Foundation seeks proposals for <span className="jam">
+            </span>{" "}
+            Implementer’s Prize encourages multiple client implementations to
+            boost network resilience. The Foundation seeks proposals for{" "}
+            <span className="jam">
               <span>J</span>am
-            </span> {" "} implementations in diverse programming languages, including OCaml, Go, and Zig among others.
-            The Foundation is excited to support enthusiastic developers in shaping the future of blockchain technology.
-            Interested teams can apply for the <span className="jam">
+            </span>{" "}
+            implementations in diverse programming languages, including OCaml,
+            Go, and Zig among others. The Foundation is excited to support
+            enthusiastic developers in shaping the future of blockchain
+            technology. Interested teams can apply for the{" "}
+            <span className="jam">
               <span>J</span>am
-            </span> Implementers’ Prize here:
+            </span>{" "}
+            Implementer’s Prize here:
           </p>
-          <div className="flex flex-row justify-center items-center p-4">
-            <a href="https://jam.web3.foundation/">
+          <div className="flex flex-row items-center justify-center p-4">
+            <a
+              target="_blank"
+              href="https://jam.web3.foundation/"
+              rel="noopener noreferrer"
+            >
               https://jam.web3.foundation/
             </a>
           </div>

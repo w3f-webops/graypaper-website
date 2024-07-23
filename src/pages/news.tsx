@@ -6,6 +6,16 @@ import { Layout } from "../components/Layout"
 
 const newsData: Array<{ date: string, title: string, link: string }> = [
   {
+    title: "Polkadot Coffee Break—Demystifying JAM with Kian Paimani",
+    date: "18/07/2024",
+    link: "https://x.com/filippoweb3/status/1813893471763329320"
+  },
+  {
+    date: "17/07/2024",
+    title: "Gav’s Unofficial JAM Prize Notes",
+    link: "https://hackmd.io/@polkadot/jamprize",
+  },
+  {
     date: "11/07/2024",
     title: "Polkadot Decoded—Introduction to JAM & the JAM Prize by Gavin Wood",
     link: "https://www.youtube.com/live/eaCY6k_oKII?feature=shared&t=4450",
@@ -106,7 +116,7 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="news">{t("News")}</h2>
+        <h2 id="news" className="text-center">{t("News")}</h2>
 
         <table className="borders-custom">
           <tbody>
