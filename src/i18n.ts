@@ -46,8 +46,8 @@ i18n
           "filmed.buenos.aires": "Filmed in Buenos Aires on May 10, 2024",
           "filmed.singapore":
             "Filmed at the National University of Singapore on June 19 , 2024.",
-          "Show Section in Graypaper": "Show Section in Graypaper",
-          "Hide Graypaper": "Hide Graypaper",
+          "Show Section in Gray Paper": "Show Section in Gray Paper",
+          "Hide Gray Paper": "Hide Gray Paper",
         },
       },
       es: {
@@ -75,8 +75,8 @@ i18n
             "Filmado en Buenos Aires el 10 de mayo de 2024",
           "filmed.singapore":
             "Filmado en la Universidad Nacional de Singapur el 19 de junio de 2024.",
-          "Show Section in Graypaper": "Mostrar Sección en el Graypaper",
-          "Hide Graypaper": "Ocultar Graypaper",
+          "Show Section in Gray Paper": "Mostrar Sección en el Gray Paper",
+          "Hide Gray Paper": "Ocultar Gray Paper",
         },
       },
       jp: {
@@ -104,8 +104,8 @@ i18n
           "Select Lecture": "講義を選択",
           "filmed.buenos.aires": "2024年5月10日にブエノスアイレスで撮影",
           "filmed.singapore": "2024年6月19日にシンガポール国立大学で撮影",
-          "Show Section in Graypaper": "Graypaperでセクションを表示",
-          "Hide Graypaper": "Graypaperを隠す",
+          "Show Section in Gray Paper": "Gray Paperでセクションを表示",
+          "Hide Gray Paper": "Gray Paperを隠す",
         },
       },
       cn: {
@@ -131,8 +131,8 @@ i18n
           "Select Lecture": "选择讲座",
           "filmed.buenos.aires": "2024年5月10日在布宜诺斯艾利斯拍摄",
           "filmed.singapore": "2024年6月19日在新加坡国立大学拍摄",
-          "Show Section in Graypaper": "在Graypaper中显示部分",
-          "Hide Graypaper": "隐藏Graypaper",
+          "Show Section in Gray Paper": "在Gray Paper中显示部分",
+          "Hide Gray Paper": "隐藏Gray Paper",
         },
       },
     },

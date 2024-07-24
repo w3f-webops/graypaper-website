@@ -8,7 +8,8 @@ import { Button } from "../components/Button"
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
-import { lectures } from "../data"
+import { lectures } from "../data/lectures"
+import { LectureSelect } from "../components/LectureSelect"
 
 const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 
@@ -25,7 +26,10 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout wide>
       <div className="mx-auto md:w-3/4">
-        <h2 id="lectures">{t("Lectures")}</h2>
+        <h2 id="lectures" className="text-center">
+          {t("Lectures")}
+        </h2>
+        <LectureSelect />
         <label htmlFor="select-lecture">{t("Select Lecture")}</label>
         <select
           id="select-lecture"
@@ -46,7 +50,7 @@ const Page: React.FC<PageProps> = (props) => {
           <div className="mx-auto md:w-3/4">
             <h3 className="mb-0">{activeLecture.section}</h3>
             <p className="mb-4 mt-0 w-full text-sm font-normal text-gray-400">
-              {activeLecture.subtitle}
+              {t(activeLecture.i18nSubtitle)}
             </p>
           </div>
           <LiteYouTubeEmbed
@@ -57,14 +61,14 @@ const Page: React.FC<PageProps> = (props) => {
           />
         </>
       )}
-      <div className="mx-auto md:w-3/4">
+      <div className="mx-auto mt-4 md:w-3/4">
         <Button
-          className="mt-4 w-full"
+          className="w-full"
           onClick={() => setGraypaperVisible(!graypaperVisible)}
         >
           {graypaperVisible
-            ? t("Hide Graypaper")
-            : t("Show Section in Graypaper")}{" "}
+            ? t("Hide Gray Paper")
+            : t("Show Section in Gray Paper")}{" "}
           {graypaperVisible ? "↑" : "↓"}
         </Button>
       </div>
@@ -80,7 +84,7 @@ const Page: React.FC<PageProps> = (props) => {
           )}
         </>
       )}
-      <div className="mx-auto mt-12 flex justify-between gap-4 md:w-3/4">
+      <div className="mx-auto mt-4 flex justify-between gap-4 md:w-3/4">
         <Button
           onClick={() =>
             setActiveLectureIndex(Math.max(0, activeLectureIndex - 1))
