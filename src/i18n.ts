@@ -46,6 +46,8 @@ i18n
           "filmed.buenos.aires": "Filmed in Buenos Aires on May 10, 2024",
           "filmed.singapore":
             "Filmed at the National University of Singapore on June 19 , 2024.",
+          "filmed.brussels":
+            "Filmed at the The Sneakers Cafe in Brussels, Belgium on July 11, 2024",
           "Show Section in Gray Paper": "Show Section in Gray Paper",
           "Hide Gray Paper": "Hide Gray Paper",
         },
@@ -75,6 +77,8 @@ i18n
             "Filmado en Buenos Aires el 10 de mayo de 2024",
           "filmed.singapore":
             "Filmado en la Universidad Nacional de Singapur el 19 de junio de 2024.",
+          "filmed.brussels":
+            "Filmado en The Sneakers Cafe en Bruselas, Bélgica el 11 de julio de 2024",
           "Show Section in Gray Paper": "Mostrar Sección en el Gray Paper",
           "Hide Gray Paper": "Ocultar Gray Paper",
         },
@@ -104,8 +108,10 @@ i18n
           "Select Lecture": "講義を選択",
           "filmed.buenos.aires": "2024年5月10日にブエノスアイレスで撮影",
           "filmed.singapore": "2024年6月19日にシンガポール国立大学で撮影",
+          "filmed.brussels":
+            "7月11日にベルギー・ブリュッセルのスニーカーカフェで撮影",
           "Show Section in Gray Paper": "Gray Paperでセクションを表示",
-          "Hide Gray Paper": "Gray Paperを隠す",
+          "Hide Gray Paper": "Gray Paperを非表示にする",
         },
       },
       cn: {
@@ -126,13 +132,14 @@ i18n
           "Abstract.p3": `${KeywordJam}的本质是无需许可的，允许任何人在其上部署代码作为服务，并根据该代码使用的资源支付相应的费用，并通过购买和分配<i>core-time</i>来引导该代码的执行，core-time是一种弹性的、普遍的计算度量，类似于Ethereum中的gas费用。我们已经构想了一个与Polkadot兼容的<i>CoreChains</i>服务。`,
           "CTA.Download": "阅读Gray Paper",
           Lectures: "讲座",
-          "Next Section": "下一部分",
-          "Previous Section": "上一部分",
+          "Next Section": "下一节",
+          "Previous Section": "上一节",
           "Select Lecture": "选择讲座",
           "filmed.buenos.aires": "2024年5月10日在布宜诺斯艾利斯拍摄",
           "filmed.singapore": "2024年6月19日在新加坡国立大学拍摄",
-          "Show Section in Gray Paper": "在Gray Paper中显示部分",
-          "Hide Gray Paper": "隐藏Gray Paper",
+          "filmed.brussels": "2024年7月11日于比利时布鲁塞尔的Sneakers Cafe拍摄",
+          "Show Section in Gray Paper": "在灰皮书中显示章节",
+          "Hide Gray Paper": "隐藏灰皮书",
         },
       },
     },

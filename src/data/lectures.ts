@@ -282,4 +282,10 @@ export const lectures: Array<{
     i18nSubtitle: "filmed.singapore",
     pages: [17],
   },
+  {
+    section: "10-13 Full Belgium Lecture (Clips Soon)",
+    videoId: "iMAqVPGppbs",
+    i18nSubtitle: "filmed.brussels",
+    pages: [17],
+  },
 ]
