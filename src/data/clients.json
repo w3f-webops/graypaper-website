@@ -147,5 +147,14 @@
     "lang_set": "B",
     "milestone": 0,
     "contact": ["@sisco0:matrix.org"]
+  },
+  {
+    "description": "Gossamer JAM client. Built in Go and developed by ChainSafe. Currently closed source.",
+    "homepage": "https://github.com/chainsafe",
+    "name": "Gossamer",
+    "lang": "Go",
+    "lang_set": "A",
+    "milestone": 0,
+    "contact": ["gossamer@chainsafe.io"]
   }
 ]
