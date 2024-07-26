@@ -1,9 +1,11 @@
-export const lectures: Array<{
+export type Lecture = {
   section: string
   videoId: string
   pages: Array<number>
   i18nSubtitle: string
-}> = [
+}
+
+export const lectures: Lecture[] = [
   {
     section: "1.1 Nomenclature",
     videoId: "wbnTnBQNDr4",

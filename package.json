@@ -26,6 +26,7 @@
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-json": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "i18next": "^23.11.2",
     "i18next-browser-languagedetector": "^7.2.1",

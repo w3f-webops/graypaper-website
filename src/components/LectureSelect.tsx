@@ -11,7 +11,6 @@ import { navigate } from "gatsby"
 import slugify from "slugify"
 
 const handleSelectChange = (val: string) => {
-  console.log("e.target.value", val)
   const selectedIndex = parseInt(val) || 0
   navigate(`/lectures/${slugify(lectures[selectedIndex].section)}`)
 }

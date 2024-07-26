@@ -41,6 +41,9 @@ importers:
       gatsby-source-filesystem:
         specifier: ^5.13.1
         version: 5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))
+      gatsby-transformer-json:
+        specifier: ^5.13.1
+        version: 5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))
       gatsby-transformer-sharp:
         specifier: ^5.13.1
         version: 5.13.1(gatsby-plugin-sharp@5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.1))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.1)
@@ -3473,6 +3476,12 @@ packages:
   gatsby-telemetry@4.13.1:
     resolution: {integrity: sha512-NstKs3N8LK9rwEli6SXO+ClNmewFbVzqS2yo6XZzQSXbymH6+Kkk+eqQivKhrD8PbQLLrdXkk1p47n91zc85XQ==}
     engines: {node: '>=18.0.0'}
+
+  gatsby-transformer-json@5.13.1:
+    resolution: {integrity: sha512-e+k6tlHamAYwwBph/Hs7Yx+/6t6m6GndmMQEDSZQOfp6h3oQttR7Uvl+Gj8P6HZ5zg370NRXNDT7CrsNZ5fqvg==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      gatsby: ^5.0.0-next
 
   gatsby-transformer-sharp@5.13.1:
     resolution: {integrity: sha512-H5gBpnKOn86ns65fv0cP8yIpnT//+dkpnSOZSrtrtYEgmwEFqblUHSSyolu2SURgE+Af55W7IKTYk2w2d9+PCQ==}
@@ -10622,6 +10631,12 @@ snapshots:
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
+
+  gatsby-transformer-json@5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5)):
+    dependencies:
+      '@babel/runtime': 7.24.4
+      bluebird: 3.7.2
+      gatsby: 5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5)
 
   gatsby-transformer-sharp@5.13.1(gatsby-plugin-sharp@5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.1))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@0.21.3)(typescript@5.4.5))(graphql@16.8.1):
     dependencies:
