@@ -156,5 +156,14 @@
     "lang_set": "A",
     "milestone": 0,
     "contact": ["gossamer@chainsafe.io"]
-  }
+  },
+  {
+    "description": "PBA Alumni Implementing JAM in Elixir",
+    "homepage": "https://github.com/danicuki/jamixir",
+    "name": "Jamixir",
+    "lang": "Elixir",
+    "lang_set": "D",
+    "milestone": 0,
+    "contact": ["danicuki+jamixir@gmail.com"]
+  },  
 ]
