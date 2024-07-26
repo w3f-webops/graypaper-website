@@ -92,7 +92,6 @@ html {
 body {
   line-height: 1.8;
 
-  max-width: 80ch;
   min-height: 100vh;
   overflow-x: hidden;
   margin: 0 auto;

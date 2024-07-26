@@ -18,3 +18,16 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     },
   })
 }
+
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+
+  if (page.path.match(/^\/lectures/)) {
+    deletePage(page)
+
+    createPage({
+      ...page,
+      matchPath: "/lectures/*",
+    })
+  }
+}

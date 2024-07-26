@@ -1,5 +1,5 @@
-import type { HeadFC, PageProps } from "gatsby"
-import * as React from "react"
+import { navigate, type HeadFC, type PageProps } from "gatsby"
+import React, { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
@@ -10,56 +10,64 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
 import { lectures } from "../data/lectures"
 import { LectureSelect } from "../components/LectureSelect"
+import slugify from "slugify"
 
 const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
 
-  const [activeLectureIndex, setActiveLectureIndex] = React.useState(0)
-  const [graypaperVisible, setGraypaperVisible] = React.useState(false)
+  console.log("xxx", props)
+  const isSSR = typeof window === "undefined"
+
+  const [activeLectureIndex, setActiveLectureIndex] = useState(0)
+  const [graypaperVisible, setGraypaperVisible] = useState(false)
   const activeLecture = lectures[activeLectureIndex]
   const activePage = activeLecture.pages[0]
 
-  const isSSR = typeof window === "undefined"
+  // Set active lecture from URL
+  useEffect(() => {
+    const sectionFromPath = window.location.pathname
+      .split("/lectures/")[1]
+      ?.replace(/\/$/, "")
+
+    console.log("sectionFromPath", sectionFromPath)
+    if (sectionFromPath) {
+      const foundLecture = lectures.find(
+        (lecture) => slugify(lecture.section) === sectionFromPath,
+      )
+      if (foundLecture) {
+        setActiveLectureIndex(
+          lectures.findIndex(
+            (lecture) =>
+              slugify(lecture.section) === slugify(foundLecture.section),
+          ),
+        )
+      }
+    }
+  }, [window.location.pathname])
 
   return (
     <Layout wide>
       <div className="mx-auto md:w-3/4">
-        <h2 id="lectures" className="text-center">
+        <h2 id="lectures" className="mb-8 text-center">
           {t("Lectures")}
         </h2>
-        <LectureSelect />
-        <label htmlFor="select-lecture">{t("Select Lecture")}</label>
-        <select
-          id="select-lecture"
-          className="mt-1 block rounded-sm p-2 text-xs text-black md:text-sm"
-          onChange={(e) => setActiveLectureIndex(parseInt(e.target.value))}
-          value={activeLectureIndex}
-        >
-          {lectures.map((lecture, index) => (
-            <option key={index} value={index}>
-              {lecture.section}
-            </option>
-          ))}
-        </select>
+        <LectureSelect activeLectureIndex={activeLectureIndex} />
       </div>
 
       {activeLecture && (
-        <>
-          <div className="mx-auto md:w-3/4">
-            <h3 className="mb-0">{activeLecture.section}</h3>
-            <p className="mb-4 mt-0 w-full text-sm font-normal text-gray-400">
-              {t(activeLecture.i18nSubtitle)}
-            </p>
-          </div>
+        <div className="mt-4">
           <LiteYouTubeEmbed
             iframeClass="mt-0 pt-0"
             id={activeLecture.videoId}
             title={activeLecture.section}
             poster="maxresdefault"
           />
-        </>
+          <p className="mt-1 w-full text-right text-sm font-normal text-gray-400">
+            {t(activeLecture.i18nSubtitle)}
+          </p>
+        </div>
       )}
       <div className="mx-auto mt-4 md:w-3/4">
         <Button
@@ -69,7 +77,9 @@ const Page: React.FC<PageProps> = (props) => {
           {graypaperVisible
             ? t("Hide Gray Paper")
             : t("Show Section in Gray Paper")}{" "}
-          {graypaperVisible ? "↑" : "↓"}
+          <span className="font-unbounded text-sm opacity-90">
+            {graypaperVisible ? "↑" : "↓"}
+          </span>
         </Button>
       </div>
       {graypaperVisible && (
@@ -92,7 +102,8 @@ const Page: React.FC<PageProps> = (props) => {
           disabled={activeLectureIndex === 0}
           className="w-1/2"
         >
-          ← {t("Previous Section")}
+          <span className="!font-unbounded opacity-90">←</span>{" "}
+          {t("Previous Section")}
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex - 1]?.section}
           </span>
@@ -106,7 +117,8 @@ const Page: React.FC<PageProps> = (props) => {
           disabled={activeLectureIndex === lectures.length - 1}
           className="w-1/2"
         >
-          {t("Next Section")} →
+          {t("Next Section")}{" "}
+          <span className="!font-unbounded opacity-90">→</span>
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex + 1]?.section}
           </span>
