@@ -17,7 +17,6 @@ const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
 
-  console.log("xxx", props)
   const isSSR = typeof window === "undefined"
 
   const [activeLectureIndex, setActiveLectureIndex] = useState(0)
@@ -45,7 +44,7 @@ const Page: React.FC<PageProps> = (props) => {
         )
       }
     }
-  }, [window.location.pathname])
+  }, [!isSSR && window.location.pathname])
 
   return (
     <Layout wide>
