@@ -18,10 +18,6 @@ export const LectureSelect = ({
 }) => {
   const handleSelectChange = (val: string) => {
     const selectedIndex = parseInt(val) || 0
-    const section = slugify(lectures[selectedIndex].section)
-    const url = new URL(window.location.href)
-    url.searchParams.set("section", section)
-    window.history.pushState({}, "", url.toString())
     setActiveLectureIndex(selectedIndex)
   }
 

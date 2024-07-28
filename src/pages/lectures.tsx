@@ -17,24 +17,29 @@ const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 const Page: React.FC<PageProps> = ({ location }) => {
   const isSSR = typeof window === "undefined"
 
-  useEffect(() => {
-    if (!isSSR) {
-      const params = new URLSearchParams(location.search)
-      const sectionParam = params.get("section")
+  console.log("location", location)
 
-      if (sectionParam) {
-        const index = lectures.findIndex(
-          (lecture) => slugify(lecture.section) === sectionParam,
-        )
-        if (index !== -1) {
-          setActiveLectureIndex(index)
-        }
-      }
-    }
-  }, [location.search, isSSR])
+  const params = new URLSearchParams(location.search)
+  const sectionParam = params.get("section")
+
+  const initialIndex = sectionParam
+    ? lectures.findIndex((lecture) => slugify(lecture.section) === sectionParam)
+    : 0
 
   const [graypaperVisible, setGraypaperVisible] = React.useState(false)
-  const [activeLectureIndex, setActiveLectureIndex] = React.useState(0)
+  const [activeLectureIndex, setActiveLectureIndex] = React.useState(
+    initialIndex !== -1 ? initialIndex : 0,
+  )
+
+  // Update URL when activeLectureIndex changes
+  useEffect(() => {
+    if (activeLectureIndex !== -1) {
+      const section = slugify(lectures[activeLectureIndex].section)
+      const url = new URL(window.location.href)
+      url.searchParams.set("section", section)
+      window.history.pushState({}, "", url.toString())
+    }
+  }, [activeLectureIndex])
 
   const activeLecture = lectures[activeLectureIndex || 0]
 
@@ -91,10 +96,12 @@ const Page: React.FC<PageProps> = ({ location }) => {
         </>
       )}
       <div className="mx-auto mt-4 flex justify-between gap-4 md:w-3/4">
-        {/* <Button
+        <Button
           onClick={() =>
-            navigate(
-              `/lectures/${slugify(lectures[activeLectureIndex - 1].section)}`,
+            setActiveLectureIndex(
+              activeLectureIndex === 0
+                ? lectures.length - 1
+                : activeLectureIndex - 1,
             )
           }
           disabled={activeLectureIndex === 0}
@@ -105,11 +112,13 @@ const Page: React.FC<PageProps> = ({ location }) => {
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex - 1]?.section}
           </span>
-        </Button> */}
-        {/* <Button
+        </Button>
+        <Button
           onClick={() =>
-            navigate(
-              `/lectures/${slugify(lectures[activeLectureIndex + 1].section)}`,
+            setActiveLectureIndex(
+              activeLectureIndex === lectures.length - 1
+                ? 0
+                : activeLectureIndex + 1,
             )
           }
           disabled={activeLectureIndex === lectures.length - 1}
@@ -120,7 +129,7 @@ const Page: React.FC<PageProps> = ({ location }) => {
           <span className="text-muted block text-xs">
             {lectures[activeLectureIndex + 1]?.section}
           </span>
-        </Button> */}
+        </Button>
       </div>
     </Layout>
   )
