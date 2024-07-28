@@ -7,19 +7,24 @@ import {
   SelectValue,
 } from "./ui/select"
 import { lectures } from "../data/lectures"
-import { navigate } from "gatsby"
 import slugify from "slugify"
-
-const handleSelectChange = (val: string) => {
-  const selectedIndex = parseInt(val) || 0
-  navigate(`/lectures/${slugify(lectures[selectedIndex].section)}`)
-}
 
 export const LectureSelect = ({
   activeLectureIndex,
+  setActiveLectureIndex,
 }: {
   activeLectureIndex: number
+  setActiveLectureIndex: (index: number) => void
 }) => {
+  const handleSelectChange = (val: string) => {
+    const selectedIndex = parseInt(val) || 0
+    const section = slugify(lectures[selectedIndex].section)
+    const url = new URL(window.location.href)
+    url.searchParams.set("section", section)
+    window.history.pushState({}, "", url.toString())
+    setActiveLectureIndex(selectedIndex)
+  }
+
   return (
     <>
       <label className="">Select a Lecture</label>
