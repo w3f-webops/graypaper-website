@@ -178,7 +178,7 @@
   {
     "description": "An OCaml implementation of the Polkadot JAM",
     "homepage": "",
-    "name": "Mark",
+    "name": "Po-jam-l",
     "lang": "OCaml",
     "lang_set": "D",
     "milestone": 0,
