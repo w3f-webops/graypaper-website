@@ -59,88 +59,11 @@
   }
 }
 
-@font-face {
-  font-family: "Computer Modern";
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: url("/fonts/cmunrm.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  font-style: normal;
-  font-weight: bold;
-  font-display: swap;
-  src: url("/fonts/cmunbx.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  font-style: italic;
-  font-weight: bold;
-  font-display: swap;
-  src: url("/fonts/cmunbi.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Computer Modern";
-  font-style: italic;
-  font-weight: normal;
-  font-display: swap;
-  src: url("/fonts/cmunti.ttf") format("truetype");
-}
-
-body.custom {
-  font-family: "Computer Modern", Georgia, Cambria, "Times New Roman", Times,
-    serif;
-  /* 1.8 in latex.css */
-  /* line-height: 1.8; */
-  /* 1rem in latex.css */
-  background-color: #131313;
-  font-weight: bold;
-  padding: 0;
-}
-
-body.custom {
-  @apply leading-normal sm:text-lg;
-}
-
-.container {
-  max-width: 80ch;
-  margin: 0 auto;
-}
-
-td {
-  @apply align-baseline;
-}
-
-.abstract.indent-pars > p {
-  @apply hyphens-auto text-justify;
-}
-
-.abstract-word {
-  font-variant: small-caps;
-}
-
-.jam {
-  font-variant: small-caps;
-}
-
-.jam > span {
-  position: relative;
-  top: 2.6pt;
-}
-
-h2,
-h3 {
-  font-family: "Unbounded", sans-serif;
-}
-.pdf-container {
-  aspect-ratio: 210 / 297;
-  width: 100%;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

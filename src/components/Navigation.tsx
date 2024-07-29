@@ -11,7 +11,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
   return (
     <header
       aria-label="navigation"
-      className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full bg-[#0002] backdrop-blur-sm"
+      className={cn("sticky top-0 z-50 w-full bg-[#0002] backdrop-blur-sm", {
+        "mx-auto max-w-[80ch]": !props.isFull,
+      })}
     >
       <div
         className={cn(
@@ -45,6 +47,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
           </Link>
           <Link to="/tour">
             <button>{t("Tour")}</button>
+          </Link>
+          <Link to="/lectures">
+            <button>{t("Lectures")}</button>
           </Link>
           <Link to="/prize">
             <button>{t("Prize")}</button>

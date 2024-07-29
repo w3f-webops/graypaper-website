@@ -102,11 +102,6 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
 
       {/* TODO remove once content is available */}
       <meta name="robots" content="noindex, nofollow" />
-      {/* <meta
-        id="description"
-        name="description"
-        content={""}
-      /> */}
     </>
   )
 }
