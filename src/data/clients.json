@@ -165,5 +165,14 @@
     "lang_set": "D",
     "milestone": 0,
     "contact": ["danicuki+jamixir@gmail.com"]
-  },  
+  },
+  {
+    "description": "A fun GO implementation of the JAM client by the AirLyft team. Currently closed source.",
+    "homepage": "https://polkadot.airlyft.one/",
+    "name": "Jamaica",
+    "lang": "Go",
+    "lang_set": "A",
+    "milestone": 0,
+    "contact": ["@rmagon:matrix.org"]
+  }
 ]
