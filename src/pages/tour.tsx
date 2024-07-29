@@ -1,4 +1,4 @@
-import type { HeadFC, PageProps } from "gatsby"
+import { Link, type HeadFC, type PageProps } from "gatsby"
 import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
@@ -42,12 +42,25 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="tour" className="text-center">{t("Tour")}</h2>
+        <h2 id="tour" className="text-center">
+          {t("Tour")}
+        </h2>
 
         <p>
           Gavin Wood will be appearing at universities around the world in a
           series of lectures to take viewers through the Gray Paper and explain
           each part in depth.
+        </p>
+        <p>
+          Recordings of this tour are shared on the{" "}
+          <a href="https://www.youtube.com/@JamPrizeTour" target="_blank">
+            <span className="jam">
+              <span>J</span>am
+            </span>{" "}
+            Prize Tour YouTube Channel
+          </a>
+          . See the <Link to="/lectures">Lectures</Link> section for studying
+          the Gray Paper along with the Tour material.
         </p>
 
         <h3 id="dates">{t("Dates")}</h3>
