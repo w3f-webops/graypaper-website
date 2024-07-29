@@ -4,11 +4,16 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 
-const newsData: Array<{ date: string, title: string, link: string }> = [
+const newsData: Array<{ date: string; title: string; link: string }> = [
+  {
+    title: "JAM Gray Paper Lecture Videos Released",
+    date: "24/07/2024",
+    link: "https://www.youtube.com/@JamPrizeTour",
+  },
   {
     title: "Polkadot Coffee Break—Demystifying JAM with Kian Paimani",
     date: "18/07/2024",
-    link: "https://x.com/filippoweb3/status/1813893471763329320"
+    link: "https://x.com/filippoweb3/status/1813893471763329320",
   },
   {
     date: "17/07/2024",
@@ -22,23 +27,25 @@ const newsData: Array<{ date: string, title: string, link: string }> = [
   },
   {
     date: "10/07/2024",
-    title: "Building True Unstoppability: Protocol-Hosted Decentralised Protocol Development",
-    link: "https://ethcc.io/archive/Building-True-Unstoppability-Protocol-Hosted-Decentralised-Protocol-Development"
+    title:
+      "Building True Unstoppability: Protocol-Hosted Decentralised Protocol Development",
+    link: "https://ethcc.io/archive/Building-True-Unstoppability-Protocol-Hosted-Decentralised-Protocol-Development",
   },
   {
     date: "30/06/2024",
     title: "Space Monkeys 152—JAM—Audience Questions on the Next DOT",
-    link: "https://www.youtube.com/watch?v=pCPD2A4dM3c"
+    link: "https://www.youtube.com/watch?v=pCPD2A4dM3c",
   },
   {
     date: "17/06/2024",
     title: "SNB-CIF Conference May 2024: Keynote Lecture by Gavin Wood",
-    link: "https://www.snb.ch/en/services-events/digital-services/researchtv-events/researchtv-2024-05-24_1"
+    link: "https://www.snb.ch/en/services-events/digital-services/researchtv-events/researchtv-2024-05-24_1",
   },
   {
     date: "14/06/2024",
-    title: "Apply now for the JAM Implementers’ Prize: A 10 Million DOT Opportunity",
-    link: "https://medium.com/web3foundation/apply-now-for-the-jam-implementers-prize-a-10-million-dot-opportunity-3a2fd753e16d"
+    title:
+      "Apply now for the JAM Implementers’ Prize: A 10 Million DOT Opportunity",
+    link: "https://medium.com/web3foundation/apply-now-for-the-jam-implementers-prize-a-10-million-dot-opportunity-3a2fd753e16d",
   },
   {
     date: "09/06/2024",
@@ -116,7 +123,9 @@ const Page: React.FC<PageProps> = (props) => {
   return (
     <Layout>
       <article>
-        <h2 id="news" className="text-center">{t("News")}</h2>
+        <h2 id="news" className="text-center">
+          {t("News")}
+        </h2>
 
         <table className="borders-custom">
           <tbody>
