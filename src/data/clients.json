@@ -174,5 +174,14 @@
     "lang_set": "A",
     "milestone": 0,
     "contact": ["@rmagon:matrix.org"]
+  },
+  {
+    "description": "An OCaml implementation of the Polkadot JAM",
+    "homepage": "",
+    "name": "Mark",
+    "lang": "OCaml",
+    "lang_set": "D",
+    "milestone": 0,
+    "contact": ["me@markpetruska.eu"]
   }
 ]
