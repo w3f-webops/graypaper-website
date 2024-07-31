@@ -192,5 +192,14 @@
     "lang_set": "B",
     "milestone": 0,
     "contact": ["info@qdrvm.io"]
+  },
+  {
+    "description": "",
+    "homepage": "",
+    "name": "Block Cowboys",
+    "lang": "C/C++",
+    "lang_set": "B",
+    "milestone": 0,
+    "contact": ["blockcowboy (Discord)"]
   }
 ]
