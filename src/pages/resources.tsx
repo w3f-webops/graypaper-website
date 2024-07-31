@@ -21,35 +21,31 @@ const Page: React.FC<PageProps> = (props) => {
     },
     {
       title: "Kian Paimani—Demystifying JAM",
-      link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/"
+      link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/",
     },
     {
       title: "Test Vectors for the JAM Protocol",
-      link: "https://github.com/w3f/jamtestvectors/"
-    }
-  ];
+      link: "https://github.com/w3f/jamtestvectors/",
+    },
+  ]
 
   return (
     <Layout>
       <article>
-        <h2 id="Resources" className="text-center">{t("Resources")}</h2>
-
+        <h2 id="Resources" className="text-center">
+          {t("Resources")}
+        </h2>
         <h3 className="text-xl" id="download">
           {t("Graypaper PDF")}
         </h3>
-        <p>Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code></p>
+        <p>
+          Latest version: <code>DRAFT 0.3.1 JULY 17, 2024</code>
+        </p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
             <code>graypaper.com/graypaper.pdf</code>
           </a>
-          <a href="/graypaper_inverted.pdf" download={true}>
-            <code>graypaper.com/graypaper_inverted.pdf</code>
-          </a>
-          <a href="/graypaper_no_background.pdf" download={true}>
-            <code>graypaper.com/graypaper_no_background.pdf</code>
-          </a>
         </p>
-
         <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
@@ -59,7 +55,23 @@ const Page: React.FC<PageProps> = (props) => {
             <code>github.com/gavofyork/graypaper</code>
           </a>
         </p>
+        <p>
+          A version without the dark background is provided for your
+          convenience. The{" "}
+          <a
+            href="https://github.com/gavofyork/graypaper/releases"
+            rel="noopener noreferrer"
+          >
+            most recent official released version
+          </a>{" "}
+          on GitHub is the decisive version.
+        </p>
 
+        <p className="flex flex-col gap-3 pl-5 md:pl-10">
+          <a href="/graypaper-no-background.pdf" download={true}>
+            <code>graypaper.com/graypaper-no-background.pdf</code>
+          </a>
+        </p>
         <h3 className="text-xl" id="contribute">
           {t("Contribute")}
         </h3>
@@ -80,7 +92,6 @@ const Page: React.FC<PageProps> = (props) => {
             <code>#graypaper:polkadot.io</code>
           </a>
         </div>
-
         <h3 className="text-xl" id="additional-resources">
           {t("Additional Resources")}
         </h3>
@@ -93,7 +104,6 @@ const Page: React.FC<PageProps> = (props) => {
             </li>
           ))}
         </ul>
-
         <h3 className="text-xl" id="interview">
           {t("Interview")}
         </h3>
@@ -106,11 +116,8 @@ const Page: React.FC<PageProps> = (props) => {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         />
-
-
-      </article >
-
-    </Layout >
+      </article>
+    </Layout>
   )
 }
 
