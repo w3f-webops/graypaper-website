@@ -68,8 +68,8 @@ const Page: React.FC<PageProps> = (props) => {
         </p>
 
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
-          <a href="/graypaper-no-background.pdf" download={true}>
-            <code>graypaper.com/graypaper-no-background.pdf</code>
+          <a href="/graypaper_no_background.pdf" download={true}>
+            <code>graypaper.com/graypaper_no_background.pdf</code>
           </a>
         </p>
         <h3 className="text-xl" id="contribute">
