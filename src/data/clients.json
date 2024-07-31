@@ -183,5 +183,14 @@
     "lang_set": "D",
     "milestone": 0,
     "contact": ["me@markpetruska.eu"]
+  },
+  {
+    "description": "C++ implementation of JAM protocol by Quadrivium",
+    "homepage": "https://qdrvm.io/",
+    "name": "MORUM",
+    "lang": "C++",
+    "lang_set": "B",
+    "milestone": 0,
+    "contact": ["info@qdrvm.io"]
   }
 ]
