@@ -11,9 +11,9 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
   return (
     <header
       aria-label="navigation"
-      className={cn("sticky top-0 z-50 w-full bg-[#0002] backdrop-blur-sm", {
-        "mx-auto max-w-[80ch]": !props.isFull,
-      })}
+      className={cn(
+        "sticky top-0 z-50 mx-auto w-full max-w-[80ch] bg-[#0002] backdrop-blur-sm",
+      )}
     >
       <div
         className={cn(
@@ -36,24 +36,12 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
         )}
 
         <div className="flex flex-row flex-wrap justify-center gap-x-8 gap-y-4 py-2 transition-all sm:justify-end">
-          <Link to="/news">
-            <button>{t("News")}</button>
-          </Link>
-          <Link to="/resources">
-            <button>{t("Resources")}</button>
-          </Link>
-          <Link to="/clients">
-            <button>{t("Clients")}</button>
-          </Link>
-          <Link to="/tour">
-            <button>{t("Tour")}</button>
-          </Link>
-          <Link to="/lectures">
-            <button>{t("Lectures")}</button>
-          </Link>
-          <Link to="/prize">
-            <button>{t("Prize")}</button>
-          </Link>
+          <Link to="/news">{t("News")}</Link>
+          <Link to="/resources">{t("Resources")}</Link>
+          <Link to="/clients">{t("Clients")}</Link>
+          <Link to="/tour">{t("Tour")}</Link>
+          <Link to="/lectures">{t("Lectures")}</Link>
+          <Link to="/prize">{t("Prize")}</Link>
           <LanguageSelect />
         </div>
       </div>
