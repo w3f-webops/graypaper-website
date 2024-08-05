@@ -12,7 +12,7 @@ export const Navigation: React.FC<Omit<LayoutProps, "children">> = (props) => {
     <header
       aria-label="navigation"
       className={cn(
-        "sticky top-0 z-50 mx-auto w-full max-w-[80ch] bg-[#0002] backdrop-blur-sm",
+        "sticky top-0 z-50 mx-auto w-full bg-[#0002] backdrop-blur-sm",
       )}
     >
       <div
