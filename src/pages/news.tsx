@@ -11,6 +11,11 @@ const newsData: Array<{ date: string; title: string; link: string }> = [
     link: "https://www.youtube.com/@JamPrizeTour",
   },
   {
+    title: "OpenGov Proposal—#1024 JAM0 Event @ Devcon 7 ",
+    date: "23/07/2024",
+    link: "https://polkadot.polkassembly.io/referenda/1024",
+  },
+  {
     title: "Polkadot Coffee Break—Demystifying JAM with Kian Paimani",
     date: "18/07/2024",
     link: "https://x.com/filippoweb3/status/1813893471763329320",
@@ -44,7 +49,7 @@ const newsData: Array<{ date: string; title: string; link: string }> = [
   {
     date: "14/06/2024",
     title:
-      "Apply now for the JAM Implementers’ Prize: A 10 Million DOT Opportunity",
+      "Apply now for the JAM Implementer’s Prize: A 10 Million DOT Opportunity",
     link: "https://medium.com/web3foundation/apply-now-for-the-jam-implementers-prize-a-10-million-dot-opportunity-3a2fd753e16d",
   },
   {
