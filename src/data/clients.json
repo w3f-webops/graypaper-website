@@ -210,5 +210,14 @@
     "lang_set": "B",
     "milestone": 0,
     "contact": ["@0xjunha:matrix.org"]
+  },
+  {
+    "description": "Haskell implementation of the JAM protocol. Currently not publicly visible.",
+    "homepage": "",
+    "name": "JAMLabs",
+    "lang": "Haskell",
+    "lang_set": "C",
+    "milestone": 0,
+    "contact": [""]
   }
 ]
