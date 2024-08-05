@@ -36,7 +36,7 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Resources")}
         </h2>
         <h3 className="text-xl" id="download">
-          {t("Graypaper PDF")}
+          {t("Gray Paper")}
         </h3>
         <p>
           Latest version: <code>DRAFT 0.3.3 August 4, 2024</code>
