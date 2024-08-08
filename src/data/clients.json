@@ -36,7 +36,7 @@
     "contact": ["bryan@acala.network"]
   },
   {
-    "description": "We are working on the Go implementation of Jam 🍓",
+    "description": "We are working on the Go implementation of Jam 🍓.",
     "homepage": "https://www.eiger.co/",
     "name": "Strawberry",
     "lang": "Go",
@@ -158,7 +158,7 @@
     "contact": ["gossamer@chainsafe.io"]
   },
   {
-    "description": "PBA Alumni Implementing JAM in Elixir",
+    "description": "PBA Alumni Implementing JAM in Elixir.",
     "homepage": "https://t.me/+jlaRqhcS06o1YTYx",
     "name": "Jamixir",
     "lang": "Elixir",
@@ -185,7 +185,7 @@
     "contact": ["me@markpetruska.eu"]
   },
   {
-    "description": "C++ implementation of JAM protocol by Quadrivium",
+    "description": "C++ implementation of JAM protocol by Quadrivium.",
     "homepage": "https://qdrvm.io/",
     "name": "MORUM",
     "lang": "C++",
@@ -219,5 +219,14 @@
     "lang_set": "C",
     "milestone": 0,
     "contact": ["@AltiMario:matrix.org", "info@mlabs.city"]
+  },
+  {
+    "name": "PyJAMaz",
+    "description": "Python Implementation of JAM by JAMdot Technologies.",
+    "homepage": "https://github.com/JAMdotTech",
+    "lang": "Python",
+    "lang_set": "C",
+    "milestone": 0,
+    "contact": ["hello@jamdot.tech"]
   }
 ]
