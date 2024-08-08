@@ -1,6 +1,7 @@
 import { GatsbyNode } from "gatsby"
 import { news } from "./src/data/news"
 import { clients } from "./src/data/clients"
+import { lectures } from "./src/data/lectures"
 import * as fs from "fs"
 
 export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
@@ -13,6 +14,10 @@ export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
   const newsJson = JSON.stringify(news, undefined, 2)
   fs.writeFileSync("./public/news/json", newsJson)
   fs.writeFileSync("./public/news.json", newsJson)
+
+  const lecturesJson = JSON.stringify(news, undefined, 2)
+  fs.writeFileSync("./public/lectures/json", lecturesJson)
+  fs.writeFileSync("./public/lectures.json", lecturesJson)
 }
 
 export const onCreateWebpackConfig: GatsbyNode["onCreateWebpackConfig"] = ({
