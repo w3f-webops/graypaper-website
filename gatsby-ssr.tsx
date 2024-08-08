@@ -5,19 +5,19 @@ export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
   setHeadComponents([
     <link
       rel="preload"
-      href="/fonts/cmunbx.ttf"
+      href="/fonts/cmunrm.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
-      key="computerModernBoldFont"
+      key="computerModernFont"
     />,
     <link
       rel="preload"
-      href="/fonts/cmunbi.ttf"
+      href="/fonts/cmunti.ttf"
       as="font"
       type="font/ttf"
       crossOrigin="anonymous"
-      key="computerModernBoldItalicFont"
+      key="computerModernItalicFont"
     />,
     <link
       rel="preconnect"
