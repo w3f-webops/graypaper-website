@@ -219,5 +219,14 @@
     "lang_set": "C",
     "milestone": 0,
     "contact": ["@AltiMario:matrix.org", "info@mlabs.city"]
+  },
+  {
+    "name": "PyJAMaz",
+    "description": "Python Implementation of JAM by JAMdot Technologies",
+    "homepage": "https://github.com/JAMdotTech",
+    "lang": "Python",
+    "lang_set": "C",
+    "milestone": 0,
+    "contact": ["hello@jamdot.tech"]
   }
 ]
