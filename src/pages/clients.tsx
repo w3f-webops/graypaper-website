@@ -3,9 +3,10 @@ import React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
-import clients from "../data/clients.json"
+import { clients } from "../data/clients"
 
 type Client = (typeof clients)[number]
+
 const sortClients = (a: Client, b: Client) => {
   // First, compare by lang_set
   const langSetComparison = a.lang_set.localeCompare(b.lang_set)

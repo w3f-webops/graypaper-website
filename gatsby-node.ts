@@ -1,15 +1,18 @@
 import { GatsbyNode } from "gatsby"
-
-const fs = require("fs")
+import { news } from "./src/data/news"
+import { clients } from "./src/data/clients"
+import * as fs from "fs"
 
 export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
-  fs.copyFile(
-    "./src/data/clients.json",
-    "./public/clients.json",
-    (err: NodeJS.ErrnoException | null) => {
-      if (err) throw err
-    },
-  )
+  console.log("Post build polo")
+
+  const clientsJson = JSON.stringify(clients, undefined, 2)
+  fs.writeFileSync("./public/clients/json", clientsJson)
+  fs.writeFileSync("./public/clients.json", clientsJson)
+
+  const newsJson = JSON.stringify(news, undefined, 2)
+  fs.writeFileSync("./public/news/json", newsJson)
+  fs.writeFileSync("./public/news.json", newsJson)
 }
 
 export const onCreateWebpackConfig: GatsbyNode["onCreateWebpackConfig"] = ({
