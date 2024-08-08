@@ -5,8 +5,6 @@ import { lectures } from "./src/data/lectures"
 import * as fs from "fs"
 
 export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
-  console.log("Post build polo")
-
   const clientsJson = JSON.stringify(clients, undefined, 2)
   fs.writeFileSync("./public/clients/json", clientsJson)
   fs.writeFileSync("./public/clients.json", clientsJson)
@@ -15,7 +13,7 @@ export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
   fs.writeFileSync("./public/news/json", newsJson)
   fs.writeFileSync("./public/news.json", newsJson)
 
-  const lecturesJson = JSON.stringify(news, undefined, 2)
+  const lecturesJson = JSON.stringify(lectures, undefined, 2)
   fs.writeFileSync("./public/lectures/json", lecturesJson)
   fs.writeFileSync("./public/lectures.json", lecturesJson)
 }
