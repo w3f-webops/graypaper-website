@@ -13,7 +13,7 @@ Please make sure your team also registered interested with the Web3 Foundation d
 At best you can directly open a pull request adding/updating your client information yourself, thanks!
 
 The file is located here:
-https://github.com/w3f-webops/graypaper-website/blob/main/src/data/clients.json
+https://github.com/w3f-webops/graypaper-website/blob/main/src/data/clients.ts
 -->
 
 I would like to list/change the following JAM client implementation:
