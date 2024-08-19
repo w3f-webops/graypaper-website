@@ -224,7 +224,7 @@ export const clients: ClientData[] = [
     lang: "Elixir",
     lang_set: "D",
     milestone: 0,
-    contact: ["danicuki+jamixir@gmail.com"],
+    contact: ["danicuki+jamixir@gmail.com", "daiagi@gmail.com"],
   },
   {
     description:
