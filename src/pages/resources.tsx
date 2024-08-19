@@ -39,7 +39,7 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Gray Paper")}
         </h3>
         <p>
-          Latest version: <code>DRAFT 0.3.4 August 9, 2024</code>
+          Latest version: <code>DRAFT 0.3.5 August 18, 2024</code>
         </p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
