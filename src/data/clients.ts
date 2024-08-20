@@ -291,4 +291,13 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["hello@jamdot.tech"],
   },
+  {
+    name: "subjam",
+    description: "Go implementation of JAM protocol.",
+    homepage: "https://github.com/subjamdev",
+    lang: "Go",
+    lang_set: "A",
+    milestone: 0,
+    contact: ["https://x.com/nathanccxv"],
+  },
 ]
