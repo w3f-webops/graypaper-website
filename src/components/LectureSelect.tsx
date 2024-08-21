@@ -8,6 +8,7 @@ import {
 } from "./ui/select"
 import { lectures } from "../data/lectures"
 import slugify from "slugify"
+import { useTranslation } from "react-i18next"
 
 export const LectureSelect = ({
   activeLectureIndex,
@@ -16,6 +17,7 @@ export const LectureSelect = ({
   activeLectureIndex: number
   setActiveLectureIndex: (index: number) => void
 }) => {
+  const { t } = useTranslation()
   const handleSelectChange = (val: string) => {
     const selectedIndex = parseInt(val) || 0
     setActiveLectureIndex(selectedIndex)
@@ -23,7 +25,7 @@ export const LectureSelect = ({
 
   return (
     <>
-      <label className="">Select a Lecture</label>
+      <label className="">{t('Select Lecture')}</label>
       <Select
         onValueChange={handleSelectChange}
         value={`${activeLectureIndex}`}
