@@ -1,5 +1,10 @@
 export const news: Array<{ date: string; title: string; link: string }> = [
   {
+    title: "Crypto India—Polkadot JAM Upgrade AMA with Gavin Wood",
+    date: "21/08/2024",
+    link: "https://www.youtube.com/watch?v=wQsE_DlwK2g",
+  },
+  {
     title: "JAM Gray Paper Lecture Videos Released",
     date: "24/07/2024",
     link: "https://www.youtube.com/@JamPrizeTour",
