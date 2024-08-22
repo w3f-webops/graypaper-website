@@ -13,21 +13,9 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Prize")}
         </h2>
         <div className="flex h-[50vh] flex-col">
-          <p>
-            The Web3 Foundation announces the{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at
-            fostering diversity in the development of the{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            protocol. The goal of this prize is to encourage the creation of
-            multiple client implementations, enhancing the network&#x2019;s
-            resilience.
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: t("Prize Description") }}>
 
+          </p>
           <div className="flex flex-row items-center justify-center pt-4">
             <a
               target="_blank"

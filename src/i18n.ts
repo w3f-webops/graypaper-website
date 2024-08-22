@@ -33,6 +33,12 @@ i18n
           "Resources.Download": "Get a copy of the Gray Paper here:",
           "Resources.Latex": "or compile the LaTeX from source:",
           "Resources.Contribute": `Join the ${KeywordJam} in our ${KeywordMatrix} rooms:`,
+          "Resources.VersionNoBackground":
+            "A version without the dark background is provided for your convenience. The",
+          "Resources.MostRecent": "most recent official released version",
+          "Resources.DecisiveVersion": "on GitHub is the decisive version",
+          "Additional Resources": "Additional Resources",
+          Interview: "Interview",
           "GrayPaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
           "Abstract.p1": `${KeywordAbstract} We present a comprehensive and formal definition of ${KeywordJam}, a protocol combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a single coherent model, ${KeywordJam} provides a global singleton permissionless object environment&#8212;much like the smart-contract environment pioneered by Ethereum&#8212;paired with secure sideband computation parallelized over a scalable node network, a proposition pioneered by Polkadot.`,
@@ -50,6 +56,11 @@ i18n
             "Filmed at the The Sneakers Cafe in Brussels, Belgium on July 11, 2024",
           "Show Section in Gray Paper": "Show Section in Gray Paper",
           "Hide Gray Paper": "Hide Gray Paper",
+          "Tour Description":
+            "Gavin Wood will be appearing at universities around the world in a series of lectures to take viewers through the Gray Paper and explain each part in depth.",
+          "Latest version": "Latest version",
+          "Prize Description":
+            `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation ofmultiple client implementations, enhancing the network&#x2019;sresilience.`,
         },
       },
       es: {
@@ -140,6 +151,48 @@ i18n
           "filmed.brussels": "2024年7月11日于比利时布鲁塞尔的Sneakers Cafe拍摄",
           "Show Section in Gray Paper": "在灰皮书中显示章节",
           "Hide Gray Paper": "隐藏灰皮书",
+        },
+      },
+      pt: {
+        translation: {
+          Resources: "Recursos",
+          Prize: "Prêmio",
+          Tour: "Tour",
+          Download: "Baixar",
+          News: "Notícias",
+          Contribute: "Contribuir",
+          "Coming soon": "Em breve...",
+          "Resources.Download": "Obtenha uma cópia do Gray Paper aqui:",
+          "Resources.Latex": "ou compile o LaTeX a partir do código-fonte:",
+          "Resources.Contribute": `Junte-se ao ${KeywordJam} em nossas salas no ${KeywordMatrix}:`,
+          "Resources.VersionNoBackground":
+            "Uma versão sem o fundo escuro é fornecida para sua conveniência. A",
+          "Resources.MostRecent": "versão oficial mais recente lançada",
+          "Resources.DecisiveVersion": "no GitHub é a versão definitiva",
+          "Additional Resources": "Recursos Adicionais",
+          "GrayPaper.Title":
+            '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />UMA MÁQUINA VIRTUAL SEMI-COERENTE ESCALÁVEL E TRUSTLESS',
+          "Abstract.p1": `${KeywordAbstract} Apresentamos uma definição abrangente e formal de ${KeywordJam}, um protocolo que combina elementos da <i>Polkadot</i> e <i>Ethereum</i>. Em um modelo único e coerente, ${KeywordJam} oferece um ambiente de objeto global singleton e permissionless - muito parecido com o ambiente de contratos inteligentes pioneiro no Ethereum - emparelhado com computação paralelizada segura em uma rede de nós escalável, uma proposta pioneira do Polkadot.`,
+          "Abstract.p2": `${KeywordJam} introduz um sistema híbrido descentralizado que oferece funcionalidade de contratos inteligentes estruturada em torno de um dualismo seguro e escalável in-core/on-chain. Embora a funcionalidade de contratos inteligentes implique algumas semelhanças com o paradigma da Ethereum, o modelo geral do serviço oferecido é amplamente impulsionado pela arquitetura subjacente da Polkadot.`,
+          "Abstract.p3": `${KeywordJam} é de natureza permissonless, onde que qualquer pessoa pode implantar código como um serviço, mediante uma taxa proporcional aos recursos que esse código utiliza e induza a execução desse código através da aquisição e alocação de <i>core-time</i>, uma métrica de computação resiliente e onipresente, um pouco semelhante à compra de gás no Ethereum. Já prevemos um serviço <i>CoreChains</i> compatível com Polkadot.`,
+          "CTA.Download": "Leia o Gray Paper",
+          Lectures: "Aulas",
+          "Next Section": "Próxima Seção",
+          "Previous Section": "Seção Anterior",
+          "Select Lecture": "Selecione uma Aula",
+          "filmed.buenos.aires":
+            "Filmado em Buenos Aires em 10 de maio de 2024",
+          "filmed.singapore":
+            "Filmado na Universidade Nacional de Singapura em 19 de junho de 2024.",
+          "filmed.brussels":
+            "Filmado no The Sneakers Cafe em Bruxelas, Bélgica, em 11 de julho de 2024",
+          "Show Section in Gray Paper": "Mostrar Seção no Gray Paper",
+          "Hide Gray Paper": "Ocultar Gray Paper",
+          "Tour Description":
+            "Gavin Wood estará presente em universidades ao redor do mundo em uma série de palestras para guiar os espectadores pelo Gray Paper e explicar cada parte em detalhes.",
+          "Latest version": "Versão mais recente",
+          "Prize Description":
+            `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
         },
       },
     },

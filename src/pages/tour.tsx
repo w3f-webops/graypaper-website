@@ -47,9 +47,7 @@ const Page: React.FC<PageProps> = (props) => {
         </h2>
 
         <p>
-          Gavin Wood will be appearing at universities around the world in a
-          series of lectures to take viewers through the Gray Paper and explain
-          each part in depth.
+          {t("Tour Description")}
         </p>
         <p>
           Recordings of this tour are shared on the{" "}

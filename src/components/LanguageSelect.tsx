@@ -25,6 +25,7 @@ export const LanguageSelect = () => {
       >
         <option value={"en"}>EN</option>
         <option value={"es"}>ES</option>
+        <option value={"pt"}>PT</option>
         <option value={"jp"}>日本語</option>
         <option value={"cn"}>中文</option>
       </select>
