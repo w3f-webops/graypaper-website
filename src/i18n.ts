@@ -59,8 +59,7 @@ i18n
           "Tour Description":
             "Gavin Wood will be appearing at universities around the world in a series of lectures to take viewers through the Gray Paper and explain each part in depth.",
           "Latest version": "Latest version",
-          "Prize Description":
-            `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation ofmultiple client implementations, enhancing the network&#x2019;sresilience.`,
+          "Prize Description": `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation ofmultiple client implementations, enhancing the network&#x2019;sresilience.`,
         },
       },
       es: {
@@ -170,6 +169,7 @@ i18n
           "Resources.MostRecent": "versão oficial mais recente lançada",
           "Resources.DecisiveVersion": "no GitHub é a versão definitiva",
           "Additional Resources": "Recursos Adicionais",
+          Interview: "Entrevista",
           "GrayPaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />UMA MÁQUINA VIRTUAL SEMI-COERENTE ESCALÁVEL E TRUSTLESS',
           "Abstract.p1": `${KeywordAbstract} Apresentamos uma definição abrangente e formal de ${KeywordJam}, um protocolo que combina elementos da <i>Polkadot</i> e <i>Ethereum</i>. Em um modelo único e coerente, ${KeywordJam} oferece um ambiente de objeto global singleton e permissionless - muito parecido com o ambiente de contratos inteligentes pioneiro no Ethereum - emparelhado com computação paralelizada segura em uma rede de nós escalável, uma proposta pioneira do Polkadot.`,
@@ -191,8 +191,7 @@ i18n
           "Tour Description":
             "Gavin Wood estará presente em universidades ao redor do mundo em uma série de palestras para guiar os espectadores pelo Gray Paper e explicar cada parte em detalhes.",
           "Latest version": "Versão mais recente",
-          "Prize Description":
-            `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
+          "Prize Description": `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
         },
       },
     },
