@@ -38,7 +38,7 @@ i18n
           "Resources.MostRecent": "most recent official released version",
           "Resources.DecisiveVersion": "on GitHub is the decisive version",
           "Additional Resources": "Additional Resources",
-          Interview: "Entrevista",
+          Interview: "Interview",
           "GrayPaper.Title":
             '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
           "Abstract.p1": `${KeywordAbstract} We present a comprehensive and formal definition of ${KeywordJam}, a protocol combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a single coherent model, ${KeywordJam} provides a global singleton permissionless object environment&#8212;much like the smart-contract environment pioneered by Ethereum&#8212;paired with secure sideband computation parallelized over a scalable node network, a proposition pioneered by Polkadot.`,
