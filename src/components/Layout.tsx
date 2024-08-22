@@ -18,9 +18,8 @@ export const Layout: React.FC<LayoutProps> = ({
   return (
     <div
       className={cn(
-        "mx-auto max-w-[800px] bg-lemon-jelly bg-fixed shadow-md shadow-zinc-950",
+        "mx-auto max-w-[800px] bg-lemon-jelly bg-fixed leading-5 shadow-md shadow-zinc-950",
         {
-          "leading-5": ["en", "es"].includes(i18n.language),
           "font-noto-serif leading-7 tracking-wider": ["cn"].includes(
             i18n.language,
           ),
