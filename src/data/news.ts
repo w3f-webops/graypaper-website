@@ -73,6 +73,11 @@ export const news: Array<{ date: string; title: string; link: string }> = [
     link: "https://gavinwood.gbm.auction",
   },
   {
+    date: "13/05/2024",
+    title: "Polkadot JAM Explained. Simply!",
+    link: "https://polkadotters.medium.com/polkadot-jam-explained-simply-825ec8b24607",
+  },
+  {
     date: "09/05/2024",
     title: "X Space—Gavin Wood on JAM: The next disruptor in Web3",
     link: "https://twitter.com/Polkadot/status/1788614918796607848",
