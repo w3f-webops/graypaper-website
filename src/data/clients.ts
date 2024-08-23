@@ -228,12 +228,12 @@ export const clients: ClientData[] = [
   },
   {
     description: "PBA Alumni Implementing JAM in Elixir.",
-    homepage: "https://t.me/+jlaRqhcS06o1YTYx",
+    homepage: "http://jamixir.org/",
     name: "Jamixir",
     lang: "Elixir",
     lang_set: "D",
     milestone: 0,
-    contact: ["danicuki+jamixir@gmail.com", "daiagi@gmail.com"],
+    contact: ["daniel@jamixir.org", "daiagi@jamixir.org"],
   },
   {
     description:
