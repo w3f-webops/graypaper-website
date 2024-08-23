@@ -59,6 +59,15 @@ export const clients: ClientData[] = [
     contact: [],
   },
   {
+    name: "JamZig",
+    description: "Implementation of the Jam client in the Zig programming language.",
+    homepage: "https://jamzig.dev",
+    lang: "Zig",
+    lang_set: "B",
+    milestone: 0,
+    contact: ["info@jamzig.dev", "#jamzig:matrix.org"],
+  },
+  {
     description:
       "Some Polkadot coders taking up the challenge. Currently closed source.",
     homepage: "",
