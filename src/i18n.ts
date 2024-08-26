@@ -10,30 +10,37 @@ rel="noopener noreferrer">[matrix]</a>`
 
 type Translation = Record<keyof typeof EnglishTranslation, string | undefined>
 const EnglishTranslation = {
-  "Abstract.p1": "${KeywordAbstract} We present a comprehensive and formal definition of ${KeywordJam}, a protocol combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a single coherent model, ${KeywordJam} provides a global singleton permissionless object environment&#8212;much like the smart-contract environment pioneered by Ethereum&#8212;paired with secure sideband computation parallelized over a scalable node network, a proposition pioneered by Polkadot.",
-  "Abstract.p2": "${KeywordJam} introduces a decentralized hybrid system offering smart-contract functionality structured around a secure and scalable in-core/on-chain dualism. While the smart-contract functionality implies some similarities with Ethereum&#x2019;s paradigm, the overall model of the service offered is driven largely by underlying architecture of Polkadot.",
-  "Abstract.p3": "${KeywordJam} is permissionless in nature, allowing anyone to deploy code as a service on it for a fee commensurate with the resources this code utilizes and to induce execution of this code through the procurement and allocation of <i>core-time</i>, a metric of resilient and ubiquitous computation, somewhat similar to the purchasing of gas in Ethereum. We already envision a Polkadot-compatible <i>CoreChains</i> service.",
+  "Abstract.p1": `${KeywordAbstract} We present a comprehensive and formal definition of ${KeywordJam}, a protocol combining elements of both <i>Polkadot</i> and <i>Ethereum</i>. In a single coherent model, ${KeywordJam} provides a global singleton permissionless object environment&#8212;much like the smart-contract environment pioneered by Ethereum&#8212;paired with secure sideband computation parallelized over a scalable node network, a proposition pioneered by Polkadot.`,
+  "Abstract.p2": `${KeywordJam} introduces a decentralized hybrid system offering smart-contract functionality structured around a secure and scalable in-core/on-chain dualism. While the smart-contract functionality implies some similarities with Ethereum&#x2019;s paradigm, the overall model of the service offered is driven largely by underlying architecture of Polkadot.`,
+  "Abstract.p3": `${KeywordJam} is permissionless in nature, allowing anyone to deploy code as a service on it for a fee commensurate with the resources this code utilizes and to induce execution of this code through the procurement and allocation of <i>core-time</i>, a metric of resilient and ubiquitous computation, somewhat similar to the purchasing of gas in Ethereum. We already envision a Polkadot-compatible <i>CoreChains</i> service.`,
   "Additional Resources": "Additional Resources",
   "Coming soon": "Coming soon...",
   "CTA.Download": "Read the Gray Paper",
-  "filmed.brussels": "Filmed at the The Sneakers Cafe in Brussels, Belgium on July 11, 2024",
+  "filmed.brussels":
+    "Filmed at the The Sneakers Cafe in Brussels, Belgium on July 11, 2024",
   "filmed.buenos.aires": "Filmed in Buenos Aires on May 10, 2024",
-  "filmed.singapore": "Filmed at the National University of Singapore on June 19, 2024.",
-  "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
+  "filmed.singapore":
+    "Filmed at the National University of Singapore on June 19, 2024.",
+  "GrayPaper.Title":
+    '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
   "Hide Gray Paper": "Hide Gray Paper",
   "Latest version": "Latest version",
   "Next Section": "Next Section",
   "Previous Section": "Previous Section",
-  "Prize Description": "The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation ofmultiple client implementations, enhancing the network&#x2019;sresilience.",
-  "Resources.Contribute": "Join the ${KeywordJam} in our ${KeywordMatrix} rooms:",
+  "Prize.description": `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation of multiple client implementations, enhancing the network&#x2019;s resilience.`,
+  "Prize.cta": "Read the announcement",
+  "Prize.apply": `The ${KeywordJam} Implementer’s Prize encourages multiple client implementations to boost network resilience. The Foundation seeks proposals for ${KeywordJam} Implementer’s Prize here:`,
+  "Resources.Contribute": `Join the ${KeywordJam} in our ${KeywordMatrix} rooms:`,
   "Resources.DecisiveVersion": "on GitHub is the decisive version",
   "Resources.Download": "Get a copy of the Gray Paper here:",
   "Resources.Latex": "or compile the LaTeX from source:",
   "Resources.MostRecent": "most recent official released version",
-  "Resources.VersionNoBackground": "A version without the dark background is provided for your convenience. The",
+  "Resources.VersionNoBackground":
+    "A version without the dark background is provided for your convenience. The",
   "Select Lecture": "Select a Lecture",
   "Show Section in Gray Paper": "Show Section in Gray Paper",
-  "Tour Description": "Gavin Wood will be appearing at universities around the world in a series of lectures to take viewers through the Gray Paper and explain each part in depth.",
+  "Tour Description":
+    "Gavin Wood will be appearing at universities around the world in a series of lectures to take viewers through the Gray Paper and explain each part in depth.",
   Contribute: "Contribute",
   Download: "Download",
   Interview: "Interview",
@@ -51,24 +58,29 @@ const PortugueseTranslation: Translation = {
   "Additional Resources": "Recursos Adicionais",
   "Coming soon": "Em breve...",
   "CTA.Download": "Leia o Gray Paper",
-  "filmed.brussels": "Filmado no The Sneakers Cafe em Bruxelas, Bélgica, em 11 de julho de 2024",
+  "filmed.brussels":
+    "Filmado no The Sneakers Cafe em Bruxelas, Bélgica, em 11 de julho de 2024",
   "filmed.buenos.aires": "Filmado em Buenos Aires em 10 de maio de 2024",
-  "filmed.singapore": "Filmado na Universidade Nacional de Singapura em 19 de junho de 2024.",
-  "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />UMA MÁQUINA VIRTUAL SEMI-COERENTE ESCALÁVEL E TRUSTLESS',
+  "filmed.singapore":
+    "Filmado na Universidade Nacional de Singapura em 19 de junho de 2024.",
+  "GrayPaper.Title":
+    '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />UMA MÁQUINA VIRTUAL SEMI-COERENTE ESCALÁVEL E TRUSTLESS',
   "Hide Gray Paper": "Ocultar Gray Paper",
   "Latest version": "Versão mais recente",
   "Next Section": "Próxima Seção",
   "Previous Section": "Seção Anterior",
-  "Prize Description": `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
+  "Prize.description": `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
   "Resources.Contribute": `Junte-se ao ${KeywordJam} em nossas salas no ${KeywordMatrix}:`,
   "Resources.DecisiveVersion": "no GitHub é a versão definitiva",
   "Resources.Download": "Obtenha uma cópia do Gray Paper aqui:",
   "Resources.Latex": "ou compile o LaTeX a partir do código-fonte:",
   "Resources.MostRecent": "versão oficial mais recente lançada",
-  "Resources.VersionNoBackground": "Uma versão sem o fundo escuro é fornecida para sua conveniência. A",
+  "Resources.VersionNoBackground":
+    "Uma versão sem o fundo escuro é fornecida para sua conveniência. A",
   "Select Lecture": "Selecione uma Aula",
   "Show Section in Gray Paper": "Mostrar Seção no Gray Paper",
-  "Tour Description": "Gavin Wood estará presente em universidades ao redor do mundo em uma série de palestras para guiar os espectadores pelo Gray Paper e explicar cada parte em detalhes.",
+  "Tour Description":
+    "Gavin Wood estará presente em universidades ao redor do mundo em uma série de palestras para guiar os espectadores pelo Gray Paper e explicar cada parte em detalhes.",
   Contribute: "Contribuir",
   Download: "Baixar",
   Interview: "Entrevista",
@@ -77,6 +89,8 @@ const PortugueseTranslation: Translation = {
   Prize: "Prêmio",
   Resources: "Recursos",
   Tour: "Tour",
+  "prize.cta": undefined,
+  "prize.apply": undefined,
 }
 
 const SpanishTranslation: Translation = {
@@ -86,15 +100,18 @@ const SpanishTranslation: Translation = {
   "Additional Resources": undefined,
   "Coming soon": "Próximamente...",
   "CTA.Download": "Lee el Gray Paper",
-  "filmed.brussels": "Filmado en The Sneakers Cafe en Bruselas, Bélgica el 11 de julio de 2024",
+  "filmed.brussels":
+    "Filmado en The Sneakers Cafe en Bruselas, Bélgica el 11 de julio de 2024",
   "filmed.buenos.aires": "Filmado en Buenos Aires el 10 de mayo de 2024",
-  "filmed.singapore": "Filmado en la Universidad Nacional de Singapur el 19 de junio de 2024.",
-  "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />Una máquina virtual escalable, semi-coherente y libre de confianza',
+  "filmed.singapore":
+    "Filmado en la Universidad Nacional de Singapur el 19 de junio de 2024.",
+  "GrayPaper.Title":
+    '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />Una máquina virtual escalable, semi-coherente y libre de confianza',
   "Hide Gray Paper": "Ocultar Gray Paper",
   "Latest version": undefined,
   "Next Section": "Próxima Sección",
   "Previous Section": "Sección Anterior",
-  "Prize Description": undefined,
+  "Prize.description": undefined,
   "Resources.Contribute": `Únete al ${KeywordJam} en nuestro espacio ${KeywordMatrix}:`,
   "Resources.DecisiveVersion": undefined,
   "Resources.Download": "Obtén una copia del Gray Paper aquí:",
@@ -112,6 +129,8 @@ const SpanishTranslation: Translation = {
   Prize: "Premio",
   Resources: "Recursos",
   Tour: "Tour",
+  "prize.cta": undefined,
+  "prize.apply": undefined,
 }
 
 const JapaneseTranslation: Translation = {
@@ -124,16 +143,18 @@ const JapaneseTranslation: Translation = {
   "filmed.brussels": "7月11日にベルギー・ブリュッセルのスニーカーカフェで撮影",
   "filmed.buenos.aires": "2024年5月10日にブエノスアイレスで撮影",
   "filmed.singapore": "2024年6月19日にシンガポール国立大学で撮影",
-  "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント、スケーラブル、トラストレス仮想マシン（VM）',
+  "GrayPaper.Title":
+    '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />セミコヒーレント、スケーラブル、トラストレス仮想マシン（VM）',
   "Hide Gray Paper": "Gray Paperを非表示にする",
   "Latest version": undefined,
   "Next Section": "次のセクション",
   "Previous Section": "前のセクション",
-  "Prize Description": undefined,
+  "Prize.description": undefined,
   "Resources.Contribute": `${KeywordMatrix}チャットルームから${KeywordJam}に参加しよう：`,
   "Resources.DecisiveVersion": undefined,
   "Resources.Download": "Gray Paperはここからダウンロードできます：",
-  "Resources.Latex": "もしくは、こちらからLaTeXソースファイルをコンパイルできます:",
+  "Resources.Latex":
+    "もしくは、こちらからLaTeXソースファイルをコンパイルできます:",
   "Resources.MostRecent": undefined,
   "Resources.VersionNoBackground": undefined,
   "Select Lecture": "講義を選択",
@@ -147,6 +168,8 @@ const JapaneseTranslation: Translation = {
   Prize: "賞金制度",
   Resources: "リソース",
   Tour: "ツアー",
+  "prize.cta": undefined,
+  "prize.apply": undefined,
 }
 
 const ChineseTranslation: Translation = {
@@ -159,12 +182,13 @@ const ChineseTranslation: Translation = {
   "filmed.brussels": "2024年7月11日于比利时布鲁塞尔的Sneakers Cafe拍摄",
   "filmed.buenos.aires": "2024年5月10日在布宜诺斯艾利斯拍摄",
   "filmed.singapore": "2024年6月19日在新加坡国立大学拍摄",
-  "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />准一致、可扩展、无需信任的虚拟机',
+  "GrayPaper.Title":
+    '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />准一致、可扩展、无需信任的虚拟机',
   "Hide Gray Paper": "隐藏灰皮书",
   "Latest version": undefined,
   "Next Section": "下一节",
   "Previous Section": "上一节",
-  "Prize Description": undefined,
+  "Prize.description": undefined,
   "Resources.Contribute": `加入我们的 ${KeywordJam} ${KeywordMatrix} 空间：`,
   "Resources.DecisiveVersion": undefined,
   "Resources.Download": "在这里获取Gray Paper的副本：",

@@ -13,45 +13,25 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Prize")}
         </h2>
         <div className="flex h-[50vh] flex-col">
-          <p dangerouslySetInnerHTML={{ __html: t("Prize Description") }}>
-
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: t("Prize.description") }}></p>
           <div className="flex flex-row items-center justify-center pt-4">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d"
             >
-              Read the announcement
+              {t("Prize.cta")}
             </a>
           </div>
 
-          <p>
-            The{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Implementer’s Prize encourages multiple client implementations to
-            boost network resilience. The Foundation seeks proposals for{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            implementations in diverse programming languages, including OCaml,
-            Go, and Zig among others. The Foundation is excited to support
-            enthusiastic developers in shaping the future of blockchain
-            technology. Interested teams can apply for the{" "}
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Implementer’s Prize here:
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: t("Prize.apply") }}></p>
           <div className="flex flex-row items-center justify-center p-4">
             <a
               target="_blank"
               href="https://jam.web3.foundation/"
               rel="noopener noreferrer"
             >
-              https://jam.web3.foundation/
+              jam.web3.foundation
             </a>
           </div>
         </div>
