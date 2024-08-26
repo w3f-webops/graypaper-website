@@ -12,13 +12,13 @@ export default async (req: Request, context: Context) => {
   if (!version) {
     return Response.redirect(
       `https://github.com/gavofyork/graypaper/releases/latest`,
-      301,
+      302,
     )
   }
 
   // Directly download PDF from GitHub Release Page
   return Response.redirect(
     `https://github.com/gavofyork/graypaper/releases/latest/download/graypaper-${version}.pdf`,
-    301,
+    302,
   )
 }
