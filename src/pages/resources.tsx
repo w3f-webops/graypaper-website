@@ -39,7 +39,7 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Gray Paper")}
         </h3>
         <p>
-          {t("Latest version")}: <code>DRAFT 0.3.5 August 18, 2024</code>
+          {t("Latest version")}: <code>DRAFT 0.3.6 August 24, 2024</code>
         </p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
@@ -56,14 +56,14 @@ const Page: React.FC<PageProps> = (props) => {
           </a>
         </p>
         <p>
-          {t('Resources.VersionNoBackground')}{" "}
+          {t("Resources.VersionNoBackground")}{" "}
           <a
             href="https://github.com/gavofyork/graypaper/releases"
             rel="noopener noreferrer"
           >
-          {t('Resources.MostRecent')}
+            {t("Resources.MostRecent")}
           </a>{" "}
-          {t('Resources.DecisiveVersion')}.
+          {t("Resources.DecisiveVersion")}.
         </p>
 
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
