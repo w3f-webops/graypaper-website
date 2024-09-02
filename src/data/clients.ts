@@ -60,7 +60,8 @@ export const clients: ClientData[] = [
   },
   {
     name: "JamZig",
-    description: "Implementation of the Jam client in the Zig programming language.",
+    description:
+      "Implementation of the Jam client in the Zig programming language.",
     homepage: "https://jamzig.dev",
     lang: "Zig",
     lang_set: "B",
@@ -308,5 +309,14 @@ export const clients: ClientData[] = [
     lang_set: "A",
     milestone: 0,
     contact: ["https://x.com/nathanccxv"],
+  },
+  {
+    name: "JavaJam",
+    description: "Java implementation of JAM.",
+    homepage: "https://method5.com",
+    lang: "Java",
+    lang_set: "A",
+    milestone: 0,
+    contact: ["info@method5.com"],
   },
 ]
