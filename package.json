@@ -34,7 +34,7 @@
     "i18next-browser-languagedetector": "^7.2.1",
     "latex.css": "^1.11.0",
     "lucide-react": "^0.414.0",
-    "pdfjs-dist": "^3.4.120",
+    "pdfjs-dist": "^4.2.67",
     "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
