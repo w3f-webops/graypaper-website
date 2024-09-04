@@ -59,6 +59,15 @@ export const clients: ClientData[] = [
     contact: [],
   },
   {
+    description: "JAM client implementation in Rust",
+    homepage: "https://universaldot.foundation",
+    name: "UNIVERSALDOT",
+    lang: "Rust",
+    lang_set: "B",
+    milestone: 1,
+    contact: [info@universaldot.foundation],
+  },
+  {
     name: "JamZig",
     description:
       "Implementation of the Jam client in the Zig programming language.",
