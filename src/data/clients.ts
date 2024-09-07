@@ -59,7 +59,7 @@ export const clients: ClientData[] = [
     contact: [],
   },
   {
-    description: "JAM client implementation in Rust",
+    description: "JAM client implementation in Rust.",
     homepage: "https://universaldot.foundation",
     name: "UNIVERSALDOT",
     lang: "Rust",
