@@ -65,7 +65,7 @@ export const clients: ClientData[] = [
     lang: "Rust",
     lang_set: "B",
     milestone: 1,
-    contact: [info@universaldot.foundation],
+    contact: ["info@universaldot.foundation"],
   },
   {
     name: "JamZig",
