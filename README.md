@@ -57,6 +57,8 @@ For translation this website is using [`react-i18next`](https://react.i18next.co
 
 Feel free to fix mistakes and contribute new translations through pull-requests.
 
+The default language and source of truth for translation is the english version. When contributing base your translation on the english version - `/src/translations/en.ts`.
+
 ### Troubleshooting
 
 There is a [known issue](https://github.com/Automattic/node-canvas/issues/1825#issuecomment-1090125736) with the `node-canvas` package on apple M1 / M2 chips, which is needed for the pdf viewer. If you run into issues try
