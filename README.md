@@ -23,7 +23,7 @@ https://graypaper.com/news.json
 https://graypaper.com/lectures.json
 ```
 
-## Development
+## Development & Contribution
 
 ### Getting Started
 
@@ -50,6 +50,12 @@ Serve production build:
 ```sh
 pnpm serve
 ```
+
+### Translation
+
+For translation this website is using [`react-i18next`](https://react.i18next.com/). The translation files are located in `/src/translations`.
+
+Feel free to fix mistakes and contribute new translations through pull-requests.
 
 ### Troubleshooting
 
