@@ -43,25 +43,9 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Clients")}
         </h2>
 
-        <p>
-          The{" "}
-          <a href="/prize">
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Implementer’s Prize
-          </a>{" "}
-          encourages multiple client implementations to boost network
-          resilience. The table on this page lists the publicly known clients in
-          development.
-        </p>
-        <p>
-          As of now there are {clients.length} clients listed across the{" "}
-          <a href="https://jam.web3.foundation/#languages" target="_blank">
-            5 language sets
-          </a>
-          :
-        </p>
+        <p dangerouslySetInnerHTML={{__html:t("Clients.why")}} />
+
+        <p dangerouslySetInnerHTML={{__html:t("Clients.amount",{numberOfClients: clients.length})}} />
 
         <p className="text-center">
           <em>A</em>: {ClientsPerLanguageSet["A"]}, <em>B</em>:{" "}
@@ -70,27 +54,18 @@ const Page: React.FC<PageProps> = (props) => {
           {ClientsPerLanguageSet["Z"] || 0}
         </p>
 
-        <p>
-          If you want to list your client or update your listing, please request
-          the change{" "}
-          <a
-            target="_blank"
-            href="https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ"
-          >
-            here
-          </a>
-          .
-        </p>
+        <p dangerouslySetInnerHTML={{__html:t("Clients.add")}} />
+
         <div className="overflow-x-scroll py-4 font-normal">
           <table className="col-1-l col-2-c col-3-l col-4-c col-5-c col-6-l">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Set</th>
-                <th>Language</th>
-                <th>Milestone</th>
-                <th>Web</th>
-                <th>Contact</th>
+                <th>{t("Clients.name")}</th>
+                <th>{t("Clients.set")}</th>
+                <th>{t("Clients.language")}</th>
+                <th>{t("Clients.milestone")}</th>
+                <th>{t("Clients.web")}</th>
+                <th>{t("Clients.contact")}</th>
               </tr>
             </thead>
             <tbody>
