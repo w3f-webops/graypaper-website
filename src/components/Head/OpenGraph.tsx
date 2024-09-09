@@ -9,10 +9,7 @@ export const OpenGraph: React.FC = () => (
       property="og:description"
       content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
     />
-    <meta
-      property="og:image"
-      content="https://opengraph.b-cdn.net/production/documents/071b08d8-3cf5-4536-99df-913b960c7bf0.png?token=gtsIp0vjcn8ec0YNc-Lae6hNH5LNXunCRsq-Hco8edw&height=630&width=1200&expires=33248759780"
-    />
+    <meta property="og:image" content="/img/opengraph.png" />
 
     {/* <!-- Twitter Meta Tags --> */}
     <meta name="twitter:card" content="summary_large_image" />
@@ -23,9 +20,6 @@ export const OpenGraph: React.FC = () => (
       name="twitter:description"
       content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
     />
-    <meta
-      name="twitter:image"
-      content="https://opengraph.b-cdn.net/production/documents/071b08d8-3cf5-4536-99df-913b960c7bf0.png?token=gtsIp0vjcn8ec0YNc-Lae6hNH5LNXunCRsq-Hco8edw&height=630&width=1200&expires=33248759780"
-    />
+    <meta name="twitter:image" content="/img/opengraph.png" />
   </>
 )
