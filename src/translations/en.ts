@@ -44,6 +44,7 @@ export default {
     "Select Lecture": "Select a Lecture",
     "Show Section in Gray Paper": "Show Section in Gray Paper",
     "Tour Description": "Gavin Wood will be appearing at universities around the world in a series of lectures to take viewers through the Gray Paper and explain each part in depth.",
+    "Tour YouTube": `Recordings of this tour are shared on the <a href="https://www.youtube.com/@JamPrizeTour" target="_blank">  ${KeywordJam} Prize Tour YouTube Channel</a>. See the <a href="/lectures">Lectures</a> section for studying the Gray Paper along with the Tour material.`,
     Contribute: "Contribute",
     Download: "Download",
     Interview: "Interview",
