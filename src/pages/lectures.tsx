@@ -17,8 +17,6 @@ const ClientSidePdfDoc = React.lazy(() => import("../components/PdfDoc"))
 const Page: React.FC<PageProps> = ({ location }) => {
   const isSSR = typeof window === "undefined"
 
-  console.log("location", location)
-
   const params = new URLSearchParams(location.search)
   const sectionParam = params.get("section")
 
@@ -109,7 +107,7 @@ const Page: React.FC<PageProps> = ({ location }) => {
         >
           <span className="!font-unbounded opacity-90">←</span>{" "}
           {t("Previous Section")}
-          <span className="text-muted block text-xs">
+          <span className="block text-xs text-muted">
             {lectures[activeLectureIndex - 1]?.section}
           </span>
         </Button>
@@ -126,7 +124,7 @@ const Page: React.FC<PageProps> = ({ location }) => {
         >
           {t("Next Section")}{" "}
           <span className="!font-unbounded opacity-90">→</span>
-          <span className="text-muted block text-xs">
+          <span className="block text-xs text-muted">
             {lectures[activeLectureIndex + 1]?.section}
           </span>
         </Button>

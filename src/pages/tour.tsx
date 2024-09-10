@@ -46,20 +46,9 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Tour")}
         </h2>
 
-        <p>
-          {t("Tour Description")}
-        </p>
-        <p>
-          Recordings of this tour are shared on the{" "}
-          <a href="https://www.youtube.com/@JamPrizeTour" target="_blank">
-            <span className="jam">
-              <span>J</span>am
-            </span>{" "}
-            Prize Tour YouTube Channel
-          </a>
-          . See the <Link to="/lectures">Lectures</Link> section for studying
-          the Gray Paper along with the Tour material.
-        </p>
+        <p>{t("Tour Description")}</p>
+
+        <p dangerouslySetInnerHTML={{ __html: t("Tour YouTube") }} />
 
         <h3 id="dates">{t("Dates")}</h3>
         <table className="borders-custom">
