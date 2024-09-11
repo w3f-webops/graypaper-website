@@ -38,9 +38,7 @@ const Page: React.FC<PageProps> = (props) => {
         <h3 className="text-xl" id="download">
           {t("Gray Paper")}
         </h3>
-        <p>
-          {t("Latest version")}: <code>DRAFT 0.3.6 August 24, 2024</code>
-        </p>
+        <p>{t("Latest version")}:</p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a href="/graypaper.pdf" download={true}>
             <code>graypaper.com/graypaper.pdf</code>
@@ -55,7 +53,8 @@ const Page: React.FC<PageProps> = (props) => {
             <code>github.com/gavofyork/graypaper</code>
           </a>
         </p>
-        <p>
+        {/* TODO Can be added back in once this process is automated as well */}
+        {/* <p>
           {t("Resources.VersionNoBackground")}{" "}
           <a
             href="https://github.com/gavofyork/graypaper/releases"
@@ -70,7 +69,7 @@ const Page: React.FC<PageProps> = (props) => {
           <a href="/graypaper_no_background.pdf" download={true}>
             <code>graypaper.com/graypaper_no_background.pdf</code>
           </a>
-        </p>
+        </p> */}
         <h3 className="text-xl" id="contribute">
           {t("Contribute")}
         </h3>
