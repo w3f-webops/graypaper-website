@@ -1,6 +1,6 @@
 export const news: Array<{ date: string; title: string; link: string }> = [
   {
-    title: "A Glass with Gav, Episode 4: The Kurayoshi Pure Malt",
+    title: "A Glass with Gav—Episode 4: The Kurayoshi Pure Malt",
     date: "12/09/2024",
     link: "https://www.youtube.com/watch?v=mEhj1_KQ1rU",
   },
