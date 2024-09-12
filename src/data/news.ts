@@ -1,5 +1,16 @@
 export const news: Array<{ date: string; title: string; link: string }> = [
   {
+    title: "A Glass with Gav, Episode 4: The Kurayoshi Pure Malt",
+    date: "12/09/2024",
+    link: "https://x.com/aglasswithgav/status/1833913611850576283",
+  },
+  {
+    title:
+      "Scytale Digital—$50 Million JAM Implementer’s Prize and Access a Supercomputer Playground",
+    date: "12/09/2024",
+    link: "https://www.scytale.digital/blog-posts/attention-developers-discover-the-50-million-jam-implementers-prize-and-access-a-supercomputer-playground",
+  },
+  {
     title: "Crypto India—Polkadot JAM Upgrade AMA with Gavin Wood",
     date: "21/08/2024",
     link: "https://www.youtube.com/watch?v=wQsE_DlwK2g",
