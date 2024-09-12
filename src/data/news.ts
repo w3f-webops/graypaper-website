@@ -2,7 +2,7 @@ export const news: Array<{ date: string; title: string; link: string }> = [
   {
     title: "A Glass with Gav, Episode 4: The Kurayoshi Pure Malt",
     date: "12/09/2024",
-    link: "https://x.com/aglasswithgav/status/1833913611850576283",
+    link: "https://www.youtube.com/watch?v=mEhj1_KQ1rU",
   },
   {
     title:
