@@ -1,4 +1,6 @@
-export const news: Array<{ date: string; title: string; link: string }> = [
+import { News } from "./types"
+
+export const news: News[] = [
   {
     title: "A Glass with Gav, Episode 4: The Kurayoshi Pure Malt",
     date: "12/09/2024",
