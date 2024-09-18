@@ -10,10 +10,12 @@ const Page: React.FC<PageProps> = (props) => {
     <Layout>
       <article>
         <h2 id="Prize" className="text-center">
-          {t("Prize")}
+          {t("Prize.headline")}
         </h2>
-        <div className="flex h-[50vh] flex-col">
+
+        <div className="flex flex-col gap-4">
           <p dangerouslySetInnerHTML={{ __html: t("Prize.description") }}></p>
+
           <div className="flex flex-row items-center justify-center pt-4">
             <a
               target="_blank"
@@ -24,15 +26,39 @@ const Page: React.FC<PageProps> = (props) => {
             </a>
           </div>
 
-          <p dangerouslySetInnerHTML={{ __html: t("Prize.apply") }}></p>
-          <div className="flex flex-row items-center justify-center p-4">
-            <a
-              target="_blank"
-              href="https://jam.web3.foundation/"
-              rel="noopener noreferrer"
-            >
-              jam.web3.foundation
-            </a>
+          <p dangerouslySetInnerHTML={{ __html: t("Prize.resources") }}></p>
+
+          <div className="flex w-full">
+            <div className="flex flex-col items-start gap-3 pl-5 sm:pl-10">
+              <a
+                target="_blank"
+                href="https://jam.web3.foundation/"
+                rel="noopener noreferrer"
+              >
+                jam.web3.foundation
+              </a>
+              <a
+                target="_blank"
+                href="https://jam.web3.foundation/rules"
+                rel="noopener noreferrer"
+              >
+                jam.web3.foundation/rules
+              </a>
+              <a
+                target="_blank"
+                href="https://hackmd.io/@polkadot/jamprize"
+                rel="noopener noreferrer"
+              >
+                Gav's Unofficial JAM Prize Notes
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/w3f/jam-milestone-delivery"
+                rel="noopener noreferrer"
+              >
+                Milestone Delivery
+              </a>
+            </div>
           </div>
         </div>
       </article>

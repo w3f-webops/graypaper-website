@@ -43,9 +43,13 @@ const Page: React.FC<PageProps> = (props) => {
           {t("Clients")}
         </h2>
 
-        <p dangerouslySetInnerHTML={{__html:t("Clients.why")}} />
+        <p dangerouslySetInnerHTML={{ __html: t("Clients.why") }} />
 
-        <p dangerouslySetInnerHTML={{__html:t("Clients.amount",{numberOfClients: clients.length})}} />
+        <p
+          dangerouslySetInnerHTML={{
+            __html: t("Clients.amount", { numberOfClients: clients.length }),
+          }}
+        />
 
         <p className="text-center">
           <em>A</em>: {ClientsPerLanguageSet["A"]}, <em>B</em>:{" "}
@@ -54,7 +58,7 @@ const Page: React.FC<PageProps> = (props) => {
           {ClientsPerLanguageSet["Z"] || 0}
         </p>
 
-        <p dangerouslySetInnerHTML={{__html:t("Clients.add")}} />
+        <p dangerouslySetInnerHTML={{ __html: t("Clients.add") }} />
 
         <div className="overflow-x-scroll py-4 font-normal">
           <table className="col-1-l col-2-c col-3-l col-4-c col-5-c col-6-l">
