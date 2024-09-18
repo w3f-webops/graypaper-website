@@ -1,9 +1,4 @@
-export type Lecture = {
-  section: string
-  videoId: string
-  pages: Array<number>
-  i18nSubtitle: string
-}
+import { Lecture } from "./types"
 
 export const lectures: Lecture[] = [
   {
