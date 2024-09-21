@@ -280,4 +280,14 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["info@method5.com"],
   },
+  {
+    description:
+      "Rust implementation of JAM by Clawbird.",
+    homepage: "https://github.com/ltfschoen/jam",
+    name: "Clawbird",
+    lang: "Rust",
+    lang_set: "B",
+    milestone: 0,
+    contact: ["@ltfschoen:matrix.org", "https://x.com/ltfschoen", "https://t.me/ltfschoen"],
+  },
 ]
