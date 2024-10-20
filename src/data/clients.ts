@@ -124,7 +124,7 @@ export const clients: ClientData[] = [
   },
   {
     description:
-      "Colorful Notion's JAM.  TestNet collaborations welcome.  Currently closed source.",
+      "Colorful Notion's JAM. TestNet collaborations welcome.  Currently closed source.",
     homepage: "https://github.com/jam-duna/jamtestnet",
     name: "JAM DUNA",
     lang: "Go",
