@@ -124,13 +124,13 @@ export const clients: ClientData[] = [
   },
   {
     description:
-      "From Colorful Notion: Would love to connect our working QUIC implementation in Fall, organize a weeklong meetup at Devcon in Thailand.",
-    homepage: "https://dune.com/substrate/jam-duna",
+      "Colorful Notion's JAM. TestNet collaborations welcome.  Currently closed source.",
+    homepage: "https://github.com/jam-duna/jamtestnet",
     name: "JAM DUNA",
     lang: "Go",
     lang_set: "A",
     milestone: 0,
-    contact: ["https://t.me/colorfulnotion"],
+    contact: ["@sourabhniyogi:matrix.org"],
   },
   {
     description: "",
