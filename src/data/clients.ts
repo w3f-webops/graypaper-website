@@ -303,4 +303,13 @@ export const clients: ClientData[] = [
       "https://carback.us/rick/contact/"
     ],
   },
+  {
+    description: "Elixir implementation of JAM.",
+    homepage: "",
+    name: "Jelix",
+    lang: "Elixir",
+    lang_set: "D",
+    milestone: 0,
+    contact: ["@amritj:matrix.org", "amrit@blockdudes.com", "https://t.me/amritkumarjain"],
+  },
 ]
