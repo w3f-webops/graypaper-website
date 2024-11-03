@@ -102,6 +102,18 @@ const Page: React.FC<PageProps> = (props) => {
             </li>
           ))}
         </ul>
+        <h3 className="text-xl" id="Documentary">
+          {t("Documentary")}
+        </h3>
+        <iframe
+          className="aspect-video h-auto w-full"
+          src="https://www.youtube.com/embed/JGeKdpYEZs4"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
         <h3 className="text-xl" id="interview">
           {t("Interview")}
         </h3>
@@ -109,10 +121,10 @@ const Page: React.FC<PageProps> = (props) => {
           className="aspect-video h-auto w-full"
           src="https://www.youtube.com/embed/O3kRAVBTkfs?si=auiYGd6pQfrYV2D4"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         />
       </article>
     </Layout>
