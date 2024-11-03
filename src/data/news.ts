@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:
+      "The Universal Machine—Gavin Wood & The JAM Gray Paper World Tour Documentary",
+    date: "02/11/2024",
+    link: "https://youtu.be/JGeKdpYEZs4",
+  },
+  {
     title: "A Glass with Gav—Episode 4: The Kurayoshi Pure Malt",
     date: "12/09/2024",
     link: "https://www.youtube.com/watch?v=mEhj1_KQ1rU",
