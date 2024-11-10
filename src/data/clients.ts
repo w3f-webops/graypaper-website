@@ -313,7 +313,7 @@ export const clients: ClientData[] = [
     contact: ["@amritj:matrix.org", "amrit@blockdudes.com", "https://t.me/amritkumarjain"],
   },
   {
-    description: "Rust implementation of the JAM client",
+    description: "A Minimal JAM Protocol Implementation in Rust",
     name: "SpaceJam",
     lang: "Rust",
     lang_set: "B",
