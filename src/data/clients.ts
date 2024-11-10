@@ -318,6 +318,6 @@ export const clients: ClientData[] = [
     lang: "Rust",
     lang_set: "B",
     milestone: 0,
-    contact: [""]
+    contact: ["@clearloop:matrix.org"]
   }
 ]
