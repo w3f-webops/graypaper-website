@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "sub0—JAM Gavin Wood",
+    date: "11/11/2024",
+    link: "https://x.com/paritytech/status/1855955821491831260",
+  },
+  {
     title:
       "The Universal Machine—Gavin Wood & The JAM Gray Paper World Tour Documentary",
     date: "02/11/2024",
