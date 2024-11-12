@@ -2,6 +2,15 @@ import { ClientData } from "./types"
 
 export const clients: ClientData[] = [
   {
+    description: "The first JAM team in Taiwan. Make JAM great again.",
+    homepage: "https://hackmd.io/8ckvpUULSp-HqThsxXE3jg?view",
+    name: "New JAMreation",
+    lang: "Go",
+    lang_set: "A",
+    milestone: 0,
+    contact: ["mo0307b1@gmail.com"],
+  },
+  {
     description: "Parity experimental JAM client. Currently closed source.",
     homepage: "",
     name: "PolkaJam",
@@ -312,4 +321,13 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["@amritj:matrix.org", "amrit@blockdudes.com", "https://t.me/amritkumarjain"],
   },
+  {
+    description: "A Minimal JAM Protocol Implementation in Rust.",
+    homepage: "",
+    name: "SpaceJam",
+    lang: "Rust",
+    lang_set: "B",
+    milestone: 0,
+    contact: ["@clearloop:matrix.org"]
+  }
 ]
