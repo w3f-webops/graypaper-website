@@ -2,9 +2,20 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
-    title: "sub0—JAM Gavin Wood",
-    date: "11/11/2024",
-    link: "https://x.com/paritytech/status/1855955821491831260",
+    title:
+      "sub0 reset 2024—Demystifying JAM Understanding the Evolution of Polkadot towards JAM",
+    date: "13/11/2024",
+    link: "https://www.youtube.com/watch?v=eGLCedIT94U",
+  },
+  {
+    title: "sub0 reset 2024—How JAM Changes the Future of Web3",
+    date: "13/11/2024",
+    link: "https://www.youtube.com/watch?v=G9CNCNiXuJI",
+  },
+  {
+    title: "sub0 reset 2024—JAM with Gavin Wood",
+    date: "13/11/2024",
+    link: "https://www.youtube.com/watch?v=UxcmPC-yY0A",
   },
   {
     title:
