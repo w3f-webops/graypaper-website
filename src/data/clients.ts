@@ -4,7 +4,7 @@ export const clients: ClientData[] = [
   {
     description: "The first JAM team in Taiwan. Make JAM great again.",
     homepage: "https://hackmd.io/8ckvpUULSp-HqThsxXE3jg?view",
-    name: "New JAMreation",
+    name: "New JAMneration",
     lang: "Go",
     lang_set: "A",
     milestone: 0,
