@@ -3,6 +3,12 @@ import { News } from "./types"
 export const news: News[] = [
   {
     title:
+      "When Shift Happens—Ethereum Founder Reveals Why ETH is Going NOWHERE (And How He Plans to Change That)",
+    date: "22/11/2024",
+    link: "https://youtu.be/npnbqnlQtoQ?si=p6zNqQtGOjO6Kxob&t=4979",
+  },
+  {
+    title:
       "sub0 reset 2024—Demystifying JAM Understanding the Evolution of Polkadot towards JAM",
     date: "13/11/2024",
     link: "https://www.youtube.com/watch?v=eGLCedIT94U",
