@@ -2,7 +2,7 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
-    title: "Initial Release of Parity Technologies JAM Rust SDK",
+    title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
     link: "https://hackmd.io/@polkadot/jamsdk",
   },
