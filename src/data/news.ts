@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Initial Release of Parity Technologies JAM Rust SDK",
+    date: "29/11/2024",
+    link: "https://hackmd.io/@polkadot/jamsdk",
+  },
+  {
     title:
       "When Shift Happens—Ethereum Founder Reveals Why ETH is Going NOWHERE (And How He Plans to Change That)",
     date: "22/11/2024",
