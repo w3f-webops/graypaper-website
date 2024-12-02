@@ -290,14 +290,17 @@ export const clients: ClientData[] = [
     contact: ["info@method5.com"],
   },
   {
-    description:
-      "Rust implementation of JAM by Clawbird.",
+    description: "Rust implementation of JAM by Clawbird.",
     homepage: "https://github.com/ltfschoen/jam",
     name: "Clawbird",
     lang: "Rust",
     lang_set: "B",
     milestone: 0,
-    contact: ["@ltfschoen:matrix.org", "https://x.com/ltfschoen", "https://t.me/ltfschoen"],
+    contact: [
+      "@ltfschoen:matrix.org",
+      "https://x.com/ltfschoen",
+      "https://t.me/ltfschoen",
+    ],
   },
   {
     description: "Go Implementation of JAM by rcarback.",
@@ -309,7 +312,7 @@ export const clients: ClientData[] = [
     contact: [
       "@rick:carback.us",
       "https://x.com/rcarback",
-      "https://carback.us/rick/contact/"
+      "https://carback.us/rick/contact/",
     ],
   },
   {
@@ -319,7 +322,11 @@ export const clients: ClientData[] = [
     lang: "Elixir",
     lang_set: "D",
     milestone: 0,
-    contact: ["@amritj:matrix.org", "amrit@blockdudes.com", "https://t.me/amritkumarjain"],
+    contact: [
+      "@amritj:matrix.org",
+      "amrit@blockdudes.com",
+      "https://t.me/amritkumarjain",
+    ],
   },
   {
     description: "A Minimal JAM Protocol Implementation in Rust.",
@@ -328,6 +335,16 @@ export const clients: ClientData[] = [
     lang: "Rust",
     lang_set: "B",
     milestone: 0,
-    contact: ["@clearloop:matrix.org"]
-  }
+    contact: ["@clearloop:matrix.org"],
+  },
+  {
+    description:
+      "An impl with a focus on ease of understanding rather than performance.",
+    homepage: "",
+    name: "Gooseberry",
+    lang: "Rust",
+    lang_set: "B",
+    milestone: 0,
+    contact: ["gilescope@gmail.com"],
+  },
 ]
