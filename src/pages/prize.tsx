@@ -95,7 +95,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <meta
         id="twitter:image"
         name="twitter:image"
-        content="/img/opengraph-rect.png"
+        content="https://graypaper.com/img/opengraph.png"
       />
 
       <html id="html" lang={i18n.language} />
