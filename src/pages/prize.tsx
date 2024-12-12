@@ -73,10 +73,34 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
   return (
     <>
       <CommonHead />
+
+      {/* Custom Twitter Meta Tags */}
+      <meta
+        id="twitter:url"
+        property="twitter:url"
+        content="https://graypaper.com/prize"
+      />
+      <meta id="twitter:title" name="twitter:title" content="JAM Prize" />
+      <meta
+        id="twitter:description"
+        name="twitter:description"
+        content="JAM Implementer’s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the JAM protocol."
+      />
+      <meta
+        id="twitter:creator"
+        name="twitter:creator"
+        content="@Web3foundation"
+      />
+      <meta id="twitter:site" name="twitter:site" content="@Web3foundation" />
+      <meta
+        id="twitter:image"
+        name="twitter:image"
+        content="/img/opengraph-rect.png"
+      />
+
       <html id="html" lang={i18n.language} />
       <title id="title">{`JAM ${t("Prize")}`}</title>
 
-      <meta name="robots" content="noindex, nofollow" />
       <meta
         id="description"
         name="description"
