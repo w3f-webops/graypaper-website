@@ -95,7 +95,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <meta
         id="twitter:image"
         name="twitter:image"
-        content="https://graypaper.com/img/opengraph-rect.png"
+        content="https://deploy-preview-64--graypaper.netlify.app/img/opengraph.png"
       />
 
       <html id="html" lang={i18n.language} />
