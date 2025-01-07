@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:
+      "Space Monkeys 173—Absolute Resilience Polkadot Hub & JAM's Role in Securing Censor-free Web3",
+    date: "06/01/2025",
+    link: "https://www.youtube.com/watch?v=UV7zwbLRJHg",
+  },
+  {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
     link: "https://hackmd.io/@polkadot/jamsdk",
