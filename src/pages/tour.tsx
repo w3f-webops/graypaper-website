@@ -50,6 +50,16 @@ const Page: React.FC<PageProps> = (props) => {
 
         <p dangerouslySetInnerHTML={{ __html: t("Tour YouTube") }} />
 
+        <iframe
+          className="aspect-video h-auto w-full"
+          src="https://www.youtube.com/embed/JGeKdpYEZs4"
+          title="The Universal Machine - Gavin Wood & The JAM Gray Paper World Tour Documentary "
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+
         <h3 id="dates">{t("Dates")}</h3>
         <table className="borders-custom">
           <tbody>
