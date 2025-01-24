@@ -14,6 +14,7 @@ export default async (req: Request, context: Context) => {
       JSON.stringify({
         version,
         link: `https://github.com/gavofyork/graypaper/releases/download/v${version}/graypaper-${version}.pdf`,
+        timestamp: new Date().toISOString(),
       }),
       {
         headers: {

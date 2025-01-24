@@ -3,7 +3,10 @@ import type { Context } from "@netlify/functions"
 export default async (req: Request, context: Context) => {
   try {
     // Call our version endpoint
-    const versionResponse = await fetch(`/.netlify/functions/graypaper-version`)
+    const deployUrl = Netlify.env.get("DEPLOY_URL")
+    const versionResponse = await fetch(
+      `${deployUrl}/.netlify/functions/graypaper-version`,
+    )
 
     if (!versionResponse.ok) {
       throw new Error("Failed to get version info")
