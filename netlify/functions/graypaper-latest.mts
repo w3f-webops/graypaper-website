@@ -2,20 +2,15 @@ import type { Context } from "@netlify/functions"
 
 export default async (req: Request, context: Context) => {
   try {
-    const response = await fetch(
-      "https://github.com/gavofyork/graypaper/releases/latest/",
-    )
-    const latestReleaseUrl = response.url
-    const version = latestReleaseUrl.split("/").pop()?.replace("v", "")
+    // Call our version endpoint
+    const versionResponse = await fetch("/.netlify/functions/graypaper-version")
 
-    // Should not happen
-    if (!version) throw new Error("Version not found")
+    if (!versionResponse.ok) {
+      throw new Error("Failed to get version info")
+    }
 
-    // Redirect to download PDF from GitHub Release Page
-    return Response.redirect(
-      `https://github.com/gavofyork/graypaper/releases/latest/download/graypaper-${version}.pdf`,
-      302,
-    )
+    const data = await versionResponse.json()
+    return Response.redirect(data.link, 302)
   } catch (exception) {
     console.error(exception)
 
