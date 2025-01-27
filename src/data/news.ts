@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:"Jamixir Announces Successful Block Production on JAM Node, Compliant with Graypaper 0.5.4",
+    date:"27/01/2024",
+    link: "https://x.com/jamixir/status/1883817228543631784"
+  }
+  {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
     link: "https://hackmd.io/@polkadot/jamsdk",
