@@ -281,13 +281,14 @@ export const clients: ClientData[] = [
     contact: ["https://x.com/nathanccxv"],
   },
   {
-    name: "JavaJam",
-    description: "Java implementation of JAM.",
-    homepage: "https://method5.com",
+    name: "JavaJAM",
+    description: "Java implementation of the JAM protocol.",
+    homepage: "https://javajam.io",
     lang: "Java",
     lang_set: "A",
     milestone: 0,
-    contact: ["info@method5.com"],
+    contact: ["https://x.com/javajamio",
+              "info@javajam.io"],
   },
   {
     description: "Rust implementation of JAM by Clawbird.",

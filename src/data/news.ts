@@ -7,6 +7,16 @@ export const news: News[] = [
     date: "27/01/2024",
     link: "https://x.com/jamixir/status/1883817228543631784",
   },
+    title: "Open Fellowship Call—JAM Protocol Set for Large-Scale Testing in Late February or Early March",
+    date: "22/01/2025",
+    link: "https://x.com/polkaworld_org/status/1881967536297877521",
+  },
+  {
+    title:
+      "Space Monkeys 173—Absolute Resilience Polkadot Hub & JAM's Role in Securing Censor-free Web3",
+    date: "06/01/2025",
+    link: "https://www.youtube.com/watch?v=UV7zwbLRJHg",
+  },
   {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
