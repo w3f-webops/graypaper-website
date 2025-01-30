@@ -2,9 +2,14 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Gray Paper 0.6.0 Released",
+    date: "29/01/2025",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.6.0",
+  },
+  {
     title:
       "Jamixir Announces Successful Block Production Compliant with Gray Paper 0.5.4",
-    date: "27/01/2024",
+    date: "27/01/2025",
     link: "https://x.com/jamixir/status/1883817228543631784",
   },
   {
