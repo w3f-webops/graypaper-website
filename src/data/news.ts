@@ -19,10 +19,30 @@ export const news: News[] = [
     link: "https://x.com/polkaworld_org/status/1881967536297877521",
   },
   {
+    title: "JAM Gray Paper 0.5.4 Released",
+    date: "08/01/2025",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.4",
+  },
+  {
     title:
       "Space Monkeys 173—Absolute Resilience Polkadot Hub & JAM's Role in Securing Censor-free Web3",
     date: "06/01/2025",
     link: "https://www.youtube.com/watch?v=UV7zwbLRJHg",
+  },
+  {
+    title: "JAM Gray Paper 0.5.3 Released",
+    date: "20/12/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.3",
+  },
+  {
+    title: "JAM Gray Paper 0.5.2 Released",
+    date: "06/12/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.2",
+  },
+  {
+    title: "JAM Gray Paper 0.5.1 Released",
+    date: "06/12/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.1",
   },
   {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
@@ -34,6 +54,11 @@ export const news: News[] = [
       "When Shift Happens—Ethereum Founder Reveals Why ETH is Going NOWHERE (And How He Plans to Change That)",
     date: "22/11/2024",
     link: "https://youtu.be/npnbqnlQtoQ?si=p6zNqQtGOjO6Kxob&t=4979",
+  },
+  {
+    title: "JAM Gray Paper 0.5.0 Released",
+    date: "19/11/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.0",
   },
   {
     title:
@@ -56,6 +81,11 @@ export const news: News[] = [
       "The Universal Machine—Gavin Wood & The JAM Gray Paper World Tour Documentary",
     date: "02/11/2024",
     link: "https://youtu.be/JGeKdpYEZs4",
+  },
+  {
+    title: "JAM Gray Paper 0.4.0 Released",
+    date: "08/10/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.4.0",
   },
   {
     title: "A Glass with Gav—Episode 4: The Kurayoshi Pure Malt",
@@ -94,6 +124,11 @@ export const news: News[] = [
     link: "https://hackmd.io/@polkadot/jamprize",
   },
   {
+    title: "JAM Gray Paper 0.3.0 Released",
+    date: "15/07/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.3.0",
+  },
+  {
     date: "11/07/2024",
     title: "Polkadot Decoded—Introduction to JAM & the JAM Prize by Gavin Wood",
     link: "https://www.youtube.com/live/eaCY6k_oKII?feature=shared&t=4450",
@@ -108,6 +143,11 @@ export const news: News[] = [
     date: "30/06/2024",
     title: "Space Monkeys 152—JAM—Audience Questions on the Next DOT",
     link: "https://www.youtube.com/watch?v=pCPD2A4dM3c",
+  },
+  {
+    title: "JAM Gray Paper 0.2.1 Released",
+    date: "19/06/2024",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.2.1",
   },
   {
     date: "17/06/2024",
