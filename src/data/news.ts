@@ -29,21 +29,21 @@ export const news: News[] = [
     date: "06/01/2025",
     link: "https://www.youtube.com/watch?v=UV7zwbLRJHg",
   },
-  {
-    title: "JAM Gray Paper 0.5.3 Released",
-    date: "20/12/2024",
-    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.3",
-  },
-  {
-    title: "JAM Gray Paper 0.5.2 Released",
-    date: "06/12/2024",
-    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.2",
-  },
-  {
-    title: "JAM Gray Paper 0.5.1 Released",
-    date: "06/12/2024",
-    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.1",
-  },
+  // {
+  //   title: "JAM Gray Paper 0.5.3 Released",
+  //   date: "20/12/2024",
+  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.3",
+  // },
+  // {
+  //   title: "JAM Gray Paper 0.5.2 Released",
+  //   date: "06/12/2024",
+  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.2",
+  // },
+  // {
+  //   title: "JAM Gray Paper 0.5.1 Released",
+  //   date: "06/12/2024",
+  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.1",
+  // },
   {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
