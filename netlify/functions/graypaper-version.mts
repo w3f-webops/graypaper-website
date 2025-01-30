@@ -20,7 +20,7 @@ export default async (req: Request, context: Context) => {
         headers: {
           "Content-Type": "application/json",
           "Netlify-CDN-Cache-Control":
-            "public, durable, max-age=43200, stale-while-revalidate=3600",
+            "public, durable, max-age=7200, stale-while-revalidate=600",
         },
       },
     )
