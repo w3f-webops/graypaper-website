@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Ambassador Meetup #1—Gav in Vancouver, Canada",
+    date: "31/01/2025",
+    link: "https://x.com/i/broadcasts/1OyKAZjqXALGb",
+  },
+  {
     title: "JAM Gray Paper 0.6.0 Released",
     date: "29/01/2025",
     link: "https://github.com/gavofyork/graypaper/releases/tag/v0.6.0",
