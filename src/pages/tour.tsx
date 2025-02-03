@@ -3,10 +3,57 @@ import * as React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
+import { isEventInFuture } from "../utils"
 
 const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   const events = [
+    {
+      date: "05/03/2025",
+      location: "Shenzhen University, Shenzhen, China",
+      link: "https://lu.ma/JAM_Shenzhen",
+    },
+    {
+      date: "03/03/2025",
+      location: "Zhejiang University, Hangzhou, China",
+      link: "https://lu.ma/JAM_Hangzhou",
+    },
+    {
+      date: "28/02/2025",
+      location: "Fudan University, Shanghai, China",
+      link: "https://lu.ma/JAM_Shanghai",
+    },
+    {
+      date: "26/02/2025",
+      location: "Peking University, Beijing, China",
+      link: "https://lu.ma/JAM_Beijing",
+    },
+    {
+      date: "19/02/2025",
+      location:
+        "National Taiwan University for Science and Technology, Taipei, Taiwan",
+      link: "https://lu.ma/JAM_Taipei",
+    },
+    {
+      date: "17/02/2025",
+      location: "Cyber Arena, Hong Kong",
+      link: "https://lu.ma/JAM_Hong_Kong",
+    },
+    {
+      date: "13/02/2025",
+      location: "ITT Bombay, Mumbai, India",
+      link: "https://lu.ma/JAM_Mumbai",
+    },
+    {
+      date: "12/02/2025",
+      location: "IIT Delhi, New Delhi, India",
+      link: "https://lu.ma/JAM_New_Delhi",
+    },
+    {
+      date: "10/02/2025",
+      location: "University of Cambridge, England",
+      link: "https://lu.ma/JAM_Cambridge",
+    },
     {
       date: "19/06/2024",
       location: "National University of Singapore",
@@ -63,36 +110,26 @@ const Page: React.FC<PageProps> = (props) => {
         <h3 id="dates">{t("Dates")}</h3>
         <table className="borders-custom">
           <tbody>
-            {events.map((event, index) => (
-              <tr key={index}>
-                <td>
-                  {event.link ? (
+            {events.map((event, index) => {
+              const isFuture = isEventInFuture(event.date)
+
+              return (
+                <tr key={event.date} className={!isFuture ? "opacity-60" : ""}>
+                  <td>{event.date}</td>
+
+                  <td className="bg-red">
                     <a
                       href={event.link}
                       rel="noopener noreferrer"
                       target="_blank"
-                    >
-                      {event.date}
-                    </a>
-                  ) : (
-                    event.date
-                  )}
-                </td>
-                <td>
-                  {event.link ? (
-                    <a
-                      href={event.link}
-                      rel="noopener noreferrer"
-                      target="_blank"
+                      key={index}
                     >
                       {event.location}
                     </a>
-                  ) : (
-                    event.location
-                  )}
-                </td>
-              </tr>
-            ))}
+                  </td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </article>
@@ -109,9 +146,6 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <CommonHead />
       <html id="html" lang={i18n.language} />
       <title id="title">{`JAM ${t("Tour")}`}</title>
-
-      {/* TODO remove once content is available */}
-      <meta name="robots" content="noindex, nofollow" />
     </>
   )
 }
