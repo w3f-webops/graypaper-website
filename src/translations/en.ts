@@ -37,7 +37,7 @@ export default {
     "Prize.cta": "Read the announcement",
     "Prize.description": `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation of multiple client implementations, enhancing the network&#x2019;s resilience.`,
     "Prize": "Prize",
-    "Prize.headline": "10 Million DOT Prize",
+    "Prize.headline": "10.000.000,00 DOT Prize",
     "Resources.Contribute": `Join the ${KeywordJam} in our ${KeywordMatrix} rooms:`,
     "Resources.DecisiveVersion": "on GitHub is the decisive version",
     "Resources.Download": "Get a copy of the Gray Paper here:",
