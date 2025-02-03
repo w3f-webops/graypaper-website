@@ -24,6 +24,17 @@ export const news: News[] = [
     link: "https://x.com/polkaworld_org/status/1881967536297877521",
   },
   {
+    title:
+      "Open Fellowship Call—JAM Protocol Set for Large-Scale Testing in Late February or Early March",
+    date: "22/01/2025",
+    link: "https://x.com/polkaworld_org/status/1881967536297877521",
+  },
+  {
+    title: "JAM Tour—East & South Asia Edition Registrations Now Open",
+    date: "10/01/2025",
+    link: "https://palalabs.org/events",
+  },
+  {
     title: "JAM Gray Paper 0.5.4 Released",
     date: "08/01/2025",
     link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.4",
