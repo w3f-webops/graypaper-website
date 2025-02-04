@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Daniel Cukier—JAM toaster is coming!",
+    date: "04/02/2025",
+    link: "https://x.com/danicuki/status/1886486349244719564",
+  },
+  {
     title: "Ambassador Meetup #1—Gav in Vancouver, Canada",
     date: "31/01/2025",
     link: "https://x.com/i/broadcasts/1OyKAZjqXALGb",
@@ -70,6 +75,11 @@ export const news: News[] = [
       "When Shift Happens—Ethereum Founder Reveals Why ETH is Going NOWHERE (And How He Plans to Change That)",
     date: "22/11/2024",
     link: "https://youtu.be/npnbqnlQtoQ?si=p6zNqQtGOjO6Kxob&t=4979",
+  },
+  {
+    title: "Daniel Cukier—What's the JAM Toaster?",
+    date: "21/11/2024",
+    link: "https://x.com/danicuki/status/1859634601955598478",
   },
   {
     title: "JAM Gray Paper 0.5.0 Released",
