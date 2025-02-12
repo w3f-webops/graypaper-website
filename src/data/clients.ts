@@ -122,6 +122,15 @@ export const clients: ClientData[] = [
     contact: ["jelly@zondax.ch"],
   },
   {
+    description: "",
+    homepage: "",
+    name: "Blockage",
+    lang: "Julia",
+    lang_set: "D",
+    milestone: 0,
+    contact: ["@OscarGB:matrix.org"],
+  },
+  {
     description:
       "We are a team of 8, experienced in Java and Kotlin blockchain development.",
     homepage: "",
@@ -287,8 +296,7 @@ export const clients: ClientData[] = [
     lang: "Java",
     lang_set: "A",
     milestone: 0,
-    contact: ["https://x.com/javajamio",
-              "info@javajam.io"],
+    contact: ["https://x.com/javajamio", "info@javajam.io"],
   },
   {
     description: "Rust implementation of JAM by Clawbird.",
