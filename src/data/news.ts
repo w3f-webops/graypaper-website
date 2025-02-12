@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Community Call #2",
+    date: "11/02/2025",
+    link: "https://www.youtube.com/watch?v=DoehdKut50s",
+  },
+  {
     title: "Daniel Cukier—JAM toaster is coming!",
     date: "04/02/2025",
     link: "https://x.com/danicuki/status/1886486349244719564",
@@ -33,6 +38,11 @@ export const news: News[] = [
       "Open Fellowship Call—JAM Protocol Set for Large-Scale Testing in Late February or Early March",
     date: "22/01/2025",
     link: "https://x.com/polkaworld_org/status/1881967536297877521",
+  },
+  {
+    title: "JAM0 Bangkok—Gavin Wood and JAM Roadmap ",
+    date: "16/01/2025",
+    link: "https://www.youtube.com/watch?v=jRkU78aXUhw",
   },
   {
     title: "JAM Tour—East & South Asia Edition Registrations Now Open",
