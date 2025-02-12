@@ -7,6 +7,11 @@ export const news: News[] = [
     link: "https://www.youtube.com/watch?v=DoehdKut50s",
   },
   {
+    title: "JAM course is coming on Polkadot Blockchain Academy this December",
+    date: "10/02/2025",
+    link: "https://polkadot.academy/jam/",
+  },
+  {
     title: "Daniel Cukier—JAM toaster is coming!",
     date: "04/02/2025",
     link: "https://x.com/danicuki/status/1886486349244719564",
