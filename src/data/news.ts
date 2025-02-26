@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Polkadot Virtual Machine (PVM) simulation: Fibonacci Program",
+    date: "26/02/2025",
+    link: "https://www.youtube.com/watch?v=eWB0WQBXE5s",
+  },
+  {
     title: "The JAM experience. What’s it really like?",
     date: "13/02/2025",
     link: "https://www.parity.io/blog/JAM-experience",
