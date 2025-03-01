@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "DOOM Just Ran on JAM!",
+    date: "28/02/2025",
+    link: "https://x.com/pala_labs/status/1895485102077120938",
+  },
+  {
     title: "Polkadot Virtual Machine (PVM) simulation: Fibonacci Program",
     date: "26/02/2025",
     link: "https://www.youtube.com/watch?v=eWB0WQBXE5s",
