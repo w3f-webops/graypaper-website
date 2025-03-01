@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Let's Talk About... The FUTURE of Web3 | Shawn Tabrizi - Polkadot",
+    date: "01/03/2025",
+    link: "https://www.youtube.com/watch?v=ebdrPnk-268",
+  },
+  {
     title: "DOOM Just Ran on JAM!",
     date: "28/02/2025",
     link: "https://x.com/pala_labs/status/1895485102077120938",
