@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Tour Taipei—JAM Protocol by Dr. Gavin Wood",
+    date: "04/03/2025",
+    link: "https://www.youtube.com/watch?v=aTS4yjFsJd0",
+  },
+  {
     title: "Shawn Tabrizi—The FUTURE of Web3 at ETHDenver 2025",
     date: "01/03/2025",
     link: "https://www.youtube.com/watch?v=ebdrPnk-268",
