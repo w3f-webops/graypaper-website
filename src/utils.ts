@@ -17,3 +17,7 @@ export const isEventInFuture = (dateStr: string) => {
   today.setHours(0, 0, 0, 0) // Reset time part for date comparison
   return eventDate >= today
 }
+
+export function uniqueArray<T>(array: T[]): T[] {
+  return [...new Set(array)]
+}

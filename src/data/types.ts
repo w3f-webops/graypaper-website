@@ -1,49 +1,63 @@
+// Language Set interfaces
+interface CooperateCodeLanguage {
+  name: "Java" | "AspectJ" | "Kotlin" | "C#" | "Go"
+  set: "A"
+}
+
+interface QuickCodeLanguage {
+  name: "C" | "C++" | "D" | "Rust" | "Swift" | "Zig" | "Carbon" | "Fortran"
+  set: "B"
+}
+
+interface CuteCodeLanguage {
+  name:
+    | "Scheme"
+    | "Common Lisp"
+    | "Prolog"
+    | "Haskell"
+    | "ML"
+    | "Perl"
+    | "Python"
+    | "Ruby"
+    | "JavaScript"
+    | "TypeScript"
+    | "Groovy"
+    | "Dart"
+  set: "C"
+}
+
+interface CorrectCodeLanguage {
+  name:
+    | "Ada"
+    | "Julia"
+    | "Erlang"
+    | "Elixir"
+    | "OCaml"
+    | "Smalltalk"
+    | "F#"
+    | "Scala"
+    | "APL"
+  set: "D"
+}
+
+interface MadLanguage {
+  name: "Brainfuck" | "Whitespace" | "Redstone"
+  set: "Z"
+}
+
+// Combined Language type
 type Language =
-  | "Java"
-  | "AspectJ"
-  | "Kotlin"
-  | "C#"
-  | "Go"
-  | "C"
-  | "C++"
-  | "C/C++"
-  | "D"
-  | "Rust"
-  | "Swift"
-  | "Zig"
-  | "Carbon"
-  | "Fortran"
-  | "Scheme"
-  | "Common Lisp"
-  | "Prolog"
-  | "Haskell"
-  | "ML"
-  | "Perl"
-  | "Python"
-  | "Ruby"
-  | "JavaScript"
-  | "TypeScript"
-  | "Groovy"
-  | "Dart"
-  | "Ada"
-  | "Julia"
-  | "Erlang"
-  | "Elixir"
-  | "OCaml"
-  | "Smalltalk"
-  | "F#"
-  | "Scala"
-  | "APL"
-  | "Brainfuck"
-  | "Whitespace"
-  | "Redstone"
+  | CooperateCodeLanguage
+  | QuickCodeLanguage
+  | CuteCodeLanguage
+  | CorrectCodeLanguage
+  | MadLanguage
 
 export interface ClientData {
   description: `${string}.` | `${string}!` | ""
   homepage: `http${string}` | ""
   name: string
-  lang: Language
-  lang_set: "A" | "B" | "C" | "D" | "Z"
+  languages: Language[]
   milestone: 0 | 1 | 2 | 3 | 4 | 5
   contact: string[]
 }

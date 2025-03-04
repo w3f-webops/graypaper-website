@@ -4,16 +4,17 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 import { clients } from "../data/clients"
+import { uniqueArray } from "../utils"
 
 type Client = (typeof clients)[number]
 
 const sortClients = (a: Client, b: Client) => {
   // First, compare by lang_set
-  const langSetComparison = a.lang_set.localeCompare(b.lang_set)
+  const langSetComparison = a.languages[0].set.localeCompare(b.languages[0].set)
   if (langSetComparison !== 0) return langSetComparison
 
   // If lang_set is the same, compare by lang
-  const langComparison = a.lang.localeCompare(b.lang)
+  const langComparison = a.languages[0].name.localeCompare(b.languages[0].name)
   if (langComparison !== 0) return langComparison
 
   // If lang is also the same, compare by milestone (descending order)
@@ -26,8 +27,8 @@ const sortClients = (a: Client, b: Client) => {
 
 const ClientsPerLanguageSet = clients.reduce(
   (prev: Record<string, number>, cur) => {
-    prev[cur.lang_set] = prev[cur.lang_set] || 0
-    prev[cur.lang_set] += 1
+    prev[cur.languages[0].set] = prev[cur.languages[0].set] || 0
+    prev[cur.languages[0].set] += 1
     return prev
   },
   {},
@@ -61,7 +62,7 @@ const Page: React.FC<PageProps> = (props) => {
         <p dangerouslySetInnerHTML={{ __html: t("Clients.add") }} />
 
         <div className="overflow-x-scroll py-4 font-normal">
-          <table className="col-1-l col-2-c col-3-l col-4-c col-5-c col-6-l">
+          <table className="col-1-l col-3-l col-4-l col-4-c col-5-c col-6-l">
             <thead>
               <tr>
                 <th>{t("Clients.name")}</th>
@@ -76,10 +77,16 @@ const Page: React.FC<PageProps> = (props) => {
               {clients.sort(sortClients).map((client, index) => (
                 <tr key={index} className="borders-custom">
                   <td className="text-nowrap">{client.name}</td>
-                  <td>
-                    <em>{client.lang_set}</em>
+                  <td className="text-nowrap">
+                    <em>
+                      {uniqueArray(client.languages.map((l) => l.set)).join(
+                        ", ",
+                      )}
+                    </em>
                   </td>
-                  <td>{client.lang}</td>
+                  <td className="text-nowrap">
+                    {client.languages.map((l) => l.name).join(", ")}
+                  </td>
                   <td>{client.milestone > 0 ? client.milestone : "-"}</td>
                   <td>
                     {client.homepage.length === 0 ? (

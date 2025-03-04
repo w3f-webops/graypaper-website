@@ -5,7 +5,13 @@ import { lectures } from "./src/data/lectures"
 import * as fs from "fs"
 
 export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
-  const clientsJson = JSON.stringify(clients, undefined, 2)
+  // Adapt clients data to match the old format
+  const adaptedClients = clients.map((client) => ({
+    ...client,
+    lang: client.languages.map((l) => l.name).join("/"),
+    lang_set: client.languages.map((l) => l.set).join("/"),
+  }))
+  const clientsJson = JSON.stringify(adaptedClients, undefined, 2)
   fs.writeFileSync("./public/clients/json", clientsJson)
   fs.writeFileSync("./public/clients.json", clientsJson)
 
