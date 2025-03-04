@@ -2,6 +2,17 @@ import { ClientData } from "./types"
 
 export const clients: ClientData[] = [
   {
+    description: "",
+    homepage: "https://github.com/Zero-Trust-Collective",
+    name: "tram",
+    languages: [
+      { name: "Python", set: "C" },
+      { name: "Rust", set: "B" },
+    ],
+    milestone: 0,
+    contact: [],
+  },
+  {
     description: "The first JAM team in Taiwan. Make JAM great again.",
     homepage: "https://hackmd.io/8ckvpUULSp-HqThsxXE3jg?view",
     name: "New JAMneration",
