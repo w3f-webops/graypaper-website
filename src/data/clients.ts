@@ -2,6 +2,14 @@ import { ClientData } from "./types"
 
 export const clients: ClientData[] = [
   {
+    description: "A Team of Web3 Researchers+Devs; Currently private.",
+    homepage: "https://chainscore.finance/",
+    name: "Tessera",
+    languages: [{ name: "Python", set: "C" }],
+    milestone: 0,
+    contact: [],
+  },
+  {
     description: "",
     homepage: "https://github.com/Zero-Trust-Collective",
     name: "tram",
@@ -153,14 +161,6 @@ export const clients: ClientData[] = [
     languages: [{ name: "TypeScript", set: "C" }],
     milestone: 0,
     contact: ["@tomusdrw:matrix.org"],
-  },
-  {
-    description: "A Team of Web3 Researchers+Devs; Currently private.",
-    homepage: "https://chainscore.finance",
-    name: "Tessera",
-    languages: [{ name: "Rust", set: "B" }],
-    milestone: 0,
-    contact: ["prasad@chainscore.finance"],
   },
   {
     description:
