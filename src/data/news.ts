@@ -2,7 +2,17 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
-    title: "JAM Tour Taipei—JAM Protocol by Dr. Gavin Wood",
+    title: "Running DOOM on JAM: Dr. Gavin Wood’s Demo",
+    date: "08/03/2025",
+    link: "https://www.youtube.com/watch?v=hJcw5FMSjQs",
+  },
+  {
+    title: "JAM: Running Regular Software On-Chain by Dr. Gavin Wood",
+    date: "07/03/2025",
+    link: "https://www.youtube.com/watch?v=Nrgfn7lquPo",
+  },
+  {
+    title: "JAM Protocol by Dr. Gavin Wood | The Decentralized Supercomputer ",
     date: "04/03/2025",
     link: "https://www.youtube.com/watch?v=aTS4yjFsJd0",
   },
