@@ -7,11 +7,11 @@ export const OpenGraph: React.FC = () => (
     <meta property="og:title" content="JAM Gray Paper" />
     <meta
       property="og:description"
-      content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
+      content="JOIN-ACCUMULATE MACHINE: A MOSTLY-COHERENT TRUSTLESS SUPERCOMPUTER"
     />
     <meta
       property="og:image"
-      content="https://graypaper.com/img/opengraph.png"
+      content="https://graypaper.com/img/opengraph.png?v=19032025"
     />
 
     {/* <!-- Twitter Meta Tags --> */}
@@ -30,12 +30,12 @@ export const OpenGraph: React.FC = () => (
     <meta
       id="twitter:description"
       name="twitter:description"
-      content="JOIN-ACCUMULATE MACHINE: A SEMI-COHERENT SCALABLE TRUSTLESS VM"
+      content="JOIN-ACCUMULATE MACHINE: A MOSTLY-COHERENT TRUSTLESS SUPERCOMPUTER"
     />
     <meta
       id="twitter:image"
       name="twitter:image"
-      content="https://graypaper.com/img/opengraph.png"
+      content="https://graypaper.com/img/opengraph.png?v=19032025"
     />
     <meta
       id="twitter:creator"
