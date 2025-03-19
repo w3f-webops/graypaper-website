@@ -25,7 +25,7 @@ export default {
     "filmed.brussels": "Filmed at the The Sneakers Cafe in Brussels, Belgium on July 11, 2024",
     "filmed.buenos.aires": "Filmed in Buenos Aires on May 10, 2024",
     "filmed.singapore": "Filmed at the National University of Singapore on June 19, 2024.",
-    "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A SEMI-COHERENT SCALABLE TRUSTLESS VM',
+    "GrayPaper.Title": '<span style="white-space: nowrap">JOIN-ACCUMULATE MACHINE:</span><br />A MOSTLY-COHERENT<br />TRUSTLESS SUPERCOMPUTER',
     "Hide Gray Paper": "Hide Gray Paper",
     "Interview": "Interview",
     "Latest version": "Latest version",
