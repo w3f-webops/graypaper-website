@@ -41,7 +41,7 @@ const Page: React.FC<PageProps> = (props) => {
     },
     {
       date: "13/02/2025",
-      location: "ITT Bombay, Mumbai, India",
+      location: "IIT Bombay, Mumbai, India",
       link: "https://lu.ma/JAM_Mumbai",
     },
     {
