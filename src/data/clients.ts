@@ -152,6 +152,7 @@ export const clients: ClientData[] = [
     name: "JAM DUNA",
     languages: [{ name: "Go", set: "A" }],
     milestone: 0,
+    address: "121Rs6fKm8nguHnvPfG1Cq3ctFuNAVZGRmghwkJwHpKxKjbx",
     contact: ["@sourabhniyogi:matrix.org"],
   },
   {
