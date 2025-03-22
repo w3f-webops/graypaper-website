@@ -334,4 +334,13 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["gilescope@gmail.com"],
   },
+  {
+    description:
+      "An experimental client implementation focus on the edge use cases. Public. Expect chaos",
+    homepage: "https://github.com/jamliqr/jamliquor",
+    name: "JamLiquor",
+    languages: [{ name: "Rust", set: "B" }],
+    milestone: 0,
+    contact: ["kresnasucandra@gmail.com"],
+  },
 ]
