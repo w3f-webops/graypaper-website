@@ -279,7 +279,7 @@ export const clients: ClientData[] = [
     homepage: "https://javajam.io",
     languages: [{ name: "Java", set: "A" }],
     milestone: 0,
-    contact: ["https://x.com/javajamio", "info@javajam.io"],
+    contact: ["https://x.com/javajam_io", "info@javajam.io"],
   },
   {
     description: "Rust implementation of JAM by Clawbird.",
