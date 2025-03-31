@@ -31,7 +31,7 @@ export const onRenderBody = ({ setBodyAttributes, setHeadComponents }) => {
       key={"gstaticPreconnect"}
     />,
     <link
-      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap"
       rel="stylesheet"
       media="screen"
       key={"unboundedFont"}
