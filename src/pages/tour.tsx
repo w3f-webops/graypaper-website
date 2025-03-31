@@ -17,11 +17,13 @@ const Page: React.FC<PageProps> = (props) => {
       date: "03/03/2025",
       location: "Zhejiang University, Hangzhou, China",
       link: "https://lu.ma/JAM_Hangzhou",
+      video: "https://www.youtube.com/watch?v=GW62bwW1-kk",
     },
     {
       date: "28/02/2025",
       location: "Fudan University, Shanghai, China",
       link: "https://lu.ma/JAM_Shanghai",
+      video: "https://www.youtube.com/watch?v=JGeKdpYEZs4",
     },
     {
       date: "26/02/2025",
@@ -114,18 +116,30 @@ const Page: React.FC<PageProps> = (props) => {
               const isFuture = isEventInFuture(event.date)
 
               return (
-                <tr key={event.date} className={!isFuture ? "opacity-60" : ""}>
+                <tr key={event.date}>
                   <td>{event.date}</td>
 
-                  <td className="bg-red">
-                    <a
-                      href={event.link}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      key={index}
-                    >
-                      {event.location}
-                    </a>
+                  <td>
+                    {isFuture ? (
+                      <a
+                        href={event.link}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        key={index}
+                      >
+                        {event.location}
+                      </a>
+                    ) : event.video ? (
+                      <a
+                        href={event.video}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {event.location}
+                      </a>
+                    ) : (
+                      event.location
+                    )}
                   </td>
                 </tr>
               )
