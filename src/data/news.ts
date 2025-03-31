@@ -2,17 +2,29 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:
+      "Tour—Gavin Wood Explains JAM Protocol: The Future of Decentralized Supercomputing",
+    date: "25/03/2025",
+    link: "https://www.youtube.com/watch?v=GW62bwW1-kk",
+  },
+  {
     title: "Running DOOM on JAM: Dr. Gavin Wood’s Demo",
     date: "08/03/2025",
     link: "https://www.youtube.com/watch?v=hJcw5FMSjQs",
   },
   {
-    title: "JAM: Running Regular Software On-Chain by Dr. Gavin Wood",
+    title: "Tour—JAM: Running Regular Software On-Chain by Dr. Gavin Wood",
     date: "07/03/2025",
     link: "https://www.youtube.com/watch?v=Nrgfn7lquPo",
   },
   {
-    title: "JAM Protocol by Dr. Gavin Wood | The Decentralized Supercomputer ",
+    title:
+      "Polkadot Forum—JAM Implementers DAO Forming as part of Decentralized Voices Cohort 4",
+    date: "07/03/2025",
+    link: "https://forum.polkadot.network/t/decentralized-voices-cohort-4-jam-implementers-dao/12001",
+  },
+  {
+    title: "JAM Protocol by Dr. Gavin Wood—The Decentralized Supercomputer ",
     date: "04/03/2025",
     link: "https://www.youtube.com/watch?v=aTS4yjFsJd0",
   },
