@@ -18,6 +18,12 @@ export const news: News[] = [
     link: "https://www.youtube.com/watch?v=Nrgfn7lquPo",
   },
   {
+    title:
+      "Polkadot Forum—JAM Implementers DAO Forming as part of Decentralized Voices Cohort 4",
+    date: "07/03/2025",
+    link: "https://forum.polkadot.network/t/decentralized-voices-cohort-4-jam-implementers-dao/12001",
+  },
+  {
     title: "JAM Protocol by Dr. Gavin Wood—The Decentralized Supercomputer ",
     date: "04/03/2025",
     link: "https://www.youtube.com/watch?v=aTS4yjFsJd0",
