@@ -45,7 +45,7 @@ const Page: React.FC<PageProps> = (props) => {
           </a>
         </p>
 
-        <p>{t("Translated versions")}:</p>
+        <p>{t("Unofficial translated versions")}:</p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a
             href="https://www.lollipop.builders/JAM-Graypaper-Chinese.pdf"
