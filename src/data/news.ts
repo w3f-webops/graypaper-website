@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Lollipop Builders released the JAM Graypaper in Chinese",
+    date: "01/04/2025",
+    link: "https://www.lollipop.builders/JAM-Graypaper-Chinese.pdf",
+  },
+  {
     title:
       "Tour—Gavin Wood Explains JAM Protocol: The Future of Decentralized Supercomputing",
     date: "25/03/2025",

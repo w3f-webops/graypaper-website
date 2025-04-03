@@ -40,10 +40,22 @@ const Page: React.FC<PageProps> = (props) => {
         </h3>
         <p>{t("Latest version")}:</p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
-          <a href="/graypaper.pdf" download={true}>
+          <a href="/graypaper.pdf" target="_blank" rel="noopener noreferrer">
             <code>graypaper.com/graypaper.pdf</code>
           </a>
         </p>
+
+        <p>{t("Translated versions")}:</p>
+        <p className="flex flex-col gap-3 pl-5 md:pl-10">
+          <a
+            href="https://www.lollipop.builders/JAM-Graypaper-Chinese.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <code>Chinese by Qinwen Wang (Lollipop Builders)</code>
+          </a>
+        </p>
+
         <p>{t("Resources.Latex")}</p>
         <p className="pl-5 sm:pl-10">
           <a
