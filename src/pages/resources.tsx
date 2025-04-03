@@ -45,6 +45,16 @@ const Page: React.FC<PageProps> = (props) => {
           </a>
         </p>
 
+        <p>{t("Resources.Latex")}</p>
+        <p className="pl-5 sm:pl-10">
+          <a
+            href="https://github.com/gavofyork/graypaper"
+            rel="noopener noreferrer"
+          >
+            <code>github.com/gavofyork/graypaper</code>
+          </a>
+        </p>
+
         <p>{t("Unofficial translated versions")}:</p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a
@@ -53,16 +63,6 @@ const Page: React.FC<PageProps> = (props) => {
             rel="noopener noreferrer"
           >
             <code>Chinese by Qinwen Wang (Lollipop Builders)</code>
-          </a>
-        </p>
-
-        <p>{t("Resources.Latex")}</p>
-        <p className="pl-5 sm:pl-10">
-          <a
-            href="https://github.com/gavofyork/graypaper"
-            rel="noopener noreferrer"
-          >
-            <code>github.com/gavofyork/graypaper</code>
           </a>
         </p>
         {/* TODO Can be added back in once this process is automated as well */}
