@@ -2,6 +2,16 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Daniel Cukier—JAM super thread",
+    date: "07/04/2025",
+    link: "https://x.com/danicuki/status/1909315806824964277",
+  },
+  {
+    title: "Empire—Ethereum Co-Founder: Why Crypto Has Failed",
+    date: "07/04/2025",
+    link: "https://www.youtube.com/watch?v=girZNw51Ro4",
+  },
+  {
     title: "Lollipop Builders released the JAM Graypaper in Chinese",
     date: "01/04/2025",
     link: "https://www.lollipop.builders/JAM-Graypaper-Chinese.pdf",
