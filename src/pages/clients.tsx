@@ -61,16 +61,16 @@ const Page: React.FC<PageProps> = (props) => {
 
         <p dangerouslySetInnerHTML={{ __html: t("Clients.add") }} />
 
-        <div className="overflow-x-scroll py-4 font-normal">
-          <table className="col-1-l col-3-l col-4-l col-4-c col-5-c col-6-l">
+        <div className="relative overflow-x-scroll py-4 font-normal">
+          <table className="col-1-l col-3-l col-4-l col-2-c col-6-l col-4-c">
             <thead>
               <tr>
                 <th>{t("Clients.name")}</th>
                 <th>{t("Clients.set")}</th>
                 <th>{t("Clients.language")}</th>
-                <th>{t("Clients.milestone")}</th>
                 <th>{t("Clients.web")}</th>
                 <th>{t("Clients.contact")}</th>
+                <th>{t("Clients.milestone")}</th>
               </tr>
             </thead>
             <tbody>
@@ -87,7 +87,7 @@ const Page: React.FC<PageProps> = (props) => {
                   <td className="text-nowrap">
                     {client.languages.map((l) => l.name).join(", ")}
                   </td>
-                  <td>{client.milestone > 0 ? client.milestone : "-"}</td>
+
                   <td>
                     {client.homepage.length === 0 ? (
                       "-"
@@ -101,6 +101,7 @@ const Page: React.FC<PageProps> = (props) => {
                   <td className="w-full text-nowrap font-mono text-sm">
                     {client.contact.join(", ")}
                   </td>
+                  <td>{client.milestone > 0 ? client.milestone : "-"}</td>
                 </tr>
               ))}
             </tbody>
