@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "PBA Special: JAM with the Builders",
+    date: "09/04/2025",
+    link: "https://x.com/i/broadcasts/1yNGaLRDNkWKj",
+  },
+  {
     title: "Daniel Cukier—JAM super thread",
     date: "07/04/2025",
     link: "https://x.com/danicuki/status/1909315806824964277",
