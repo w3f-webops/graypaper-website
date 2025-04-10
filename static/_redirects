@@ -1,1 +1,5 @@
 /graypaper.pdf /.netlify/functions/graypaper-redirect 302
+/jam-channel https://matrix.to/#/#jam:polkadot.io
+/jam-matrix https://matrix.to/#/#jam:polkadot.io
+/graypaper-channel https://matrix.to/#/#graypaper:polkadot.io
+/graypaper-matrix https://matrix.to/#/#graypaper:polkadot.io
