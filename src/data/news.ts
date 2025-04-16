@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:
+      "The JAM Toaster Explained by Gavin Wood: From Protocol Theory to Real-World Testing",
+    date: "16/04/2025",
+    link: "https://www.youtube.com/watch?v=YZP3kJKfqSw",
+  },
+  {
     title: "PBA Special: JAM with the Builders",
     date: "09/04/2025",
     link: "https://x.com/i/broadcasts/1yNGaLRDNkWKj",
