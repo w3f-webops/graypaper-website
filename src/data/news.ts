@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Gray Paper v0.6.5 Released",
+    date: "22/04/2025",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.6.5",
+  },
+  {
     title:
       "The JAM Toaster Explained by Gavin Wood: From Protocol Theory to Real-World Testing",
     date: "16/04/2025",
