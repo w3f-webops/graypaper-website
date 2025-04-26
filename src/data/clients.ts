@@ -343,4 +343,13 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["kresnasucandra@gmail.com"],
   },
+  {
+    description:
+      "Swift implementation of the JAM protocol. Currently closed source.",
+    homepage: "https://github.com/finsig",
+    name: "Martlet",
+    languages: [{ name: "Swift", set: "B" }],
+    milestone: 0,
+    contact: ["hello@finsig.io"],
+  }
 ]
