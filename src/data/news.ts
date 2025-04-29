@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "The Polkadot Virtual Machine (PVM): Introduction by Gavin Wood",
+    date: "29/04/2025",
+    link: "https://www.youtube.com/watch?v=HL4_G5GPE6E",
+  },
+  {
     title: "JAM Gray Paper v0.6.5 Released",
     date: "22/04/2025",
     link: "https://github.com/gavofyork/graypaper/releases/tag/v0.6.5",
