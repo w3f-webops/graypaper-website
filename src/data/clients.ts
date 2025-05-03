@@ -243,7 +243,7 @@ export const clients: ClientData[] = [
   {
     description: "JAM Rust client implementation.",
     homepage: "",
-    name: "RJAM",
+    name: "FastRoll",
     languages: [{ name: "Rust", set: "B" }],
     milestone: 0,
     contact: ["@0xjunha:matrix.org"],
