@@ -12,7 +12,7 @@ export const clients: ClientData[] = [
   {
     description: "",
     homepage: "https://github.com/Zero-Trust-Collective",
-    name: "tram",
+    name: "TRAM",
     languages: [
       { name: "Python", set: "C" },
       { name: "Rust", set: "B" },
