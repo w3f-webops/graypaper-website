@@ -2,6 +2,16 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Recordings of the JAM Experience Lisbon Released",
+    link: "https://www.youtube.com/playlist?list=PLiScfyAiRyQkPl6J6_3RO0uKlsz1WQ4F_",
+    date: "10/05/2025",
+  },
+  {
+    title: "JAM Improvements Proposals (JIPs) Repository has been created",
+    link: "https://github.com/polkadot-fellows/JIPs",
+    date: "09/05/2025",
+  },
+  {
     title: "JAM Experience—Testnet Launch Party",
     link: "https://lu.ma/6monb9f9",
     date: "07/05/2025",
@@ -10,6 +20,11 @@ export const news: News[] = [
     title: "JAM Experience Lisbon Live X Feed",
     link: "https://x.com/danicuki/status/1919677194437046435",
     date: "06/05/2025",
+  },
+  {
+    title: "JAM Gray Paper v0.6.6 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.6.6",
+    date: "05/05/2025",
   },
   {
     title: "Gavin Wood proposes changes to the JAM Prize",
