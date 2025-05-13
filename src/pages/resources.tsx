@@ -97,7 +97,7 @@ const Page: React.FC<PageProps> = (props) => {
         <div className="flex flex-row flex-wrap gap-x-2 text-xs">
           {additionalResources.map((r, index) => (
             <div key={index}>
-              <sup>{`${index + 1} `}</sup>
+              <sup>{`  ${index + 1}`}</sup>
               <a href={r.link}>{r.link}</a>
             </div>
           ))}
