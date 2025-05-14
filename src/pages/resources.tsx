@@ -8,20 +8,16 @@ const Page: React.FC<PageProps> = (props) => {
   const { t } = useTranslation()
   const additionalResources = [
     {
-      title: "ETHPrague—JAM Presentation",
-      link: "https://live.ethprague.com/ethprague/watch?session=665833c8036a981493b0bf19",
+      title: "Kian Paimani—Demystifying JAM",
+      link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/",
     },
     {
-      title: "TOKEN2049—Polkadot's Future: The Big JAM Presentation",
-      link: "https://www.youtube.com/watch?v=xTMiE0UcZUo",
+      title: "JAM Brains—Unofficial knowledge base for aspiring JAM developers",
+      link: "https://docs.jamcha.in/",
     },
     {
       title: "Polkadot Wiki—Polkadot's JAM Chain",
       link: "https://wiki.polkadot.network/docs/learn-jam-chain",
-    },
-    {
-      title: "Kian Paimani—Demystifying JAM",
-      link: "https://blog.kianenigma.nl/posts/tech/demystifying-jam/",
     },
     {
       title: "Test Vectors for the JAM Protocol",
@@ -65,23 +61,6 @@ const Page: React.FC<PageProps> = (props) => {
             <code>Chinese by Qinwen Wang (Lollipop Builders)</code>
           </a>
         </p>
-        {/* TODO Can be added back in once this process is automated as well */}
-        {/* <p>
-          {t("Resources.VersionNoBackground")}{" "}
-          <a
-            href="https://github.com/gavofyork/graypaper/releases"
-            rel="noopener noreferrer"
-          >
-            {t("Resources.MostRecent")}
-          </a>{" "}
-          {t("Resources.DecisiveVersion")}.
-        </p>
-
-        <p className="flex flex-col gap-3 pl-5 md:pl-10">
-          <a href="/graypaper_no_background.pdf" download={true}>
-            <code>graypaper.com/graypaper_no_background.pdf</code>
-          </a>
-        </p> */}
         <h3 className="text-xl" id="contribute">
           {t("Contribute")}
         </h3>
@@ -109,11 +88,20 @@ const Page: React.FC<PageProps> = (props) => {
           {additionalResources.map((resource, index) => (
             <li key={index}>
               <a href={resource.link} rel="noopener noreferrer" target="_blank">
-                {resource.title}
+                {`${resource.title}`}
               </a>
+              <sup>{`${index + 1}`}</sup>
             </li>
           ))}
         </ul>
+        <div className="flex flex-row flex-wrap gap-x-2 text-xs">
+          {additionalResources.map((r, index) => (
+            <div key={index}>
+              <sup>{`  ${index + 1}`}</sup>
+              <a href={r.link}>{r.link}</a>
+            </div>
+          ))}
+        </div>
         <h3 className="text-xl" id="interview">
           {t("Interview")}
         </h3>
