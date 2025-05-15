@@ -2,9 +2,21 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title:
+      "Pala Labs—JamZig: Scaling Decentralized Computing in Zig | JAM Implementers #2",
+    link: "https://www.youtube.com/watch?v=0Z1k2ktWeS4",
+    date: "15/05/2025",
+  },
+  {
     title: "Recordings of the JAM Experience Lisbon Released",
     link: "https://www.youtube.com/playlist?list=PLiScfyAiRyQkPl6J6_3RO0uKlsz1WQ4F_",
     date: "10/05/2025",
+  },
+  {
+    title:
+      "Pala Labs—JamBrains: Turning JAM into a Decentralized Cloud Solution | JAM Implementers #1",
+    link: "https://www.youtube.com/watch?v=gg4P23PirgU",
+    date: "09/05/2025",
   },
   {
     title: "JAM Improvements Proposals (JIPs) Repository has been created",
