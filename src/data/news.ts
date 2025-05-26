@@ -2,10 +2,14 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
-    link: "https://www.youtube.com/watch?v=b98echiZGzM",
+    link: "https://www.youtube.com/watch?v=8gfZW454CeY",
+    date: "25/05/2025",
+    title: "Polkadot Future: JAM Protocol by Gavin Wood—Hong Kong Keynote",
+  },
+  {
+    link: "https://www.youtube.com/watch?v=3Fu99OwTPOs",
     date: "19/05/2025",
-    title:
-      "Pala Labs—Colorful Notion: Why JAM Marks Polkadot’s Next Evolution | JAM Implementers #3",
+    title: "Pala Labs—JAM4S: Building JAM in Scala | JAM Implementers #3",
   },
   {
     title:
