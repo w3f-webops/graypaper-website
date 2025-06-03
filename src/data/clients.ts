@@ -7,7 +7,7 @@ export const clients: ClientData[] = [
     name: "Jamzilla",
     languages: [{ name: "Go", set: "A" }],
     milestone: 0,
-    contact: ["aascrivener@gmail.com"],
+    contact: ["@ascriv:matrix.org"],
   },
   {
     description: "A Team of Web3 Researchers+Devs; Currently private.",
