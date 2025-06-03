@@ -2,6 +2,14 @@ import { ClientData } from "./types"
 
 export const clients: ClientData[] = [
   {
+    name: "@interweb/jamx",
+    description: "Jam Explorer & Client implementation in ts.",
+    homepage: "https://github.com/interweb-it",
+    languages: [{ name: "TypeScript", set: "C" }],
+    milestone: 0,
+    contact: ["@interweb_:matrix.org"],
+  },
+  {
     description: "",
     homepage: "",
     name: "Jamzilla",
