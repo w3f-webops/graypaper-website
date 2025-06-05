@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://www.youtube.com/watch?v=CCnexKXMtCk",
+    date: "04/06/2025",
+    title:
+      "Pala Labs—PyJAMaz: Full Python JAM Node in 24 Months | JAM Implementers #5",
+  },
+  {
     link: "https://www.youtube.com/watch?v=gKrWeXKorEM",
     date: "28/05/2025",
     title:
