@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://forum.polkadot.network/t/introducing-a-new-jam-token/13029/43",
+    date: "05/06/2025",
+    title: "Polkadot Forum—Gavin Wood on Introducing a new JAM token?",
+  },
+  {
     link: "https://www.youtube.com/watch?v=CCnexKXMtCk",
     date: "04/06/2025",
     title:
@@ -22,6 +27,11 @@ export const news: News[] = [
     link: "https://www.youtube.com/watch?v=8gfZW454CeY",
     date: "25/05/2025",
     title: "Polkadot Future: JAM Protocol by Gavin Wood—Hong Kong Keynote",
+  },
+  {
+    link: "https://forum.polkadot.network/t/introducing-a-new-jam-token/13029",
+    date: "22/05/2025",
+    title: "Polkadot Forum—Introducing a new JAM token?",
   },
   {
     link: "https://www.youtube.com/watch?v=3Fu99OwTPOs",
