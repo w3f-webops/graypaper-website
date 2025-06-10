@@ -12,6 +12,7 @@ export const news: News[] = [
     date: "05/06/2025",
     title: "Polkadot Forum—Gavin Wood on Introducing a new JAM token?",
   },
+  {
     title:
       "When Shift Happens—Ethereum Founder reveals why ETH has FAILED (and his solution to it) | E124",
     link: "https://youtu.be/jyMxSIFyXwo?si=fZK7sE11nqjJ9buE&t=7808",
