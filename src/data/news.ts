@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://www.youtube.com/watch?v=Y7Ubw1k0PBA",
+    title:
+      "From Polkadot to JAM: How Gavin Wood Is Building the Web3 Supercomputer",
+    date: "08/06/2025",
+  },
+  {
     link: "https://forum.polkadot.network/t/introducing-a-new-jam-token/13029/43",
     date: "05/06/2025",
     title: "Polkadot Forum—Gavin Wood on Introducing a new JAM token?",

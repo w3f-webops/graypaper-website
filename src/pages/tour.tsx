@@ -12,6 +12,7 @@ const Page: React.FC<PageProps> = (props) => {
       date: "05/03/2025",
       location: "Shenzhen University, Shenzhen, China",
       link: "https://lu.ma/JAM_Shenzhen",
+      video: "https://www.youtube.com/watch?v=Y7Ubw1k0PBA",
     },
     {
       date: "03/03/2025",
@@ -35,6 +36,7 @@ const Page: React.FC<PageProps> = (props) => {
       location:
         "National Taiwan University for Science and Technology, Taipei, Taiwan",
       link: "https://lu.ma/JAM_Taipei",
+      video: "https://www.youtube.com/watch?v=aTS4yjFsJd0",
     },
     {
       date: "17/02/2025",
