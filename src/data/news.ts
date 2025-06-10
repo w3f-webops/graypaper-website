@@ -2,6 +2,17 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://www.youtube.com/watch?v=Y7Ubw1k0PBA",
+    title:
+      "From Polkadot to JAM: How Gavin Wood Is Building the Web3 Supercomputer",
+    date: "08/06/2025",
+  },
+  {
+    link: "https://forum.polkadot.network/t/introducing-a-new-jam-token/13029/43",
+    date: "05/06/2025",
+    title: "Polkadot Forum—Gavin Wood on Introducing a new JAM token?",
+  },
+  {
     title:
       "When Shift Happens—Ethereum Founder reveals why ETH has FAILED (and his solution to it) | E124",
     link: "https://youtu.be/jyMxSIFyXwo?si=fZK7sE11nqjJ9buE&t=7808",
@@ -28,6 +39,11 @@ export const news: News[] = [
     link: "https://www.youtube.com/watch?v=8gfZW454CeY",
     date: "25/05/2025",
     title: "Polkadot Future: JAM Protocol by Gavin Wood—Hong Kong Keynote",
+  },
+  {
+    link: "https://forum.polkadot.network/t/introducing-a-new-jam-token/13029",
+    date: "22/05/2025",
+    title: "Polkadot Forum—Introducing a new JAM token?",
   },
   {
     link: "https://www.youtube.com/watch?v=3Fu99OwTPOs",
