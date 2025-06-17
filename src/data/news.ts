@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/playlists/68249533c149844bac268325?video=68502f2c4ac43bf73dabebdc",
+    title:
+      "Shawn Tabrizi at Protocol Berg—PolkaVM: A fast and secure RISC-V based virtual machine",
+    date: "12/06/2025",
+  },
+  {
     link: "https://youtu.be/e69j3bA0530?si=lDGcDt4G6DLkUmAz",
     title:
       "Pala Labs—Gossamer: Go Client for JAM — Data Availability Solved | JAM Implementers #6",
