@@ -2,6 +2,12 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    link: "https://youtu.be/e69j3bA0530?si=lDGcDt4G6DLkUmAz",
+    title:
+      "Pala Labs—Gossamer: Go Client for JAM — Data Availability Solved | JAM Implementers #6",
+    date: "12/06/2025",
+  },
+  {
     link: "https://www.youtube.com/watch?v=Y7Ubw1k0PBA",
     title:
       "From Polkadot to JAM: How Gavin Wood Is Building the Web3 Supercomputer",
