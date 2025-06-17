@@ -8,6 +8,12 @@ export const news: News[] = [
     date: "12/06/2025",
   },
   {
+    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/playlists/68249533c149844bac268325?video=68502f2c4ac43bf73dabebdc",
+    title:
+      "Shawn Tabrizi at Protocol Berg—PolkaVM: A fast and secure RISC-V based virtual machine",
+    date: "11/06/2025",
+  },
+  {
     link: "https://www.youtube.com/watch?v=Y7Ubw1k0PBA",
     title:
       "From Polkadot to JAM: How Gavin Wood Is Building the Web3 Supercomputer",
