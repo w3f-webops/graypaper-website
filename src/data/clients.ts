@@ -352,7 +352,7 @@ export const clients: ClientData[] = [
   },
   {
     description:
-      "An experimental client implementation focus on the edge use cases. Public. Expect chaos",
+      "An experimental client implementation focus on the edge use cases. Public. Expect chaos.",
     homepage: "https://github.com/jamliqr/jamliquor",
     name: "JamLiquor",
     languages: [{ name: "Rust", set: "B" }],
@@ -367,5 +367,13 @@ export const clients: ClientData[] = [
     languages: [{ name: "Swift", set: "B" }],
     milestone: 0,
     contact: ["hello@finsig.io"],
+  },
+  {
+    name: "Jamers [jam-rs]",
+    description: "Most compliant implementation of the full node.",
+    homepage: "https://github.com/Shifting-Pigeon/jam-rs",
+    languages: [{ name: "Rust", set: "B" }],
+    milestone: 0,
+    contact: ["contact@shiftingpigeon.com", "@i35359595:matrix.org"],
   },
 ]
