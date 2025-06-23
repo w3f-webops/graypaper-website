@@ -8,7 +8,7 @@ const translation: Translation = {
     "Additional Resources": undefined,
     "Clients": "Clientes",
     "Clients.add": `Si deseas listar tu cliente o actualizar tu listado, solicita el cambio <a target=\"_blank\" href=\"https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ\">aquí</a>. Una vez completado un hito, recuerda <a href=\"https://github.com/w3f/jam-milestone-delivery\" target=\"_blank\">entregar tu hito</a> a la Web3 Foundation para reclamar tu premio.`,
-    "Clients.amount": `Actualmente hay {{numberOfClients}} clientes listados en los <a href=\"https://jam.web3.foundation/#languages\" target=\"_blank\">5 conjuntos de lenguajes</a>:",
+    "Clients.amount": `Actualmente hay {{numberOfClients}} clientes listados en los <a href=\"https://jam.web3.foundation/#languages\" target=\"_blank\">5 conjuntos de lenguajes</a>:`,
     "Clients.contact": "Contacto",
     "Clients.language": "Idioma",
     "Clients.milestone": "Hito",
@@ -44,6 +44,10 @@ const translation: Translation = {
     "Tour": "Tour",
     "Tour Description": "Gavin Wood aparecerá en universidades de todo el mundo en una serie de conferencias para guiar a los espectadores a través del Gray Paper y explicar cada parte en profundidad.",
     "Tour YouTube": `Las grabaciones de este tour se comparten en el <a href=\"https://www.youtube.com/@JamPrizeTour\" target=\"_blank\">Canal de YouTube del Tour del Premio ${KeywordJam}</a>. Consulta la sección <a href=\"/lectures\">Conferencias</a> para estudiar el Gray Paper junto con el material del Tour.`,
+    "Contribute": "Contribuir",
+    "Download": "Descargar",
+    "Lectures": "Conferencias",
+    "News": "Noticias",
 }
 
 export default translation
