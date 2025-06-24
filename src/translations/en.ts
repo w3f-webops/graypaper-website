@@ -6,7 +6,7 @@ export default {
     "Abstract.p3": `${KeywordJam} is permissionless in nature, allowing anyone to deploy code as a service on it for a fee commensurate with the resources this code utilizes and to induce execution of this code through the procurement and allocation of <i>core-time</i>, a metric of resilient and ubiquitous computation, somewhat similar to the purchasing of gas in Ethereum. We already envision a Polkadot-compatible <i>CoreChains</i> service.`,
     "Additional Resources": "Additional Resources",
     "Clients": "Clients",
-    "Clients.why": `The <a href="/prize">${KeywordJam} Implementer’s Prize</a>
+    "Clients.why": `The <a href="/prize">${KeywordJam} Implementer's Prize</a>
         encourages multiple client implementations to boost network
         resilience.
         The table on this page lists the publicly known clients in development.`,
@@ -35,7 +35,7 @@ export default {
     "Previous Section": "Previous Section",
     "Prize.resources": `Find out more about the prize and how to apply, milestones and rules here:`,
     "Prize.cta": "Read the announcement",
-    "Prize.description": `The Web3 Foundation announces the ${KeywordJam} Implementer&#x2019;s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation of multiple client implementations, enhancing the network&#x2019;s resilience.`,
+    "Prize.description": `The Web3 Foundation announces the ${KeywordJam} Implementer's Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the ${KeywordJam} protocol. The goal of this prize is to encourage the creation of multiple client implementations, enhancing the network's resilience.`,
     "Prize": "Prize",
     "Prize.headline": "10 Million DOT Prize",
     "Resources.Contribute": `Join the ${KeywordJam} in our ${KeywordMatrix} rooms:`,
@@ -44,6 +44,9 @@ export default {
     "Resources.Latex": "or compile the LaTeX from source:",
     "Resources.MostRecent": "most recent official released version",
     "Resources.VersionNoBackground": "A version without the dark background is provided for your convenience. The",
+    "Resources.UnofficialVersions": "Unofficial translated versions:",
+    "Resources.ChineseTranslation": "Chinese by Qinwen Wang (Lollipop Builders)",
+    "Resources.MetaDescription": "All the resources you need to join the JAM.",
     "Resources": "Resources",
     "Select Lecture": "Select a Lecture",
     "Show Section in Gray Paper": "Show Section in Gray Paper",
