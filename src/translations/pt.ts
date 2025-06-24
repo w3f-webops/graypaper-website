@@ -5,6 +5,7 @@ const translation: Translation = {
   "Abstract.p1": `${KeywordAbstract} Apresentamos uma definição abrangente e formal de ${KeywordJam}, um protocolo que combina elementos da <i>Polkadot</i> e <i>Ethereum</i>. Em um modelo único e coerente, ${KeywordJam} oferece um ambiente de objeto global singleton e permissionless - muito parecido com o ambiente de contratos inteligentes pioneiro no Ethereum - emparelhado com computação paralelizada segura em uma rede de nós escalável, uma proposta pioneira do Polkadot.`,
   "Abstract.p2": `${KeywordJam} introduz um sistema híbrido descentralizado que oferece funcionalidade de contratos inteligentes estruturada em torno de um dualismo seguro e escalável in-core/on-chain. Embora a funcionalidade de contratos inteligentes implique algumas semelhanças com o paradigma da Ethereum, o modelo geral do serviço oferecido é amplamente impulsionado pela arquitetura subjacente da Polkadot.`,
   "Abstract.p3": `${KeywordJam} é de natureza permissonless, onde que qualquer pessoa pode implantar código como um serviço, mediante uma taxa proporcional aos recursos que esse código utiliza e induza a execução desse código através da aquisição e alocação de <i>core-time</i>, uma métrica de computação resiliente e onipresente, um pouco semelhante à compra de gás no Ethereum. Já prevemos um serviço <i>CoreChains</i> compatível com Polkadot.`,
+  // TODO confirm by native speaker
   "Additional Resources": "Recursos Adicionais",
   "Clients": "Clientes",
   "Clients.add": `Se você deseja listar seu cliente ou atualizar sua listagem, solicite a alteração <a target=\"_blank\" href=\"https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ\">aqui</a>. Após concluir um marco, lembre-se de <a href=\"https://github.com/w3f/jam-milestone-delivery\" target=\"_blank\">entregar seu marco</a> à Web3 Foundation para reivindicar seu prêmio.`,
@@ -37,6 +38,7 @@ const translation: Translation = {
   "Prize.description": `A Web3 Foundation anuncia o prêmio para implementação do ${KeywordJam}, um prêmio de 10 milhões de DOT destinado a fomentar a diversidade no desenvolvimento do protocolo ${KeywordJam}. O objetivo deste prêmio é incentivar a criação de múltiplas implementações de clientes, aumentando a resiliência da rede.`,
   "Prize.headline": "Prêmio de 10 Milhões de DOT",
   "Resources.Contribute": `Junte-se ao ${KeywordJam} em nossas salas no ${KeywordMatrix}:`,
+  // TODO confirm by native speaker
   "Resources.DecisiveVersion": "no GitHub é a versão definitiva",
   "Resources.Download": "Obtenha uma cópia do Gray Paper aqui:",
   "Resources.Latex": "ou compile o LaTeX a partir do código-fonte:",
