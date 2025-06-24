@@ -41,10 +41,13 @@ const translation: Translation = {
     "Resources.Download": "Gray Paperはここからダウンロードできます：",
     "Resources.Latex": "またはソースからLaTeXをコンパイル：",
     "Resources.MostRecent": "最新の公式リリースバージョン",
-    "Resources.VersionNoBackground": "ダーク背景なしバージョンもご用意しています。決定版は",
-    "Resources.UnofficialVersions": "非公式翻訳版:",
-    "Resources.ChineseTranslation": "中国語版 by Qinwen Wang (Lollipop Builders)",
-    "Resources.MetaDescription": "JAMに参加するために必要なすべてのリソース。",
+          "Resources.VersionNoBackground": "ダーク背景なしバージョンもご用意しています。決定版は",
+      // TODO confirm by native speaker
+      "Resources.UnofficialVersions": "非公式翻訳版:",
+      // TODO confirm by native speaker
+      "Resources.ChineseTranslation": "中国語版 by Qinwen Wang (Lollipop Builders)",
+      // TODO confirm by native speaker
+      "Resources.MetaDescription": "JAMに参加するために必要なすべてのリソース。",
     "Resources": "リソース",
     "Select Lecture": "講義を選択",
     "Show Section in Gray Paper": "Gray Paperでセクションを表示",

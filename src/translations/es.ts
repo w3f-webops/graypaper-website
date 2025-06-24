@@ -38,10 +38,13 @@ const translation: Translation = {
     "Resources.Download": "Obtén una copia del Gray Paper aquí:",
     "Resources.Latex": "o compila el LaTeX desde el código fuente:",
     "Resources.MostRecent": "versión oficial más reciente publicada",
-    "Resources.VersionNoBackground": "Se proporciona una versión sin fondo oscuro para tu conveniencia. La",
-    "Resources.UnofficialVersions": "Versiones traducidas no oficiales:",
-    "Resources.ChineseTranslation": "Chino por Qinwen Wang (Lollipop Builders)",
-    "Resources.MetaDescription": "Todos los recursos que necesitas para unirte a JAM.",
+          "Resources.VersionNoBackground": "Se proporciona una versión sin fondo oscuro para tu conveniencia. La",
+      // TODO confirm by native speaker
+      "Resources.UnofficialVersions": "Versiones traducidas no oficiales:",
+      // TODO confirm by native speaker
+      "Resources.ChineseTranslation": "Chino por Qinwen Wang (Lollipop Builders)",
+      // TODO confirm by native speaker
+      "Resources.MetaDescription": "Todos los recursos que necesitas para unirte a JAM.",
     "Select Lecture": "Seleccionar una Conferencia",
     "Show Section in Gray Paper": "Mostrar Sección en el Gray Paper",
     "Tour": "Tour",

@@ -41,10 +41,13 @@ const translation: Translation = {
     "Resources.Download": "在这里获取Gray Paper的副本：",
     "Resources.Latex": "或从源码编译LaTeX：",
     "Resources.MostRecent": "最新官方发布版本",
-    "Resources.VersionNoBackground": "为方便起见，提供了无深色背景版本。决定性版本",
-    "Resources.UnofficialVersions": "非官方翻译版本:",
-    "Resources.ChineseTranslation": "中文版 by Qinwen Wang (Lollipop Builders)",
-    "Resources.MetaDescription": "加入JAM所需的所有资源。",
+          "Resources.VersionNoBackground": "为方便起见，提供了无深色背景版本。决定性版本",
+      // TODO confirm by native speaker
+      "Resources.UnofficialVersions": "非官方翻译版本:",
+      // TODO confirm by native speaker
+      "Resources.ChineseTranslation": "中文版 by Qinwen Wang (Lollipop Builders)",
+      // TODO confirm by native speaker
+      "Resources.MetaDescription": "加入JAM所需的所有资源。",
     "Resources": "资源",
     "Select Lecture": "选择讲座",
     "Show Section in Gray Paper": "在灰皮书中显示章节",

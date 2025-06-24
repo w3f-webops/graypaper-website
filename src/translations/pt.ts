@@ -42,8 +42,11 @@ const translation: Translation = {
   "Resources.Latex": "ou compile o LaTeX a partir do código-fonte:",
   "Resources.MostRecent": "versão oficial mais recente lançada",
   "Resources.VersionNoBackground": "Uma versão sem o fundo escuro é fornecida para sua conveniência. A",
+  // TODO confirm by native speaker
   "Resources.UnofficialVersions": "Versões traduzidas não oficiais:",
+  // TODO confirm by native speaker
   "Resources.ChineseTranslation": "Chinês por Qinwen Wang (Lollipop Builders)",
+  // TODO confirm by native speaker
   "Resources.MetaDescription": "Todos os recursos que você precisa para se juntar ao JAM.",
   "Resources": "Recursos",
   "Select Lecture": "Selecione uma Aula",
