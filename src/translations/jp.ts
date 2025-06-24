@@ -5,7 +5,6 @@ const translation: Translation = {
     "Abstract.p1": `${KeywordAbstract} ここに、<i>Polkadot</i>と<i>Ethereum</i>の両方の要素を組み合わせたプロトコルである${KeywordJam}の形式仕様の全体像を提示します。${KeywordJam}という一貫した一つのモデルの中には、Ethereumによって先駆けられたスマートコントラクト環境に通ずる「グローバルで、単一（シングルトン）の、パーミッションレスなオブジェクト指向環境」と、Polkadotによって先駆けられた「スケーラブルなノードネットワーク上で並列化された、セキュアなサイドバンド計算」の両要素が組み合わされています。`,
     "Abstract.p2": `${KeywordJam}は、セキュアでスケーラブルな、インコア（in-core）/オンチェーン（on-chain）の二元性を軸に構成されたスマートコントラクト機能を提供できる分散型ハイブリッドシステムを導入します。スマートコントラクト機能はEthereumの枠組みとある程度の類似点を示唆していますが、Polkadotが基盤とするアーキテクチャが、提供されるサービスモデル全体の礎となっています。`,
     "Abstract.p3": `${KeywordJam}は本質的にパーミッションレスであり、誰でもコードをサービスとして${KeywordJam}上にデプロイすることができます。その際、コードが消費するリソース量に応じて、Ethereumでのガス購入と似た形式で、${KeywordJam}上では<i>コアタイム（core-time）</i>と呼ばれる計算リソースを購入し、割り当てることで、デプロイしたコードの実行を行うことができます。<i>コアタイム</i>は、安定していてどこでも利用可能な計算リソースの単位です。私たちはすでに、Polkadotと互換性のある<i>コアチェーン（CoreChains）</i>サービスを構想しています。`,
-    // TODO confirm by native speaker
     "Additional Resources": undefined,
     "Clients": "クライアント",
     "Clients.add": `クライアントをリストしたい、またはリストを更新したい場合は、<a target=\"_blank\" href=\"https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ\">こちら</a>からリクエストしてください。マイルストーンを完了したら、<a href=\"https://github.com/w3f/jam-milestone-delivery\" target=\"_blank\">Web3 Foundationにマイルストーンを提出</a>して賞金を請求してください。`,
@@ -38,18 +37,17 @@ const translation: Translation = {
     "Prize.description": `${KeywordJam} 実装者賞として、Web3 Foundationは1,000万DOTの賞金プールを発表します。この賞の目的は、${KeywordJam}プロトコルの多様なクライアント実装を促進し、ネットワークのレジリエンスを高めることです。`,
     "Prize.headline": "1,000万DOT賞金",
     "Resources.Contribute": `${KeywordMatrix}チャットルームから${KeywordJam}に参加しよう：`,
-    // TODO confirm by native speaker
     "Resources.DecisiveVersion": undefined,
     "Resources.Download": "Gray Paperはここからダウンロードできます：",
     "Resources.Latex": "またはソースからLaTeXをコンパイル：",
     "Resources.MostRecent": "最新の公式リリースバージョン",
-    "Resources.VersionNoBackground": "ダーク背景なしバージョンもご用意しています。決定版は",
-    // TODO confirm by native speaker
-    "Resources.UnofficialVersions": "非公式翻訳版:",
-    // TODO confirm by native speaker
-    "Resources.ChineseTranslation": "中国語版 by Qinwen Wang (Lollipop Builders)",
-    // TODO confirm by native speaker
-    "Resources.MetaDescription": "JAMに参加するために必要なすべてのリソース。",
+          "Resources.VersionNoBackground": "ダーク背景なしバージョンもご用意しています。決定版は",
+      // TODO confirm by native speaker
+      "Resources.UnofficialVersions": "非公式翻訳版:",
+      // TODO confirm by native speaker
+      "Resources.ChineseTranslation": "中国語版 by Qinwen Wang (Lollipop Builders)",
+      // TODO confirm by native speaker
+      "Resources.MetaDescription": "JAMに参加するために必要なすべてのリソース。",
     "Resources": "リソース",
     "Select Lecture": "講義を選択",
     "Show Section in Gray Paper": "Gray Paperでセクションを表示",
