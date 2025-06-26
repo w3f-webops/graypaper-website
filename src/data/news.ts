@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Tour recap video released",
+    link: "https://x.com/Polkadot/status/1937125272391676324",
+    date: "23/06/2025",
+  },
+  {
     link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/playlists/68249533c149844bac268325?video=68502f2c4ac43bf73dabebdc",
     title:
       "Shawn Tabrizi at Protocol Berg—PolkaVM: A fast and secure RISC-V based virtual machine",
