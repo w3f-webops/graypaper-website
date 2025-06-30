@@ -298,10 +298,10 @@ export const clients: ClientData[] = [
     contact: ["https://x.com/javajam_io", "info@javajam.io"],
   },
   {
-    description: "Rust implementation of JAM by Clawbird.",
+    description: "TypeScript implementation of JAM by Clawbird.",
     homepage: "https://github.com/ltfschoen/jam",
     name: "Clawbird",
-    languages: [{ name: "Rust", set: "B" }],
+    languages: [{ name: "TypeScript", set: "C" }],
     milestone: 0,
     contact: [
       "@ltfschoen:matrix.org",
