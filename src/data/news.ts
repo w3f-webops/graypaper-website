@@ -7,9 +7,25 @@ export const news: News[] = [
     date: "23/06/2025",
   },
   {
-    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/playlists/68249533c149844bac268325?video=68502f2c4ac43bf73dabebdc",
     title:
-      "Shawn Tabrizi at Protocol Berg—PolkaVM: A fast and secure RISC-V based virtual machine",
+      "Dr. Gavin Wood—Beyond the Ledger: JAM and the Future of Scalable Decentralized Computing",
+    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68553b9a90bd41297b490a51",
+    date: "20/06/2025",
+  },
+  {
+    title: "Bastian Köcher—CorePlay: An actor-like framework for blockchains",
+    link: "http://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=68541ff990bd41297b495463",
+    date: "19/06/2025",
+  },
+  {
+    title: "Erin Grasmick—Building Testnet Infrastructure (from the ground up)",
+    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=6853db9a90bd41297b1a6928",
+    date: "19/06/2025",
+  },
+  {
+    link: "https://watch.protocol.berlin/65a90bf47932ebe436ba9351/watch?session=685e6cae90bd41297be9b69c",
+    title:
+      "Shawn Tabrizi—PolkaVM: A fast and secure RISC-V based virtual machine",
     date: "12/06/2025",
   },
   {
