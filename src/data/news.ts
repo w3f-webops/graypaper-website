@@ -3,7 +3,7 @@ import { News } from "./types"
 export const news: News[] = [
   {
     title: "JAM Tour recap video released",
-    link: "https://x.com/Polkadot/status/1937125272391676324",
+    link: "https://www.youtube.com/watch?v=M9zu6V9dkSI",
     date: "23/06/2025",
   },
   {
