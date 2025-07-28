@@ -16,12 +16,12 @@
     "apple-canvas-fix": "brew install pkg-config cairo pango && pnpm rebuild canvas"
   },
   "dependencies": {
-    "@netlify/functions": "^3.0.4",
+    "@netlify/functions": "^4.1.15",
     "@radix-ui/react-select": "^2.2.5",
     "autoprefixer": "^10.4.21",
     "canvas": "^2.11.2",
     "clsx": "^2.1.1",
-    "gatsby": "^5.14.4",
+    "gatsby": "^5.14.5",
     "gatsby-plugin-fix-fouc": "^1.1.2",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-image": "^3.14.0",
@@ -30,10 +30,10 @@
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-json": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
-    "i18next": "^25.2.1",
+    "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "latex.css": "^1.13.0",
-    "lucide-react": "^0.516.0",
+    "lucide-react": "^0.527.0",
     "pdfjs-dist": "^4.10.38",
     "postcss": "^8.5.6",
     "react": "^18.3.1",
@@ -47,13 +47,16 @@
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@types/node": "^20.17.30",
-    "@types/react": "^18.3.20",
-    "@types/react-dom": "^18.3.6",
+    "@types/node": "^22.16.5",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "node-loader": "^2.1.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.12.1"
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp"]
+  },
+  "packageManager": "pnpm@10.13.1"
 }
