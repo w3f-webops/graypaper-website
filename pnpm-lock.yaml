@@ -97,13 +97,13 @@ importers:
         version: 3.4.17
     devDependencies:
       '@types/node':
-        specifier: ^20.17.30
-        version: 20.19.9
+        specifier: ^22.16.5
+        version: 22.16.5
       '@types/react':
-        specifier: ^18.3.20
+        specifier: ^18.3.23
         version: 18.3.23
       '@types/react-dom':
-        specifier: ^18.3.6
+        specifier: ^18.3.7
         version: 18.3.7(@types/react@18.3.23)
       node-loader:
         specifier: ^2.1.0
@@ -1988,8 +1988,8 @@ packages:
   '@types/mkdirp@0.5.2':
     resolution: {integrity: sha512-U5icWpv7YnZYGsN4/cmh3WD2onMY0aJIiTE6+51TwJCttdHvtCYmkBNOobHlXwrJRL0nkH9jH4kD+1FAdMN4Tg==}
 
-  '@types/node@20.19.9':
-    resolution: {integrity: sha512-cuVNgarYWZqxRJDQHEB58GEONhOK79QVR/qYx4S7kcUObQvUwvFnYxJuuHUKm2aieN9X3yZB4LZsuYNU1Qphsw==}
+  '@types/node@22.16.5':
+    resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
 
   '@types/node@8.10.66':
     resolution: {integrity: sha512-tktOkFUA4kXx2hhhrB8bIFb5TbwzS4uOhKEmwiD+NoiL0qtP2OQ9mFldbgD4dV1djrlBYP6eBuQZiWjuHUpqFw==}
@@ -9462,7 +9462,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
       '@types/responselike': 1.0.3
 
   '@types/common-tags@1.8.4': {}
@@ -9473,7 +9473,7 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/debug@0.0.30': {}
 
@@ -9499,13 +9499,13 @@ snapshots:
   '@types/glob@5.0.38':
     dependencies:
       '@types/minimatch': 6.0.0
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/http-cache-semantics@4.0.4': {}
 
   '@types/http-proxy@1.17.16':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/json-schema@7.0.15': {}
 
@@ -9513,7 +9513,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/lodash@4.17.20': {}
 
@@ -9523,9 +9523,9 @@ snapshots:
 
   '@types/mkdirp@0.5.2':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
-  '@types/node@20.19.9':
+  '@types/node@22.16.5':
     dependencies:
       undici-types: 6.21.0
 
@@ -9552,12 +9552,12 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/rimraf@2.0.5':
     dependencies:
       '@types/glob': 5.0.38
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
 
   '@types/semver@7.7.0': {}
 
@@ -9567,7 +9567,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
     optional: true
 
   '@types/yoga-layout@1.9.2': {}
@@ -11231,7 +11231,7 @@ snapshots:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.19
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.4.2
@@ -13100,13 +13100,13 @@ snapshots:
 
   jest-worker@26.6.2:
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
       merge-stream: 2.0.0
       supports-color: 7.2.0
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.19.9
+      '@types/node': 22.16.5
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
