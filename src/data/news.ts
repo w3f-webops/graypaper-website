@@ -2,8 +2,18 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Polkadot Blog—Interview with Daniel Cukier JAM implementer",
+    link: "https://polkadot.com/blog/interview-with-daniel-cukier-jam-implementer/",
+    date: "21/07/2025",
+  },
+  {
+    title: "Polkadot Forum—Polkadot - 3.0 the JAM upgrade",
+    link: "https://forum.polkadot.network/t/polkadot-3-0-the-jam-upgrade/13834",
+    date: "19/07/2025",
+  },
+  {
     title: "JAM Tour recap video released",
-    link: "https://x.com/Polkadot/status/1937125272391676324",
+    link: "https://www.youtube.com/watch?v=M9zu6V9dkSI",
     date: "23/06/2025",
   },
   {
