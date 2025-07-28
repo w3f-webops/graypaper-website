@@ -12,6 +12,11 @@ export const news: News[] = [
     date: "19/07/2025",
   },
   {
+    title: "JAM Gray Paper v0.7.0 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.7.0",
+    date: "25/06/2025",
+  },
+  {
     title: "JAM Tour recap video released",
     link: "https://www.youtube.com/watch?v=M9zu6V9dkSI",
     date: "23/06/2025",
