@@ -178,6 +178,12 @@ export const news: News[] = [
     link: "https://www.youtube.com/watch?v=GW62bwW1-kk",
   },
   {
+    title:
+      "Polkaworld—Gavin Wood：我非常清楚自己的目标，并尽量保持真实，脚踏实地",
+    link: "https://www.youtube.com/watch?v=em5qqE78fqQ",
+    date: "19/03/2025",
+  },
+  {
     title: "Running DOOM on JAM: Dr. Gavin Wood’s Demo",
     date: "08/03/2025",
     link: "https://www.youtube.com/watch?v=hJcw5FMSjQs",
@@ -282,21 +288,6 @@ export const news: News[] = [
     date: "06/01/2025",
     link: "https://www.youtube.com/watch?v=UV7zwbLRJHg",
   },
-  // {
-  //   title: "JAM Gray Paper 0.5.3 Released",
-  //   date: "20/12/2024",
-  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.3",
-  // },
-  // {
-  //   title: "JAM Gray Paper 0.5.2 Released",
-  //   date: "06/12/2024",
-  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.2",
-  // },
-  // {
-  //   title: "JAM Gray Paper 0.5.1 Released",
-  //   date: "06/12/2024",
-  //   link: "https://github.com/gavofyork/graypaper/releases/tag/v0.5.1",
-  // },
   {
     title: "Initial Release of Parity Technologies' JAM Rust SDK",
     date: "29/11/2024",
@@ -309,7 +300,7 @@ export const news: News[] = [
     link: "https://youtu.be/npnbqnlQtoQ?si=p6zNqQtGOjO6Kxob&t=4979",
   },
   {
-    title: "Daniel Cukier—What's the JAM Toaster?",
+    title: "Daniel Cukier—What’s the JAM Toaster?",
     date: "21/11/2024",
     link: "https://x.com/danicuki/status/1859634601955598478",
   },
@@ -333,6 +324,11 @@ export const news: News[] = [
     title: "sub0 reset 2024—JAM with Gavin Wood",
     date: "13/11/2024",
     link: "https://www.youtube.com/watch?v=UxcmPC-yY0A",
+  },
+  {
+    title: "sub0 reset 2024—PolkaVM by Cyrill Leutwiler",
+    date: "12/11/2024",
+    link: "https://www.youtube.com/watch?v=GPuTt10dxKI",
   },
   {
     title:
@@ -488,7 +484,18 @@ export const news: News[] = [
   },
   {
     date: "18/04/2024",
-    title: "Announcing the JAM Implementer’s Prize",
+    title: "Announcing the JAM Implementer's Prize",
     link: "https://medium.com/web3foundation/announcing-the-jam-implementers-prize-e79f8ebc506d",
+  },
+  {
+    title: "sub0 Asia 2024 keynote—Gavin Wood on JAM A-Z",
+    date: "13/03/2024",
+    link: "https://www.youtube.com/watch?v=tdvqkKdFTlw",
+  },
+  {
+    title:
+      "Introducing PolkaVM: Polkadot's Leap Into RISC-V Based Virtual Machine",
+    date: "12/12/2023",
+    link: "https://www.youtube.com/watch?v=uB8ckQ_87uE",
   },
 ]
