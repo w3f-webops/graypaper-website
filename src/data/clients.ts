@@ -376,4 +376,12 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["contact@shiftingpigeon.com", "@i35359595:matrix.org"],
   },
+    {
+    description: "Cross-chain Settlement JAM",
+    homepage: "",
+    name: "CrossJAM",
+    languages: [{ name: "Rust", set: "B" }],
+    milestone: 0,
+    contact: ["@shimonchick:matrix.org"],
+  },
 ]
