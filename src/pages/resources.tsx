@@ -51,14 +51,14 @@ const Page: React.FC<PageProps> = (props) => {
           </a>
         </p>
 
-        <p>{t("Unofficial translated versions")}:</p>
+        <p>{t("Resources.UnofficialVersions")}</p>
         <p className="flex flex-col gap-3 pl-5 md:pl-10">
           <a
             href="https://www.lollipop.builders/JAM-Graypaper-Chinese.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <code>Chinese by Qinwen Wang (Lollipop Builders)</code>
+            <code>{t("Resources.ChineseTranslation")}</code>
           </a>
         </p>
         <h3 className="text-xl" id="contribute">
@@ -144,7 +144,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <meta
         id="description"
         name="description"
-        content={"All the resources you need to join the JAM."}
+        content={t("Resources.MetaDescription")}
       />
     </>
   )
