@@ -2,6 +2,17 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Gavin Wood—Polkadot Road ahead at Web3 Summit",
+    link: "https://www.youtube.com/watch?v=PV1QP8cJh74",
+    date: "16/07/2025",
+  },
+  {
+    title:
+      "Qinwen Wang—China’s RISC-V Strategy: Open Spec as JAM Becomes the New Sovereignty at Web3 Summit",
+    link: "https://www.youtube.com/watch?v=rvNyhS9-Vz8",
+    date: "16/07/2025",
+  },
+  {
     title: "Polkadot Blog—Interview with Daniel Cukier JAM implementer",
     link: "https://polkadot.com/blog/interview-with-daniel-cukier-jam-implementer/",
     date: "21/07/2025",
