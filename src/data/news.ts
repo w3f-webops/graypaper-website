@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Gavin Wood’s Vision to Reclaim Truth in the Age of AI",
+    link: "https://www.youtube.com/watch?v=-GdWXtwvWtQ",
+    date: "01/08/2025",
+  },
+  {
     title: "Gavin Wood—Polkadot Road ahead at Web3 Summit",
     link: "https://www.youtube.com/watch?v=PV1QP8cJh74",
     date: "28/07/2025",
