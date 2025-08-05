@@ -376,11 +376,11 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["contact@shiftingpigeon.com", "@i35359595:matrix.org"],
   },
-    {
-    description: "Peanut Butter and JAM",
+  {
+    description: "Peanut Butter and JAM.",
     homepage: "https://esscrypt.com/",
     name: "PeanutButterAndJAM",
-    languages: [{ name: "Typescript", set: "C" }],
+    languages: [{ name: "TypeScript", set: "C" }],
     milestone: 0,
     contact: ["@shimonchick:matrix.org"],
   },
