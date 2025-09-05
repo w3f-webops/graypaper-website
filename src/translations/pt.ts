@@ -16,6 +16,7 @@ const translation: Translation = {
   "Clients.set": "Conjunto",
   "Clients.web": "Web",
   "Clients.why": `O <a href=\"/prize\">Prêmio de Implementação do ${KeywordJam}</a> incentiva múltiplas implementações de clientes para aumentar a resiliência da rede. A tabela nesta página lista os clientes publicamente conhecidos em desenvolvimento.`,
+  "Clients.conformance": `A conformidade com os requisitos de desempenho pode ser inspecionada no <a href=\"https://paritytech.github.io/jam-conformance-dashboard/\" target=\"_blank\" rel=\"noopener noreferrer\">Painel de Conformidade JAM</a>.`,
   "Coming soon": "Em breve...",
   "Contribute": "Contribuir",
   "CTA.Download": "Leia o Gray Paper",

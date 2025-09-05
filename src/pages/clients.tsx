@@ -59,6 +59,8 @@ const Page: React.FC<PageProps> = (props) => {
           {ClientsPerLanguageSet["Z"] || 0}
         </p>
 
+        <p dangerouslySetInnerHTML={{ __html: t("Clients.conformance") }} />
+
         <p dangerouslySetInnerHTML={{ __html: t("Clients.add") }} />
 
         <div className="relative overflow-x-scroll py-4 font-normal">

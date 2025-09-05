@@ -17,6 +17,7 @@ const translation: Translation = {
     "Clients.set": "集合",
     "Clients.web": "网站",
     "Clients.why": `<a href=\"/prize\">${KeywordJam} 实施者奖</a>鼓励多个客户端实现以增强网络弹性。本页表格列出了已知正在开发的客户端。`,
+    "Clients.conformance": `可以在<a href=\"https://paritytech.github.io/jam-conformance-dashboard/\" target=\"_blank\" rel=\"noopener noreferrer\">JAM合规性仪表板</a>中检查对性能要求的合规性。`,
     "Coming soon": "即将推出...",
     "Contribute": "贡献",
     "CTA.Download": "阅读Gray Paper",

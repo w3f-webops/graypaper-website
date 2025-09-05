@@ -17,6 +17,7 @@ const translation: Translation = {
     "Clients.set": "セット",
     "Clients.web": "Web",
     "Clients.why": `<a href=\"/prize\">${KeywordJam} 実装者賞</a>は、ネットワークのレジリエンスを高めるために複数のクライアント実装を奨励します。このページの表には、開発中の公に知られているクライアントが一覧表示されています。`,
+    "Clients.conformance": `パフォーマンス要件への適合性は<a href=\"https://paritytech.github.io/jam-conformance-dashboard/\" target=\"_blank\" rel=\"noopener noreferrer\">JAM適合性ダッシュボード</a>で確認できます。`,
     "Coming soon": "近日公開...",
     "Contribute": "貢献する",
     "CTA.Download": "Gray Paperを読む",

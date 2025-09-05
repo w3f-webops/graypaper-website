@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Conformance Dashboard Released",
+    link: "https://paritytech.github.io/jam-conformance-dashboard/",
+    date: "05/09/2025",
+  },
+  {
     title: "Gavin Wood’s Vision to Reclaim Truth in the Age of AI",
     link: "https://www.youtube.com/watch?v=-GdWXtwvWtQ",
     date: "01/08/2025",

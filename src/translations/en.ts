@@ -12,6 +12,7 @@ export default {
         The table on this page lists the publicly known clients in development.`,
     "Clients.amount": `As of now there are {{numberOfClients}} clients listed across the <a href="https://jam.web3.foundation/#languages" target="_blank"> 5 language sets</a>:`,
     "Clients.add": `If you want to list your client or update your listing, please request the change <a target="_blank" href="https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ"> here</a>. Once completed a milestone remember to <a href="https://github.com/w3f/jam-milestone-delivery" target="_blank">deliver your milestone</a> to the Web3 Foundation to claim your prize.`,
+    "Clients.conformance": `The conformance to the performance requirements can be inspected in the <a href="https://paritytech.github.io/jam-conformance-dashboard/" target="_blank" rel="noopener noreferrer">JAM Conformance Dashboard</a>.`,
     "Clients.contact": "Contact",
     "Clients.language": "Language",
     "Clients.milestone": "Milestone",
