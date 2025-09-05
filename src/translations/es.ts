@@ -17,6 +17,7 @@ const translation: Translation = {
     "Clients.set": "Conjunto",
     "Clients.web": "Web",
     "Clients.why": `El <a href=\"/prize\">Premio para Implementadores de ${KeywordJam}</a> fomenta múltiples implementaciones de clientes para aumentar la resiliencia de la red. La tabla en esta página enumera los clientes conocidos públicamente en desarrollo.`,
+    "Clients.conformance": `La conformidad con los requisitos de rendimiento se puede inspeccionar en el <a href=\"https://paritytech.github.io/jam-conformance-dashboard/\" target=\"_blank\" rel=\"noopener noreferrer\">Panel de Conformidad JAM</a>.`,
     "Coming soon": "Próximamente...",
     "CTA.Download": "Lee el Gray Paper",
     "filmed.brussels": "Filmado en The Sneakers Cafe en Bruselas, Bélgica el 11 de julio de 2024",
