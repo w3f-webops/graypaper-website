@@ -1,6 +1,7 @@
 import { News } from "./types"
 
 export const news: News[] = [
+  {
     title: "PBA Campus Special - JAM panel",
     link: "https://x.com/AcademyPolkadot/status/1966374101821575310",
     date: "12/09/2025",
