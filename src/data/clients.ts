@@ -335,7 +335,7 @@ export const clients: ClientData[] = [
   },
   {
     description: "A Minimal JAM Protocol Implementation in Rust.",
-    homepage: "",
+    homepage: "https://spacejam.app",
     name: "SpaceJam",
     languages: [{ name: "Rust", set: "B" }],
     milestone: 0,
