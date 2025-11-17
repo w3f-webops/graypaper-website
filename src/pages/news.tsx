@@ -52,6 +52,12 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
         name="description"
         content={"Recent and past news about the JAM."}
       />
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="JAM News RSS Feed"
+        href="/news/rss.xml"
+      />
     </>
   )
 }

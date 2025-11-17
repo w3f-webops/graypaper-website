@@ -71,11 +71,11 @@ const config: GatsbyConfig = {
                 }
               }
             `,
-            output: "/rss.xml",
+            output: "/news/rss.xml",
             title: "JAM News RSS Feed",
             description: "Recent and past news about JAM (Join-Accumulate Machine)",
             site_url: "https://www.graypaper.com",
-            feed_url: "https://www.graypaper.com/rss.xml",
+            feed_url: "https://www.graypaper.com/news/rss.xml",
           },
         ],
       },
