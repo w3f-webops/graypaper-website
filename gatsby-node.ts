@@ -4,6 +4,27 @@ import { clients } from "./src/data/clients"
 import { lectures } from "./src/data/lectures"
 import * as fs from "fs"
 
+export const sourceNodes: GatsbyNode["sourceNodes"] = ({
+  actions,
+  createNodeId,
+  createContentDigest,
+}) => {
+  const { createNode } = actions
+
+  // Create nodes for news items so they're available in GraphQL
+  news.forEach((newsItem, index) => {
+    const node = {
+      ...newsItem,
+      id: createNodeId(`NewsItem-${index}`),
+      internal: {
+        type: "NewsItem",
+        contentDigest: createContentDigest(newsItem),
+      },
+    }
+    createNode(node)
+  })
+}
+
 export const onPostBuild: GatsbyNode["onPostBuild"] = () => {
   // Adapt clients data to match the old format
   const adaptedClients = clients.map((client) => ({
