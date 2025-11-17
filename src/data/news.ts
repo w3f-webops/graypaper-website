@@ -2,6 +2,16 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Sub0—JAM Vision",
+    link: "https://www.youtube.com/watch?v=Pu54gtcyp34",
+    date: "16/11/2025",
+  },
+  {
+    title: "PBA Bali 2025 Module 6—JAM",
+    link: "https://www.youtube.com/watch?v=z2dyFVURlRI&list=PL38irG6xTQaJIR-WiVjqdK7ujJSWx5vfT&index=28",
+    date: "07/11/2025",
+  },
+  {
     title:
       "Simply Staking—Introduction to Polkadot JAM: And How it Relates to Ethereum",
     date: "29/09/2025",
