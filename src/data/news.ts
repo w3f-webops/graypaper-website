@@ -2,6 +2,11 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "Pala Labs—Gavin Wood Interview",
+    link: "https://x.com/Polkadot/status/1993593944824070610?t=2296",
+    date: "26/11/2025",
+  },
+  {
     title: "Sub0—JAM Vision",
     link: "https://www.youtube.com/watch?v=Pu54gtcyp34",
     date: "16/11/2025",
