@@ -154,10 +154,10 @@ export const clients: ClientData[] = [
   },
   {
     description:
-      "We are a team of 8, experienced in Java and Kotlin blockchain development.",
+      "We are a team of 8, experienced in Java, Kotlin and Scala blockchain development.",
     homepage: "",
     name: "JAM Forge",
-    languages: [{ name: "Kotlin", set: "A" }],
+    languages: [{ name: "Scala", set: "D" }],
     milestone: 0,
     contact: ["@philoniare:matrix.org"],
   },
