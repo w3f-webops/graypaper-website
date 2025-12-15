@@ -384,4 +384,12 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["@shimonchick:matrix.org"],
   },
+  {
+    description: "A JAM implementation in LISP.",
+    homepage: "https://github.com/polykrate/JOTL/",
+    name: "Jam on the Lisp",
+    languages: [{ name: "Common Lisp", set: "C" }],
+    milestone: 0,
+    contact: [],
+  },
 ]
