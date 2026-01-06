@@ -102,7 +102,8 @@ const Page: React.FC<PageProps> = (props) => {
             </div>
           ))}
         </div>
-        <h3 className="text-xl" id="interview">
+        {/* Disabled for now as the content is currently not available */}
+        {/* <h3 className="text-xl" id="interview">
           {t("Interview")}
         </h3>
         <iframe
@@ -126,7 +127,7 @@ const Page: React.FC<PageProps> = (props) => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        />
+        /> */}
       </article>
     </Layout>
   )
