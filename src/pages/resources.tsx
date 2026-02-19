@@ -102,8 +102,8 @@ const Page: React.FC<PageProps> = (props) => {
             </div>
           ))}
         </div>
-        {/* Disabled for now as the content is currently not available */}
-        {/* <h3 className="text-xl" id="interview">
+
+        <h3 className="text-xl" id="interview">
           {t("Interview")}
         </h3>
         <iframe
@@ -121,13 +121,13 @@ const Page: React.FC<PageProps> = (props) => {
         </h3>
         <iframe
           className="aspect-video h-auto w-full"
-          src="https://www.youtube.com/embed/JGeKdpYEZs4"
+          src="https://www.youtube.com/embed/x4t25vu0hmg"
           title="The Universal Machine - Gavin Wood & The JAM Gray Paper World Tour Documentary"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        /> */}
+        />
       </article>
     </Layout>
   )
