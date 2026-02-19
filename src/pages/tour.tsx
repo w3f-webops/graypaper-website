@@ -103,7 +103,7 @@ const Page: React.FC<PageProps> = (props) => {
 
         <iframe
           className="aspect-video h-auto w-full"
-          src="https://www.youtube.com/embed/JGeKdpYEZs4"
+          src="https://www.youtube.com/embed/x4t25vu0hmg"
           title="The Universal Machine - Gavin Wood & The JAM Gray Paper World Tour Documentary "
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
