@@ -84,7 +84,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
       <meta
         id="twitter:description"
         name="twitter:description"
-        content="JAM Implementer’s Prize, a 10 Million DOT prize pool aimed at fostering diversity in the development of the JAM protocol."
+        content="JAM Implementer’s Prize, a 10.000.000,00 DOT prize pool aimed at fostering diversity in the development of the JAM protocol."
       />
       <meta
         id="twitter:creator"
@@ -105,7 +105,7 @@ export const Head: HeadFC<{}, { langKey?: string }> = (props) => {
         id="description"
         name="description"
         content={
-          "A 10 Million DOT prize pool aimed at fostering diversity in the development of the JAM protocol."
+          "A 10.000.000,00 DOT prize pool aimed at fostering diversity in the development of the JAM protocol."
         }
       />
     </>
