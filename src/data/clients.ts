@@ -392,4 +392,12 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: [],
   },
+  {
+    description: "LLM tries to write a JAM node.",
+    homepage: "https://github.com/bitarray/grey",
+    name: "Grey",
+    languages: [{ name: "Rust", set: "B" }],
+    milestone: 0,
+    contact: ["@sorpaas"],
+  },
 ]
