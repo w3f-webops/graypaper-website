@@ -1,4 +1,5 @@
 import type { HeadFC, PageProps } from "gatsby"
+import { Download } from "lucide-react"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
@@ -64,15 +65,15 @@ const Page: React.FC<PageProps> = (props) => {
         <p dangerouslySetInnerHTML={{ __html: t("Clients.add") }} />
 
         <div className="relative overflow-x-scroll py-4 font-normal">
-          <table className="col-1-l col-3-l col-4-l col-2-c col-6-l col-4-c">
+          <table className="col-1-l col-2-c col-3-l col-4-c col-5-c col-6-l">
             <thead>
               <tr>
                 <th>{t("Clients.name")}</th>
                 <th>{t("Clients.set")}</th>
                 <th>{t("Clients.language")}</th>
+                <th>{t("Clients.milestone")}</th>
                 <th>{t("Clients.web")}</th>
                 <th>{t("Clients.contact")}</th>
-                <th>{t("Clients.milestone")}</th>
               </tr>
             </thead>
             <tbody>
@@ -89,7 +90,7 @@ const Page: React.FC<PageProps> = (props) => {
                   <td className="text-nowrap">
                     {client.languages.map((l) => l.name).join(", ")}
                   </td>
-
+                  <td>{client.milestone > 0 ? client.milestone : "-"}</td>
                   <td>
                     {client.homepage.length === 0 ? (
                       "-"
@@ -103,12 +104,18 @@ const Page: React.FC<PageProps> = (props) => {
                   <td className="w-full text-nowrap font-mono text-sm">
                     {client.contact.join(", ")}
                   </td>
-                  <td>{client.milestone > 0 ? client.milestone : "-"}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+
+        <p className="mt-0 text-right text-sm">
+          <a href="/clients.csv" download="jam-clients.csv">
+            <Download className="mr-1 inline h-4 w-4 align-text-bottom" />
+            {t("Clients.csv")}
+          </a>
+        </p>
 
         <table className="borders-custom col-1-r text-sm font-normal leading-3">
           {clients.map((client, index) => {
