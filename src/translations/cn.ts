@@ -10,6 +10,7 @@ const translation: Translation = {
     "Clients": "客户端",
     "Clients.add": `如果您想列出您的客户端或更新您的信息，请<a target=\"_blank\" href=\"https://github.com/w3f-webops/graypaper-website/issues/new?assignees=&labels=&projects=&template=client-listing-request.md&title=Client+Listing%3A+XYZ\">在此</a>提交请求。完成里程碑后，请<a href=\"https://github.com/w3f/jam-milestone-delivery\" target=\"_blank\">向Web3基金会提交您的里程碑</a>以领取奖励。`,
     "Clients.amount": `目前在<a href=\"https://jam.web3.foundation/#languages\" target=\"_blank\">5种语言集</a>中共列出了{{numberOfClients}}个客户端：`,
+    "Clients.csv": "下载 CSV",
     "Clients.contact": "联系方式",
     "Clients.language": "语言",
     "Clients.milestone": "里程碑",

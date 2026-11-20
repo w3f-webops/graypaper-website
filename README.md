@@ -9,11 +9,12 @@ the change by opening a new issue with the [`Client listing request`](https://gi
 
 Or even better, directly opening a pull request making the changes yourself. The clients are listed in the [`./src/data/clients.ts`](https://github.com/w3f-webops/graypaper-website/blob/main/src/data/clients.ts) file.
 
-You can also fetch JSON list of clients file directly from the graypaper.com website for example show this list on your website as well.
+You can also fetch the list of clients as JSON or CSV directly from the graypaper.com website for example show this list on your website as well.
 
 ```txt
 https://graypaper.com/clients/json
 https://graypaper.com/clients.json
+https://graypaper.com/clients.csv
 ```
 
 Same with the information about the Gray Paper Tour Lectures & News:
