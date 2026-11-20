@@ -10,7 +10,11 @@ import { milestoneReferendumUrl, uniqueArray } from "../utils"
 type Client = (typeof clients)[number]
 
 const sortClients = (a: Client, b: Client) => {
-  // First, compare by lang_set
+  // First, completed milestones (descending order)
+  const milestoneComparison = b.milestone - a.milestone
+  if (milestoneComparison !== 0) return milestoneComparison
+
+  // Within a milestone, compare by lang_set
   const langSetComparison = a.languages[0].set.localeCompare(b.languages[0].set)
   if (langSetComparison !== 0) return langSetComparison
 
@@ -18,11 +22,7 @@ const sortClients = (a: Client, b: Client) => {
   const langComparison = a.languages[0].name.localeCompare(b.languages[0].name)
   if (langComparison !== 0) return langComparison
 
-  // If lang is also the same, compare by milestone (descending order)
-  const milestoneComparison = b.milestone - a.milestone
-  if (milestoneComparison !== 0) return milestoneComparison
-
-  // If milestone is also the same, compare by name
+  // If lang is also the same, compare by name
   return a.name.localeCompare(b.name)
 }
 
