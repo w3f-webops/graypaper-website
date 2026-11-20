@@ -2,6 +2,79 @@ import { News } from "./types"
 
 export const news: News[] = [
   {
+    title: "JAM Gray Paper v0.8.1 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.8.1",
+    date: "16/11/2026",
+  },
+  {
+    title: "Polkadot Forum—The Road to JAM: November Update",
+    link: "https://forum.polkadot.network/t/the-road-to-jam/18621/29",
+    date: "04/11/2026",
+  },
+  {
+    title:
+      "Parity Blog—JAM: What It Is, How It Works, and What It Means for Polkadot",
+    link: "https://www.parity.io/blog/jam-what-it-is-how-it-works",
+    date: "12/10/2026",
+  },
+  {
+    title: "Polkadot Forum—The Road to JAM: October Update",
+    link: "https://forum.polkadot.network/t/the-road-to-jam/18621/22",
+    date: "08/10/2026",
+  },
+  {
+    title: "JAM Test Vectors v0.8.0 Released",
+    link: "https://github.com/jam-conformance/jam-test-vectors/releases/tag/v0.8.0",
+    date: "08/10/2026",
+  },
+  {
+    title: "Polkadot Forum—The Road to JAM",
+    link: "https://forum.polkadot.network/t/the-road-to-jam/18621",
+    date: "10/09/2026",
+  },
+  {
+    title: "Bastian Köcher—Parachain service takes its first steps on JAM",
+    link: "https://x.com/bkchr/status/2098141048450994596",
+    date: "10/09/2026",
+  },
+  {
+    title: "Polkadot Forum—JAM Prize Milestone 1 Payouts",
+    link: "https://forum.polkadot.network/t/jam-prize-milestone-1-payouts/18584",
+    date: "07/09/2026",
+  },
+  {
+    title: "Web3 Summit 2026—Gavin Wood: JAM & DOT DAOism",
+    link: "https://www.youtube.com/watch?v=sr8D1gptJB8",
+    date: "09/07/2026",
+  },
+  {
+    title: "Gavin Wood—DOT DAOism under JAM: An Island Story",
+    link: "https://medium.com/polkadot-network/dot-daoism-under-jam-an-island-story-efe0d02ee084",
+    date: "27/06/2026",
+  },
+  {
+    title: "Gavin Wood—DOT DAO and the need for $JAMKB",
+    link: "https://medium.com/polkadot-network/dot-dao-and-the-need-for-jamkb-a069e72e9728",
+    date: "22/06/2026",
+  },
+  {
+    title: "JAM Gray Paper v0.8.0 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.8.0",
+    date: "03/06/2026",
+  },
+  {
+    title:
+      "Polkadot Forum—Announcing Grey 0.1: LLM tries to build a JAM node implementation",
+    link: "https://forum.polkadot.network/t/announcing-grey-0-1-llm-tries-to-build-a-jam-node-implementation/17284",
+    date: "09/03/2026",
+  },
+  {
+    title:
+      "Polkadot Forum—JAM Prize Terms & Conditions updated: Milestone 1 paid before Gray Paper 1.0",
+    link: "https://forum.polkadot.network/t/ensuring-jam-development-sustainability-is-it-time-for-a-dedicated-jam-bounty-program/16229/26",
+    date: "10/02/2026",
+  },
+  {
     title:
       "I Ran DOOM on the Polkadot JAM Blockchain… On My Laptop (Full Tutorial)",
     link: "https://www.youtube.com/watch?v=riyYJo-CKWE",
@@ -29,6 +102,11 @@ export const news: News[] = [
     link: "https://simplystaking.com/intro-to-polkadot-jam",
   },
   {
+    title: "JAM Gray Paper v0.7.2 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.7.2",
+    date: "15/09/2025",
+  },
+  {
     title: "PBA Campus Special - JAM panel",
     link: "https://x.com/AcademyPolkadot/status/1966374101821575310",
     date: "12/09/2025",
@@ -53,6 +131,11 @@ export const news: News[] = [
       "Qinwen Wang—China’s RISC-V Strategy: Open Spec as JAM Becomes the New Sovereignty at Web3 Summit",
     link: "https://www.youtube.com/watch?v=rvNyhS9-Vz8",
     date: "28/07/2025",
+  },
+  {
+    title: "JAM Gray Paper v0.7.1 Released",
+    link: "https://github.com/gavofyork/graypaper/releases/tag/v0.7.1",
+    date: "26/07/2025",
   },
   {
     title: "Polkadot Blog—Interview with Daniel Cukier JAM implementer",
