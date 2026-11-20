@@ -28,8 +28,9 @@ const sortClients = (a: Client, b: Client) => {
 
 const MilestoneCell = ({ client }: { client: Client }) => {
   if (client.milestone === 0) return <>-</>
+  const label = `M${client.milestone}`
   const url = milestoneReferendumUrl(client)
-  if (!url) return <>{client.milestone}</>
+  if (!url) return <>{label}</>
   return (
     <a
       href={url}
@@ -37,7 +38,7 @@ const MilestoneCell = ({ client }: { client: Client }) => {
       rel="noopener noreferrer"
       title={`Milestone ${client.milestone} approved by Polkadot Fellowship referendum #${client.milestoneReferenda?.[client.milestone]}`}
     >
-      {client.milestone}
+      {label}
     </a>
   )
 }
