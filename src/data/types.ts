@@ -53,12 +53,19 @@ type Language =
   | CorrectCodeLanguage
   | MadLanguage
 
+type MilestoneNumber = 1 | 2 | 3 | 4 | 5
+
 export interface ClientData {
   description: `${string}.` | `${string}!` | ""
   homepage: `http${string}` | ""
   name: string
   languages: Language[]
-  milestone: 0 | 1 | 2 | 3 | 4 | 5
+  milestone: 0 | MilestoneNumber
+  /**
+   * Polkadot Technical Fellowship referendum index that approved each
+   * milestone, e.g. `{ 1: 595 }`. The milestone cell links to it.
+   */
+  milestoneReferenda?: Partial<Record<MilestoneNumber, number>>
   contact: string[]
   address?: string
 }

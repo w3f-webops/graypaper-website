@@ -2,6 +2,7 @@ import { GatsbyNode } from "gatsby"
 import { news } from "./src/data/news"
 import { clients } from "./src/data/clients"
 import { lectures } from "./src/data/lectures"
+import { milestoneReferendumUrl } from "./src/utils"
 import * as fs from "fs"
 
 export const sourceNodes: GatsbyNode["sourceNodes"] = ({
@@ -39,6 +40,7 @@ const toClientsCsv = () => {
     "languages",
     "language_sets",
     "milestone",
+    "milestone_referendum",
     "contact",
   ]
   const rows = clients.map((client) => [
@@ -48,6 +50,7 @@ const toClientsCsv = () => {
     client.languages.map((l) => l.name).join("; "),
     client.languages.map((l) => l.set).join("; "),
     client.milestone,
+    milestoneReferendumUrl(client) ?? "",
     client.contact.join("; "),
   ])
   return (

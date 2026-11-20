@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next"
 import { CommonHead } from "../components/Head/CommonHead"
 import { Layout } from "../components/Layout"
 import { clients } from "../data/clients"
-import { uniqueArray } from "../utils"
+import { milestoneReferendumUrl, uniqueArray } from "../utils"
 
 type Client = (typeof clients)[number]
 
@@ -24,6 +24,22 @@ const sortClients = (a: Client, b: Client) => {
 
   // If milestone is also the same, compare by name
   return a.name.localeCompare(b.name)
+}
+
+const MilestoneCell = ({ client }: { client: Client }) => {
+  if (client.milestone === 0) return <>-</>
+  const url = milestoneReferendumUrl(client)
+  if (!url) return <>{client.milestone}</>
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={`Milestone ${client.milestone} approved by Polkadot Fellowship referendum #${client.milestoneReferenda?.[client.milestone]}`}
+    >
+      {client.milestone}
+    </a>
+  )
 }
 
 const ClientsPerLanguageSet = clients.reduce(
@@ -90,7 +106,9 @@ const Page: React.FC<PageProps> = (props) => {
                   <td className="text-nowrap">
                     {client.languages.map((l) => l.name).join(", ")}
                   </td>
-                  <td>{client.milestone > 0 ? client.milestone : "-"}</td>
+                  <td>
+                    <MilestoneCell client={client} />
+                  </td>
                   <td>
                     {client.homepage.length === 0 ? (
                       "-"

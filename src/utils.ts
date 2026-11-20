@@ -1,5 +1,6 @@
 import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
+import type { ClientData } from "./data/types"
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -20,4 +21,12 @@ export const isEventInFuture = (dateStr: string) => {
 
 export function uniqueArray<T>(array: T[]): T[] {
   return [...new Set(array)]
+}
+
+/** Link to the Fellowship referendum that approved the client's current milestone. */
+export const milestoneReferendumUrl = (client: ClientData) => {
+  if (client.milestone === 0) return undefined
+  const index = client.milestoneReferenda?.[client.milestone]
+  if (index === undefined) return undefined
+  return `https://collectives.subsquare.io/fellowship/referenda/${index}`
 }

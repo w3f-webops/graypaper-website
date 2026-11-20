@@ -15,6 +15,7 @@ export const clients: ClientData[] = [
     name: "Jamzilla",
     languages: [{ name: "Go", set: "A" }],
     milestone: 1,
+    milestoneReferenda: { 1: 645 },
     contact: ["@ascriv:matrix.org"],
   },
   {
@@ -23,6 +24,7 @@ export const clients: ClientData[] = [
     name: "Tessera",
     languages: [{ name: "Python", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 649 },
     contact: [],
   },
   {
@@ -67,6 +69,7 @@ export const clients: ClientData[] = [
     homepage: "https://jamzig.dev",
     languages: [{ name: "Zig", set: "B" }],
     milestone: 1,
+    milestoneReferenda: { 1: 598 },
     contact: ["info@jamzig.dev", "#jamzig:matrix.org"],
   },
   {
@@ -76,6 +79,7 @@ export const clients: ClientData[] = [
     name: "Graymatter",
     languages: [{ name: "Elixir", set: "D" }],
     milestone: 1,
+    milestoneReferenda: { 1: 596 },
     contact: [],
   },
   {
@@ -85,6 +89,7 @@ export const clients: ClientData[] = [
     name: "Jampy",
     languages: [{ name: "Python", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 641 },
     contact: ["@DaKKK:matrix.org"],
   },
   {
@@ -94,6 +99,7 @@ export const clients: ClientData[] = [
     name: "Boka",
     languages: [{ name: "Swift", set: "B" }],
     milestone: 1,
+    milestoneReferenda: { 1: 643 },
     contact: ["bryan@acala.network"],
   },
   {
@@ -111,6 +117,7 @@ export const clients: ClientData[] = [
     name: "TSJam",
     languages: [{ name: "TypeScript", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 607 },
     contact: ["@prematurata:matrix.org"],
   },
   {
@@ -159,6 +166,7 @@ export const clients: ClientData[] = [
     name: "JAM Forge",
     languages: [{ name: "Scala", set: "D" }],
     milestone: 1,
+    milestoneReferenda: { 1: 642 },
     contact: ["@philoniare:matrix.org"],
   },
   {
@@ -168,6 +176,7 @@ export const clients: ClientData[] = [
     name: "JAM DUNA",
     languages: [{ name: "Go", set: "A" }],
     milestone: 1,
+    milestoneReferenda: { 1: 648 },
     contact: ["@sourabhniyogi:matrix.org"],
   },
   {
@@ -176,6 +185,7 @@ export const clients: ClientData[] = [
     name: "Typeberry",
     languages: [{ name: "TypeScript", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 597 },
     contact: ["@tomusdrw:matrix.org"],
   },
   {
@@ -193,6 +203,7 @@ export const clients: ClientData[] = [
     name: "Vinwolf",
     languages: [{ name: "Rust", set: "B" }],
     milestone: 1,
+    milestoneReferenda: { 1: 647 },
     contact: ["vinsystems@proton.me"],
   },
   {
@@ -218,6 +229,7 @@ export const clients: ClientData[] = [
     name: "Jamixir",
     languages: [{ name: "Elixir", set: "D" }],
     milestone: 1,
+    milestoneReferenda: { 1: 604 },
     contact: ["daniel@jamixir.org", "daiagi@jamixir.org"],
   },
   {
@@ -262,6 +274,7 @@ export const clients: ClientData[] = [
     name: "FastRoll",
     languages: [{ name: "Rust", set: "B" }],
     milestone: 1,
+    milestoneReferenda: { 1: 646 },
     contact: ["@0xjunha:matrix.org"],
   },
   {
@@ -279,6 +292,7 @@ export const clients: ClientData[] = [
     homepage: "https://github.com/JAMdotTech",
     languages: [{ name: "Python", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 595 },
     contact: ["hello@jamdot.tech"],
   },
   {
@@ -295,6 +309,7 @@ export const clients: ClientData[] = [
     homepage: "https://javajam.io",
     languages: [{ name: "Java", set: "A" }],
     milestone: 1,
+    milestoneReferenda: { 1: 608 },
     contact: ["https://x.com/javajam_io", "info@javajam.io"],
   },
   {
@@ -382,6 +397,7 @@ export const clients: ClientData[] = [
     name: "PeanutButterAndJAM",
     languages: [{ name: "TypeScript", set: "C" }],
     milestone: 1,
+    milestoneReferenda: { 1: 606 },
     contact: ["@shimonchick:matrix.org"],
   },
   {
@@ -406,6 +422,7 @@ export const clients: ClientData[] = [
     homepage: "https://github.com/r2rationality/turbojam",
     languages: [{ name: "C++", set: "B" }],
     milestone: 1,
+    milestoneReferenda: { 1: 644 },
     contact: ["info@r2rationality.com"],
   },
   {
