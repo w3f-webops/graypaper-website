@@ -14,7 +14,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "Jamzilla",
     languages: [{ name: "Go", set: "A" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@ascriv:matrix.org"],
   },
   {
@@ -22,7 +22,7 @@ export const clients: ClientData[] = [
     homepage: "https://chainscore.finance/",
     name: "Tessera",
     languages: [{ name: "Python", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: [],
   },
   {
@@ -66,7 +66,7 @@ export const clients: ClientData[] = [
       "Implementation of the Jam client in the Zig programming language.",
     homepage: "https://jamzig.dev",
     languages: [{ name: "Zig", set: "B" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["info@jamzig.dev", "#jamzig:matrix.org"],
   },
   {
@@ -75,7 +75,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "Graymatter",
     languages: [{ name: "Elixir", set: "D" }],
-    milestone: 0,
+    milestone: 1,
     contact: [],
   },
   {
@@ -84,7 +84,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "Jampy",
     languages: [{ name: "Python", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@DaKKK:matrix.org"],
   },
   {
@@ -93,7 +93,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "Boka",
     languages: [{ name: "Swift", set: "B" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["bryan@acala.network"],
   },
   {
@@ -110,7 +110,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "TSJam",
     languages: [{ name: "TypeScript", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@prematurata:matrix.org"],
   },
   {
@@ -158,7 +158,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "JAM Forge",
     languages: [{ name: "Scala", set: "D" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@philoniare:matrix.org"],
   },
   {
@@ -167,7 +167,7 @@ export const clients: ClientData[] = [
     homepage: "https://github.com/jam-duna/jamtestnet",
     name: "JAM DUNA",
     languages: [{ name: "Go", set: "A" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@sourabhniyogi:matrix.org"],
   },
   {
@@ -175,7 +175,7 @@ export const clients: ClientData[] = [
     homepage: "https://fluffylabs.dev",
     name: "Typeberry",
     languages: [{ name: "TypeScript", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@tomusdrw:matrix.org"],
   },
   {
@@ -192,7 +192,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "Vinwolf",
     languages: [{ name: "Rust", set: "B" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["vinsystems@proton.me"],
   },
   {
@@ -217,7 +217,7 @@ export const clients: ClientData[] = [
     homepage: "http://jamixir.org/",
     name: "Jamixir",
     languages: [{ name: "Elixir", set: "D" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["daniel@jamixir.org", "daiagi@jamixir.org"],
   },
   {
@@ -261,7 +261,7 @@ export const clients: ClientData[] = [
     homepage: "",
     name: "FastRoll",
     languages: [{ name: "Rust", set: "B" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@0xjunha:matrix.org"],
   },
   {
@@ -278,7 +278,7 @@ export const clients: ClientData[] = [
     description: "Python Implementation of JAM by JAMdot Technologies.",
     homepage: "https://github.com/JAMdotTech",
     languages: [{ name: "Python", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["hello@jamdot.tech"],
   },
   {
@@ -294,7 +294,7 @@ export const clients: ClientData[] = [
     description: "Java implementation of the JAM protocol.",
     homepage: "https://javajam.io",
     languages: [{ name: "Java", set: "A" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["https://x.com/javajam_io", "info@javajam.io"],
   },
   {
@@ -381,7 +381,7 @@ export const clients: ClientData[] = [
     homepage: "https://esscrypt.com/",
     name: "PeanutButterAndJAM",
     languages: [{ name: "TypeScript", set: "C" }],
-    milestone: 0,
+    milestone: 1,
     contact: ["@shimonchick:matrix.org"],
   },
   {
