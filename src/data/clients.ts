@@ -400,4 +400,28 @@ export const clients: ClientData[] = [
     milestone: 0,
     contact: ["@sorpaas"],
   },
+  {
+    name: "TurboJAM",
+    description: "A C++ implementation of the JAM paper by Gavin Wood.",
+    homepage: "https://github.com/r2rationality/turbojam",
+    languages: [{ name: "C++", set: "B" }],
+    milestone: 1,
+    contact: ["info@r2rationality.com"],
+  },
+  {
+    name: "Jambda",
+    description: "A JAM protocol client implemented in Rust by ArcheLabs.",
+    homepage: "https://github.com/ArcheLabs",
+    languages: [{ name: "Rust", set: "B" }],
+    milestone: 0,
+    contact: ["https://x.com/archelabs_org"],
+  },
+  {
+    name: "Lasair",
+    description: "An OCaml implementation of the JAM protocol by abutlabs.",
+    homepage: "https://abutlabs.github.io/jam-learning/lasair/",
+    languages: [{ name: "OCaml", set: "D" }],
+    milestone: 0,
+    contact: [],
+  },
 ]
